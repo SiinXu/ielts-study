@@ -1,0 +1,58 @@
+/* v5g 详情抽屉：模板句式块 / 错题举一反三（沿用 v5 杂志风：衬线英文、Mono 编号、细线分隔、单一橙色强调） */
+@media (min-width:761px){ .sheet.item{width:min(680px,100vw)} }
+.rx{display:grid;gap:22px}
+.rx-hd{display:grid;gap:4px;padding-bottom:14px;border-bottom:1px solid var(--ink)}
+.rx-k{font-size:12px;letter-spacing:.06em;color:var(--muted)}
+.rx-fn{margin:0;font:600 26px/1.2 var(--sans);letter-spacing:-.01em;color:var(--ink)}
+.rx-meta{margin:2px 0 0;font-size:11.5px;color:var(--faint);letter-spacing:.02em}
+.rx-sec{display:grid;gap:12px}
+.rx-h{margin:0;display:flex;align-items:baseline;gap:8px;font:600 13px/1.3 var(--sans);letter-spacing:.04em;color:var(--ink);text-transform:none}
+.rx-h::before{content:"";width:10px;height:10px;border-radius:2px;background:var(--acc);flex:none;transform:translateY(1px)}
+.rx-h .mono{font-weight:500;color:var(--faint);font-size:12px}
+.rx-near .rx-h::before{background:var(--ti,#9c3b68)}
+.rx-con .rx-h::before{background:var(--ink)}
+.rx-b{border:1px solid var(--line2);border-radius:12px;padding:14px 14px 12px;background:var(--surface);display:grid;gap:10px}
+.rx-near .rx-b{background:color-mix(in srgb,var(--tb,#fbe9f1) 45%,var(--surface))}
+.rx-con .rx-b{border-style:dashed}
+.rx-p{display:flex;gap:10px;align-items:baseline;font:500 20px/1.3 var(--serif);color:var(--ink);letter-spacing:-.005em}
+.rx-i{font:500 11px/1 var(--mono);color:var(--acc-ink);flex:none;transform:translateY(-2px)}
+.rx-wn{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.rx-w,.rx-n{display:grid;gap:3px;padding:8px 10px;border-radius:8px;font-size:13px;line-height:1.5;color:var(--ink2)}
+.rx-w{background:color-mix(in srgb,#346538 9%,var(--surface))}
+.rx-n{background:color-mix(in srgb,#9f2f2d 8%,var(--surface))}
+.rx-w b,.rx-n b{font-size:11.5px;font-weight:600;letter-spacing:.03em}
+.rx-w b{color:#346538}.rx-n b{color:#9f2f2d}
+[data-theme=dark] .rx-w b{color:#93cf98}[data-theme=dark] .rx-n b{color:#f3958f}
+.rx-ex{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.rx-ex li{display:grid;gap:3px;padding-left:12px;border-left:2px solid var(--line2)}
+.rx-ex p{margin:0;font:400 17px/1.45 var(--serif);color:var(--ink)}
+.rx-sc{display:inline-flex;align-items:center;gap:6px;font-size:12px;line-height:1.4;color:var(--muted)}
+.rx-sc i{width:6px;height:6px;border-radius:50%;background:var(--acc);flex:none}
+.rx-tip{margin:0;display:grid;gap:4px;padding:12px 14px;border-radius:12px;background:var(--ink);color:var(--bg);font-size:14px;line-height:1.55}
+.rx-tip b{font-size:11.5px;letter-spacing:.06em;color:var(--acc)}
+.rx-src{padding:12px 14px;border-radius:12px;background:var(--bg);border:1px solid var(--line);font-size:15px}
+/* 错题 */
+.rx-mis .d-cells .m.good .v{font-size:25px}
+.rx-scrow{margin:-2px 0 6px 26px}
+.rx-scs{display:grid;gap:4px;margin-top:-8px}
+.rx-rule .rx-wn{grid-template-columns:1fr}
+.rx-an{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:an}
+.rx-an li{display:grid;gap:4px;padding:12px 14px;border:1px solid var(--line2);border-radius:12px;background:var(--surface)}
+.rx-an .a-bad,.rx-an .a-good{display:flex;gap:8px;align-items:baseline;font-family:var(--serif)}
+.rx-an .a-bad{font-size:15.5px;color:var(--muted)}
+.rx-an .a-bad s{text-decoration-color:color-mix(in srgb,#9f2f2d 60%,transparent);text-decoration-thickness:1.5px}
+.rx-an .a-good{font-size:18px;color:var(--ink)}
+.rx-an .mk{font:600 13px var(--sans);flex:none;width:12px}
+.rx-an .a-bad .mk{color:#9f2f2d}.rx-an .a-good .mk{color:#346538}
+.rx-sib{display:grid;gap:6px}
+.rx-sl{all:unset;cursor:pointer;display:block;padding:10px 12px;border-radius:8px;border:1px solid var(--line);font:400 16px/1.4 var(--serif);color:var(--ink)}
+.rx-sl:hover,.rx-sl:focus-visible{border-color:var(--ink)}
+.rx-sl::after{content:" →";color:var(--faint);font-family:var(--sans)}
+@media (max-width:760px){
+  .rx{gap:18px}
+  .rx-fn{font-size:23px}
+  .rx-p{font-size:18.5px}
+  .rx-wn{grid-template-columns:1fr}
+  .rx-ex p{font-size:16px}
+  .rx-mis .d-cells .m.good .v{font-size:22px}
+}

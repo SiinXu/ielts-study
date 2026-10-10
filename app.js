@@ -454,6 +454,8 @@ function showItem(id){
   ctx.open = id;
   var s = S[n.sec], idx = visible.indexOf(id), on = done[id];
   var body = (kind(n) === 'rich') ? (n.title ? '<h2 class="d-t">'+esc(ttl(n.title))+'</h2>' : '') + '<div class="rich d-rich">'+fx(n.html)+'</div>' : '<div class="d-cells card k-'+kind(n)+' t-'+n.sec+'"><div class="card-in">'+cellsHTML(n)+'</div></div>';
+  var REL = window.IELTS_REL;
+  if (REL && REL.has(n)){ var rx = REL.render(n, {fx:fx, kind:kind, cellsHTML:cellsHTML, byId:byId, items:items, S:S}); if (rx) body = rx; }
   var inS = EXT && EXT.inSrs(id);
   openSheet('<div class="d-head d-nav">'+
       '<button class="d-back" id="dBack" type="button">'+ic('caret-left')+'<span>'+T('返回')+'</span></button>'+
@@ -466,6 +468,7 @@ function showItem(id){
       '<button class="b ghost sq" id="dNext" type="button"'+(idx>=0&&idx<visible.length-1?'':' disabled')+' aria-label="'+T('下一条')+'">'+ic('caret-right')+'</button>'+
       '</div>', 'item');
   $('dClose').onclick = closeSheet; $('dBack').onclick = closeSheet;
+  Array.prototype.forEach.call(sheet.querySelectorAll('[data-rel]'), function(b){ b.onclick = function(){ swapItem(b.getAttribute('data-rel')); }; });
   if ($('dSrs')) EXT.wireSrsToggle($('dSrs'), 'item:'+id, function(){ EXT.addItem(n); });
   $('dPrev').onclick = function(){ swapItem(visible[idx-1]); };
   $('dNext').onclick = function(){ swapItem(visible[idx+1]); };
