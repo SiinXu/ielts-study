@@ -501,3 +501,6 @@ I18N.add("es", {
 "<b>过去完成时</b> had done：过去某个时间之前已经完成；<b>过去完成进行</b> had been doing：之前持续了一段时间。": "El <b>past perfect</b> had done: terminado antes de un momento pasado; el <b>past perfect continuous</b> had been doing: llevaba un tiempo ocurriendo antes de entonces.",
 "<b>将来完成时</b> will have done：到将来某个时间点已完成，Task 1 预测数据常用：<i>By 2030, the number will have doubled.</i> <b>将来进行时</b> will be doing：将来某时正在做。": "El <b>future perfect</b> will have done: terminado para un momento futuro; frecuente en previsiones de Task 1: <i>By 2030, the number will have doubled.</i> El <b>future continuous</b> will be doing: en curso en un momento futuro."
 });
+
+/* v5e: date picker */
+I18N.add("es", {"清除": "Borrar", "未设置 · 点这里选日期": "Sin fecha · toca para elegir"});

@@ -501,3 +501,6 @@ I18N.add("ja", {
 "<b>过去完成时</b> had done：过去某个时间之前已经完成；<b>过去完成进行</b> had been doing：之前持续了一段时间。": "<b>過去完了</b> had done：過去のある時点より前に完了。<b>過去完了進行形</b> had been doing：その時点まで一定期間続いていた。",
 "<b>将来完成时</b> will have done：到将来某个时间点已完成，Task 1 预测数据常用：<i>By 2030, the number will have doubled.</i> <b>将来进行时</b> will be doing：将来某时正在做。": "<b>未来完了</b> will have done：未来のある時点までに完了。Task 1 の予測データでよく使います：<i>By 2030, the number will have doubled.</i> <b>未来進行形</b> will be doing：未来のある時点でしている最中。"
 });
+
+/* v5e: date picker */
+I18N.add("ja", {"清除": "クリア", "未设置 · 点这里选日期": "未設定 · タップして日付を選択"});

@@ -501,3 +501,6 @@ I18N.add("ms", {
 "<b>过去完成时</b> had done：过去某个时间之前已经完成；<b>过去完成进行</b> had been doing：之前持续了一段时间。": "<b>Past perfect</b> had done: selesai sebelum satu titik masa lampau; <b>past perfect continuous</b> had been doing: sudah berterusan untuk satu tempoh sebelum itu.",
 "<b>将来完成时</b> will have done：到将来某个时间点已完成，Task 1 预测数据常用：<i>By 2030, the number will have doubled.</i> <b>将来进行时</b> will be doing：将来某时正在做。": "<b>Future perfect</b> will have done: selesai menjelang satu titik masa depan — lazim untuk ramalan dalam Task 1: <i>By 2030, the number will have doubled.</i> <b>Future continuous</b> will be doing: sedang berlaku pada masa depan."
 });
+
+/* v5e: date picker */
+I18N.add("ms", {"清除": "Kosongkan", "未设置 · 点这里选日期": "Belum ditetapkan · ketik untuk pilih tarikh"});

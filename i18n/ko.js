@@ -501,3 +501,6 @@ I18N.add("ko", {
 "<b>过去完成时</b> had done：过去某个时间之前已经完成；<b>过去完成进行</b> had been doing：之前持续了一段时间。": "<b>과거완료</b> had done: 과거 어느 시점 전에 이미 완료. <b>과거완료진행형</b> had been doing: 그 전부터 한동안 계속됨.",
 "<b>将来完成时</b> will have done：到将来某个时间点已完成，Task 1 预测数据常用：<i>By 2030, the number will have doubled.</i> <b>将来进行时</b> will be doing：将来某时正在做。": "<b>미래완료</b> will have done: 미래 어느 시점까지 완료. Task 1 예측 데이터에 자주 씁니다: <i>By 2030, the number will have doubled.</i> <b>미래진행형</b> will be doing: 미래 어느 때 하고 있는 중."
 });
+
+/* v5e: date picker */
+I18N.add("ko", {"清除": "지우기", "未设置 · 点这里选日期": "미설정 · 눌러서 날짜 선택"});
