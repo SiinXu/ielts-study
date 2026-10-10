@@ -31,3 +31,10 @@
 - `study.js` / `study.css` 课表、练习、档案三页 + 复习曲线（1/3/7/14/30 天）+ 改错对排版修复
 新增本地存储键：`ielts.srs` `ielts.plan` `ielts.prac` `ielts.notes` `ielts.draft` `ielts.wcheck` `ielts.gout` `ielts.log` `ielts.rate` `ielts.lmode` `ielts.ptab`（`ielts.done` 不变）。
 TODO：听力真人录音（在 listening.js 每套加 `audio` 字段后接入）。
+
+## v5f 动态课表（2026-10-10）
+设置里保存目标后，课表即时重排（`study.js` 的 `derivePlan`）：
+- 权重：比总分低 n 个半分的单项 ×(1 + 0.4n)（上限 2.2）；高于总分的单项每半分 −0.1（下限 0.8）；低于保底分再 +0.3 并标「保底风险」排到今日最前
+- 当天已有该科的块按权重加时（取 5 分钟整），没有该科且权重 ≥1.2 时加一块「加练」（10 分钟起，每多半分 +5，保底风险再 +5，上限 30）
+- 时间线：有考试日期时前四个阶段按「开始 → 考试」等比伸缩（语法阶段尽量保留 14 天），考试与重考阶段从考试日开始；无考试日期按默认约 29 周
+- 派生结果存 `ielts.plan.derived`，按设置哈希失效；打卡键不变，加练块键为 `xW` 等

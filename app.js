@@ -249,7 +249,7 @@ function renderHome(){
     var preview = tids.slice(0, 6);
     visible = tids.slice();
     h += '<div class="home-grid"><section class="today-b">'+
-      '<h2 class="sec-h">'+T('今日任务')+'</h2>'+
+      '<h2 class="sec-h">'+T('今日任务')+'</h2>'+(EXT && EXT.riskNote ? EXT.riskNote() : '')+
       (preview.length ? '<div class="tasks">'+preview.map(function(id, i){ return taskHTML(byId[id], i); }).join('')+'</div>' : '<div class="empty"><b>'+T('今天的都学完了')+'</b><span>'+T('明天会自动换下一批。')+'</span></div>')+
       '<div class="row-f"><a class="b pri" href="#/today">'+T('开始今日 {n} 条', {n:tids.length})+'</a>'+
       '<a class="b ghost" href="#/section/'+last+(nextIt?'/'+nextIt.id:'')+'">'+T('接着学{s}', {s:secNav(last)})+'</a></div></section>';
@@ -292,6 +292,7 @@ function renderToday(){
     '<h1 class="s-en">Today</h1>'+
     '<p class="s-zh">'+T('今日任务')+' <span class="td-n mono">'+d+' / '+ids.length+'</span></p>'+
     '<p class="lede">'+T('每天从各版块里挑还没学的：语法 2，对话 2，模板 2，搭配 5，错题 6。学完一条勾一条，明天换下一批。')+'</p>'+
+    (EXT && EXT.riskNote ? EXT.riskNote() : '')+
     '<div class="pix wide">'+ids.map(function(id, i){ var n = byId[id]; return '<button type="button" class="px t-'+n.sec+(done[id]?' on':'')+'" data-open="'+id+'" data-dot="'+id+'" style="--i:'+i+'" aria-label="'+(i+1)+'"></button>'; }).join('')+'</div>'+
     '</section>';
   h += ids.length ? '<div class="cards">'+ids.map(function(id, i){ return entryHTML(byId[id], i, {crumb:true}); }).join('')+'</div>' : '<div class="empty"><b>'+T('今天的都学完了')+'</b><span>'+T('明天会自动换下一批。')+'</span></div>';
@@ -397,11 +398,13 @@ function renderSettings(){
     '<p class="p-t">'+T('雅思总分 = 四项平均分（按 0.25 进到 .5、0.75 进到整数）。所以四项目标的平均要等于总分；保底分只是「任何一项都不能低于」的底线。')+'</p>'+
     '<div class="fld-g">'+num('overall','目标总分')+num('L','听力')+num('R','阅读')+num('W','写作')+num('S','口语')+num('floor','单科保底')+'</div>'+
     '<p class="set-chk mono" id="setChk"></p>'+
+    '<p class="p-t">'+T('保存后课表会按目标重排：比总分低的单项每天加时、没有该科的日子加一块加练；低于保底分的排到今日最前；有考试日期时阶段按「开始 → 考试」伸缩。')+'</p>'+
     '<div class="row-f"><button class="b pri" type="submit">'+T('保存')+'</button><button class="b ghost" type="button" id="setAvg">'+T('四项都设为总分')+'</button><button class="b ghost" type="button" id="setReset">'+T('恢复默认')+'</button></div>'+
     '<h2 class="sec-h gap-t">'+T('界面语言')+'</h2><label class="fld"><span>'+T('界面语言')+'</span><select name="lang" id="setLang">'+langOpts()+'</select></label>'+
     '</form>';
   main.innerHTML = h;
-  var f = $('setf');
+  var f = $('setf'), okBox = document.createElement('div'); okBox.className = 'set-ok'; okBox.id = 'setOk'; okBox.hidden = true; okBox.setAttribute('role', 'status');
+  f.querySelector('.row-f').insertAdjacentElement('afterend', okBox);
   function read(){ var o = {name:f.name.value.trim(), exam:f.exam.value, start:f.start.value}; ['overall','L','R','W','S','floor'].forEach(function(k){ o[k] = +f[k].value; }); return o; }
   function check(){
     var o = read(), a = avg4(o), b = band(a), low = ['L','R','W','S'].filter(function(k){ return o[k] < o.floor; });
@@ -413,7 +416,12 @@ function renderSettings(){
   f.onchange = check; f.oninput = check; check();
   $('setAvg').onclick = function(){ ['L','R','W','S'].forEach(function(k){ f[k].value = f.overall.value; }); check(); };
   $('setReset').onclick = function(){ f.overall.value = 7.5; ['L','R','W','S'].forEach(function(k){ f[k].value = 7.5; }); f.floor.value = 6.5; check(); };
-  f.onsubmit = function(e){ e.preventDefault(); var o = read(); LS.set('ielts.settings', o); if (EXT && o.start) EXT.setStart(o.start); toast(T('已保存')); check(); };
+  f.onsubmit = function(e){ e.preventDefault(); var o = read(); LS.set('ielts.settings', o); if (EXT && o.start) EXT.setStart(o.start);
+    if (EXT && EXT.replan){ var r = EXT.replan(), box = $('setOk');
+      box.innerHTML = '<b>'+ic('check')+T('课表已按目标重排')+'</b><span>'+r.summary.map(esc).join(' · ')+'</span><a class="lnk" href="#/course">'+T('看课表')+' '+ic('arrow-right')+'</a>';
+      box.hidden = false; toast(T('课表已按目标重排')); }
+    else toast(T('已保存'));
+    check(); };
   $('setLang').onchange = function(e){ e.stopPropagation(); I.set(this.value); };
   initDates(f);
 }

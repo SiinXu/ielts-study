@@ -89,8 +89,67 @@ function startDate(){
   if (!s){ var keys = Object.keys(LS.get('ielts.plan', {})).sort(); s = keys[0] || today(); LS.set('ielts.start', s); }
   return s;
 }
+/* ---------- v5f 动态课表：目标分数 / 保底 / 考试日期 → 权重与时间线 ----------
+   ielts.plan.derived = {hash, start, weights:{L,R,W,S}, gaps, weak:[], risk:[], phases:[{from,to}], weeks, scale, mode}
+   hash 由设置（总分、四项、保底、考试日期、开始日期）算出；设置一变就重算。 */
+var SK4 = ['L','R','W','S'];
+function round5(x){ return Math.max(5, Math.round(x/5)*5); }
+function planHash(st, start){ return ['v5f', st.overall, st.L, st.R, st.W, st.S, st.floor, st.exam || '', start].join('|'); }
+function derivePlan(st, start){
+  var w = {}, gaps = {}, weak = [], risk = [];
+  SK4.forEach(function(k){
+    var g = Math.round((st.overall - st[k]) * 2);            /* 比总分低几个半分 */
+    var x = g > 0 ? Math.min(2.2, 1 + 0.4 * g) : g < 0 ? Math.max(0.8, 1 + 0.1 * g) : 1;
+    if (st[k] < st.floor){ x = Math.min(2.5, x + 0.3); risk.push(k); }
+    w[k] = Math.round(x * 100) / 100; gaps[k] = g;
+    if (w[k] > 1) weak.push(k);
+  });
+  weak.sort(function(a, b){ return w[b] - w[a]; });
+  var orig = C.phases.map(function(p){ return diff(p.from, p.to) + 1; });
+  var pre = orig.slice(0, -1), preTot = pre.reduce(function(a, b){ return a + b; }, 0), lens = pre.slice(), mode = 'default', scale = 1;
+  var span = st.exam ? diff(start, st.exam) : null;
+  if (span != null && span >= 8){
+    mode = 'exam'; scale = span / preTot;
+    var g0 = span >= 40 ? Math.max(14, Math.round(pre[0] * scale)) : Math.max(2, Math.round(pre[0] * scale));
+    var restOrig = preTot - pre[0], rest = span - g0;
+    lens = [g0].concat(pre.slice(1).map(function(n){ return Math.max(2, Math.round(n * rest / restOrig)); }));
+    var sum = lens.reduce(function(a, b){ return a + b; }, 0), li = lens.length - 1;
+    while (sum !== span){ var j = li; while (j > 0 && sum > span && lens[j] <= 2) j--; lens[j] += sum < span ? 1 : -1; sum += sum < span ? 1 : -1; if (lens[j] < 2) break; }
+  } else if (span != null) mode = 'past';
+  lens.push(orig[orig.length - 1]);
+  var ph = [], cur = start;
+  lens.forEach(function(n){ ph.push({from:cur, to:addDays(cur, n - 1)}); cur = addDays(cur, n); });
+  var mainDays = lens.slice(0, -1).reduce(function(a, b){ return a + b; }, 0);
+  return {hash:planHash(st, start), start:start, weights:w, gaps:gaps, weak:weak, risk:risk, phases:ph, mode:mode,
+          scale:Math.round(scale * 100) / 100, weeks:Math.round(mainDays / 7), total:Math.round((mainDays + lens[lens.length - 1]) / 7), at:today()};
+}
+var DV = null;
+function derived(){
+  var st = A.settings(), start = startDate(), h = planHash(st, start);
+  if (DV && DV.hash === h) return DV;
+  var c = LS.get('ielts.plan.derived', null);
+  if (c && c.hash === h && c.phases && c.phases.length === C.phases.length){ DV = c; return DV; }
+  DV = derivePlan(st, start); LS.set('ielts.plan.derived', DV); return DV;
+}
+function skName(k){ return T(SKILL[k][0]); }
+function joinSk(list, withW){ var dv = derived(); return list.map(function(k){ return skName(k) + (withW ? ' ×' + dv.weights[k] : ''); }).join(T('、')); }
+function planSummary(){
+  var dv = derived(), bits = [];
+  if (dv.weak.length) bits.push(T('弱项加权：{s}', {s:joinSk(dv.weak, true)}));
+  else bits.push(T('四项目标都不低于总分，课表按均衡安排'));
+  if (dv.risk.length) bits.push(T('保底风险：{s}', {s:joinSk(dv.risk)}));
+  if (dv.mode === 'exam') bits.push(T('开始 → 考试共 {w} 周（阶段 ×{x}）', {w:dv.weeks, x:dv.scale}));
+  else if (dv.mode === 'past') bits.push(T('考试日期早于开始日期，按默认 {w} 周', {w:dv.total}));
+  else bits.push(T('未设考试日期，按默认 {w} 周', {w:dv.total}));
+  return bits;
+}
+function riskNote(){
+  var dv = derived(); if (!dv.risk.length) return '';
+  var k = dv.risk[0];
+  return '<p class="risk-n">'+ic('warning-diamond')+'<span>'+T('今天优先：{s}', {s:joinSk(dv.risk)})+' · '+T('目标低于保底分，先做加练')+'</span><a class="lnk" href="#/course">'+T('去课表')+' '+ic('arrow-right')+'</a></p>';
+}
 var PH = [];
-function buildPhases(){ var st = startDate(); PH = C.phases.map(function(p){ var o = {}; for (var k in p) o[k] = p[k]; o.from = addDays(st, diff(BASE, p.from)); o.to = addDays(st, diff(BASE, p.to)); return o; }); }
+function buildPhases(){ var dv = derived(); PH = C.phases.map(function(p, i){ var o = {}; for (var k in p) o[k] = p[k]; o.from = dv.phases[i].from; o.to = dv.phases[i].to; return o; }); }
 buildPhases();
 function phaseOf(d){
   for (var i=0;i<PH.length;i++) if (d >= PH[i].from && d <= PH[i].to) return {p:PH[i], i:i};
@@ -110,7 +169,7 @@ function dayBlocks(d){
   var gmax = gDays().length, gday = ph.i === 0 ? Math.min(14, Math.max(1, diff(p.from, d) + 1)) : 15 + (idx % Math.max(1, gmax - 14));
   if (!G[gday]) gday = Math.min(14, Math.max(1, diff(p.from, d) + 1));
   var L = LI[idx % LI.length], R = RE[idx % RE.length], W1 = WR.t1[wk % WR.t1.length], W2 = WR.t2[wk % WR.t2.length], Sx = SP.p2[idx % SP.p2.length], P1i = idx % SP.p1.length, P1 = SP.p1[P1i];
-  return {phase:p, pi:ph.i, blocks:list.map(function(b, i){
+  var blocks = list.map(function(b, i){
     var t = T(b.t).replace('{G}', T('第 {n} 天', {n:gday})+' · '+gTitle(gday)).replace('{L}', L.title).replace('{R}', R.title).replace('{W1}', T(W1.kind)).replace('{W2}', T(W2.topic)+' · '+T(W2.kind)).replace('{S}', Sx.card.replace(/^Describe /,'')).replace('{P1}', P1.topic);
     var go = b.go;
     if (go === 'grammar') go = '#/grammar/day/'+gday;
@@ -122,7 +181,27 @@ function dayBlocks(d){
     else if (go === '#archive/drill') go = '#/archive/drill';
     else if (go === '#archive') go = '#/archive';
     return {i:i, s:b.s, t:t, min:b.min, d:b.d ? T(b.d) : '', go:go};
-  })};
+  });
+  /* v5f：按目标加权 —— 弱项拉长时长；当天没有该科就加一块「加练」；低于保底的排到最前 */
+  var dv = derived(), out = [];
+  blocks.forEach(function(b){
+    var wt = dv.weights[b.s];
+    if (wt && wt !== 1){ b.base = b.min; b.min = round5(b.min * wt); b.boost = wt > 1; }
+    if (dv.risk.indexOf(b.s) >= 0) b.risk = true;
+    out.push(b);
+  });
+  dv.weak.forEach(function(k){
+    if (dv.weights[k] < 1.2 || out.some(function(b){ return b.s === k; })) return;
+    var g = Math.max(1, dv.gaps[k]), min = Math.min(30, 10 + 5 * (g - 1) + (dv.risk.indexOf(k) >= 0 ? 5 : 0)), x, go, ttl;
+    if (k === 'L'){ x = LI[(idx + 5) % LI.length]; go = '#/practice/'+setPath(x.id); ttl = x.title; }
+    else if (k === 'R'){ x = RE[(idx + 3) % RE.length]; go = '#/practice/'+setPath(x.id); ttl = x.title; }
+    else if (k === 'W'){ x = WR.t2[(idx + 1) % WR.t2.length]; go = '#/practice/'+setPath(x.id); ttl = T(x.topic); }
+    else { x = SP.p2[(idx + 4) % SP.p2.length]; go = '#/practice/'+setPath(x.id); ttl = x.card.replace(/^Describe /,''); }
+    out.push({i:'x'+k, s:k, t:T('加练 · {s}', {s:skName(k)})+' · '+ttl, min:min, base:0, boost:true, extra:true, risk:dv.risk.indexOf(k) >= 0,
+      d:dv.risk.indexOf(k) >= 0 ? T('目标低于保底分，先做加练') : T('目标低于总分，额外加练'), go:go});
+  });
+  out = out.filter(function(b){ return b.risk; }).concat(out.filter(function(b){ return !b.risk; }));
+  return {phase:p, pi:ph.i, blocks:out};
 }
 function grammarItem(n){ var it = A.items(A.S.grammar).filter(function(x){ return x.title && x.title.indexOf('第 '+n+' 天') === 0; }); return it[0]; }
 function gTitle(n){ var it = grammarItem(n); if (it) return T(it.title.replace(/^第 \d+ 天 · /,'')); var g = G[n]; return g && g.title ? T(g.title) : ''; }
@@ -132,10 +211,11 @@ function streak(){ var l = planLog(), n = 0, d = today(); if (!l[d] || !Object.k
 
 function blockRow(b, d, l){
   var on = l && l[b.i], sk = SKILL[b.s] || SKILL.X;
-  return '<div class="blk'+(on?' on':'')+'" data-blk="'+b.i+'" data-day="'+d+'">'+
+  var flag = b.risk ? '<span class="tag t-risk">'+T('保底风险')+'</span>' : b.boost ? '<span class="tag t-boost">'+T('加权')+'</span>' : '';
+  return '<div class="blk'+(on?' on':'')+(b.risk?' risk':'')+(b.boost?' boost':'')+'" data-blk="'+b.i+'" data-day="'+d+'">'+
     '<button class="chk" type="button" aria-pressed="'+(on?'true':'false')+'" aria-label="'+T('完成')+'">'+ic('check')+'</button>'+
     '<div class="blk-t"><b>'+esc(b.t)+'</b>'+(b.d?'<small>'+esc(b.d)+'</small>':'')+'</div>'+
-    '<div class="blk-r"><span class="tag '+sk[1]+'">'+T(sk[0])+'</span><span class="blk-m mono">'+b.min+'′</span>'+
+    '<div class="blk-r">'+flag+'<span class="tag '+sk[1]+'">'+T(sk[0])+'</span><span class="blk-m mono"'+(b.boost&&b.base?' title="'+b.base+'′ → '+b.min+'′"':'')+'>'+b.min+'′</span>'+
     '<a class="blk-go" href="'+b.go+'" aria-label="'+T('开始')+'">'+ic('arrow-right')+'</a></div></div>';
 }
 
@@ -387,6 +467,7 @@ function renderCourse(main){
   var exam = st.exam || '', left = exam ? diff(t, exam) : null;
   var h = head('course', T('课表与复习曲线')+' <span class="mono muted">'+esc(T(ph.name))+(left != null && left >= 0 ? ' · '+T('距考试 {n} 天', {n:left}) : '')+'</span>', T('每天按顺序做完下面的块就是一天的量。时间是实际建议时长，打勾记录在本机。'),
     '<div class="meter mono" data-meter="'+t+'">'+meterHTML(m)+'</div>', ['#/home', T('首页')]);
+  h += '<p class="plan-sum" id="planSum">'+ic('calendar-check')+'<span>'+planSummary().map(esc).join(' · ')+'</span><a class="lnk" href="#/settings">'+T('改目标')+'</a></p>';
   h += '<div class="x-grid"><div class="x-main">';
   h += '<h2 class="sec-h">'+T('今天')+' · '+mdz(t)+' '+wkd(t)+'</h2><div class="blks">'+db.blocks.map(function(b){ return blockRow(b, t, l); }).join('')+'</div>';
   var mon = addDays(t, -((parse(t).getDay()+6)%7));
@@ -665,7 +746,9 @@ qByKey = function(key){ if (key.indexOf('d:s:') === 0){ var sp = (DR.speaking||[
 /* ---------- 首页：今日课表块 ---------- */
 function homeBlock(){
   var t = today(), db = dayBlocks(t), l = planLog()[t] || {}, m = dayMinutes(t), due = dueKeys().length;
+  var dv = derived();
   return '<section class="plan-today"><div class="pt-h"><h2 class="sec-h">'+T('今日学习路径')+' · '+esc(T(db.phase.name))+'</h2><span class="meter mono" data-meter="'+t+'">'+meterHTML(m)+'</span></div>'+
+    (dv.weak.length ? '<p class="plan-sum sm">'+esc(T('弱项加权：{s}', {s:joinSk(dv.weak, true)}))+(dv.risk.length?' · '+esc(T('保底风险：{s}', {s:joinSk(dv.risk)})):'')+'</p>' : '')+
     '<div class="blks">'+db.blocks.map(function(b){ return blockRow(b, t, l); }).join('')+'</div>'+
     '<div class="row-f"><a class="b pri" href="#/course">'+T('打开课表')+'</a><a class="b ghost" href="#/archive/review">'+T('复习 {n} 条到期', {n:due})+'</a><a class="b ghost" href="#/practice">'+T('题库')+'</a></div></section>';
 }
@@ -684,6 +767,9 @@ window.IELTS_EXT = {
   stageCard: stageCard,
   startDate: startDate,
   setStart: function(s){ LS.set('ielts.start', s); buildPhases(); },
+  replan: function(){ DV = null; LS.set('ielts.plan.derived', null); buildPhases(); return {dv:derived(), summary:planSummary()}; },
+  riskNote: riskNote,
+  planSummary: planSummary,
   addItem: function(n){ addWeak('item:'+n.id, SEC_TAG[n.sec]||'grammar', n.title || A.strip(n.cells ? n.cells[0].html : n.html).slice(0, 80)); },
   srsToggleHTML: srsToggleHTML,
   wireSrsToggle: wireSrsToggle,

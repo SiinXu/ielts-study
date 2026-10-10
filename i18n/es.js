@@ -504,3 +504,25 @@ I18N.add("es", {
 
 /* v5e: date picker */
 I18N.add("es", {"清除": "Borrar", "未设置 · 点这里选日期": "Sin fecha · toca para elegir"});
+
+/* v5f: dynamic plan */
+I18N.add("es", {
+"弱项加权：{s}": "Refuerzo de puntos débiles: {s}",
+"保底风险：{s}": "Por debajo del mínimo: {s}",
+"四项目标都不低于总分，课表按均衡安排": "Ninguna destreza por debajo de la nota global — plan equilibrado",
+"开始 → 考试共 {w} 周（阶段 ×{x}）": "Inicio → examen: {w} semanas (fases ×{x})",
+"考试日期早于开始日期，按默认 {w} 周": "La fecha del examen es anterior al inicio — {w} semanas por defecto",
+"未设考试日期，按默认 {w} 周": "Sin fecha de examen — {w} semanas por defecto",
+"今天优先：{s}": "Hoy primero: {s}",
+"目标低于保底分，先做加练": "Objetivo por debajo del mínimo — haz primero la práctica extra",
+"去课表": "Abrir plan",
+"加练 · {s}": "Práctica extra · {s}",
+"目标低于总分，额外加练": "Objetivo por debajo de la nota global — práctica extra",
+"保底风险": "Bajo el mínimo",
+"加权": "Reforzado",
+"、": ", ",
+"课表已按目标重排": "Plan reorganizado según tus objetivos",
+"看课表": "Ver plan",
+"保存后课表会按目标重排：比总分低的单项每天加时、没有该科的日子加一块加练；低于保底分的排到今日最前；有考试日期时阶段按「开始 → 考试」伸缩。": "Al guardar se reorganiza el plan: las destrezas con objetivo por debajo de la nota global reciben más minutos al día y un bloque extra los días sin esa destreza; las que quedan bajo el mínimo van primero hoy; con fecha de examen, las fases se ajustan de inicio → examen.",
+"改目标": "Cambiar objetivos"
+});

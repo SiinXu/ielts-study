@@ -1274,3 +1274,25 @@ I18N.add("en", {
 
 /* v5e: date picker */
 I18N.add("en", {"清除": "Clear", "未设置 · 点这里选日期": "Not set · tap to pick a date"});
+
+/* v5f: dynamic plan */
+I18N.add("en", {
+"弱项加权：{s}": "Weighted weak skills: {s}",
+"保底风险：{s}": "Below floor: {s}",
+"四项目标都不低于总分，课表按均衡安排": "No skill target is below the overall — balanced plan",
+"开始 → 考试共 {w} 周（阶段 ×{x}）": "Start → exam: {w} weeks (phases ×{x})",
+"考试日期早于开始日期，按默认 {w} 周": "Exam date is before the start date — default {w} weeks",
+"未设考试日期，按默认 {w} 周": "No exam date — default {w} weeks",
+"今天优先：{s}": "Do first today: {s}",
+"目标低于保底分，先做加练": "Target below your floor — do the extra practice first",
+"去课表": "Open plan",
+"加练 · {s}": "Extra practice · {s}",
+"目标低于总分，额外加练": "Target below overall — extra practice",
+"保底风险": "Below floor",
+"加权": "Boosted",
+"、": ", ",
+"课表已按目标重排": "Plan rebuilt for your targets",
+"看课表": "View plan",
+"保存后课表会按目标重排：比总分低的单项每天加时、没有该科的日子加一块加练；低于保底分的排到今日最前；有考试日期时阶段按「开始 → 考试」伸缩。": "After saving, the plan is rebuilt: skills targeted below the overall get more minutes each day, plus an extra block on days without that skill; skills below the floor go to the top of today; with an exam date, phases stretch or shrink to fit start → exam.",
+"改目标": "Change targets"
+});

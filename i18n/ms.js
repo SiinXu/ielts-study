@@ -504,3 +504,25 @@ I18N.add("ms", {
 
 /* v5e: date picker */
 I18N.add("ms", {"清除": "Kosongkan", "未设置 · 点这里选日期": "Belum ditetapkan · ketik untuk pilih tarikh"});
+
+/* v5f: dynamic plan */
+I18N.add("ms", {
+"弱项加权：{s}": "Kemahiran lemah diberi pemberat: {s}",
+"保底风险：{s}": "Di bawah markah minimum: {s}",
+"四项目标都不低于总分，课表按均衡安排": "Tiada sasaran kemahiran di bawah keseluruhan — pelan seimbang",
+"开始 → 考试共 {w} 周（阶段 ×{x}）": "Mula → peperiksaan: {w} minggu (fasa ×{x})",
+"考试日期早于开始日期，按默认 {w} 周": "Tarikh peperiksaan sebelum tarikh mula — lalai {w} minggu",
+"未设考试日期，按默认 {w} 周": "Tiada tarikh peperiksaan — lalai {w} minggu",
+"今天优先：{s}": "Utamakan hari ini: {s}",
+"目标低于保底分，先做加练": "Sasaran di bawah minimum — buat latihan tambahan dahulu",
+"去课表": "Buka pelan",
+"加练 · {s}": "Latihan tambahan · {s}",
+"目标低于总分，额外加练": "Sasaran di bawah keseluruhan — latihan tambahan",
+"保底风险": "Bawah minimum",
+"加权": "Diberi pemberat",
+"、": ", ",
+"课表已按目标重排": "Pelan disusun semula ikut sasaran",
+"看课表": "Lihat pelan",
+"保存后课表会按目标重排：比总分低的单项每天加时、没有该科的日子加一块加练；低于保底分的排到今日最前；有考试日期时阶段按「开始 → 考试」伸缩。": "Selepas disimpan, pelan disusun semula: kemahiran yang sasarannya di bawah keseluruhan mendapat lebih minit setiap hari dan satu blok tambahan pada hari tanpa kemahiran itu; yang di bawah minimum diletak paling atas hari ini; jika ada tarikh peperiksaan, fasa dipanjang atau dipendekkan ikut mula → peperiksaan.",
+"改目标": "Tukar sasaran"
+});
