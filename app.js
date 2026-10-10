@@ -3,14 +3,14 @@
 var D = window.IELTS_DATA, S = {};
 D.sections.forEach(function(s, i){ s.idx = i; S[s.key] = s; });
 
-/* 版块标签（界面用，非学习内容）：每个版块一种“笔记本索引贴”颜色 */
+/* 版块标签（界面用，非学习内容）：统一蓝色强调，用图标区分 */
 var META = {
-  plan:        {nav:'计划', en:'Study plan',     c:'#b07a1e', ic:'<path d="M8 3v4M16 3v4M3 10h18"/><rect x="3" y="5" width="18" height="16" rx="3"/>'},
-  grammar:     {nav:'语法', en:'Grammar & accent',c:'#3d5a9e', ic:'<path d="M4 19V5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"/><path d="M8 7h6M8 11h4"/>'},
-  dialogues:   {nav:'对话', en:'Conversations',  c:'#2b7a74', ic:'<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/>'},
-  templates:   {nav:'模板', en:'Templates',      c:'#5d7a35', ic:'<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>'},
-  collocations:{nav:'搭配', en:'Collocations',   c:'#a65a32', ic:'<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>'},
-  mistakes:    {nav:'错题', en:'Mistake log',    c:'#b33a3f', ic:'<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>'}
+  plan:        {nav:'计划', en:'Study plan',     c:'var(--acc)', ic:'<path d="M8 3v4M16 3v4M3 10h18"/><rect x="3" y="5" width="18" height="16" rx="3"/>'},
+  grammar:     {nav:'语法', en:'Grammar & accent',c:'var(--acc)', ic:'<path d="M4 19V5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"/><path d="M8 7h6M8 11h4"/>'},
+  dialogues:   {nav:'对话', en:'Conversations',  c:'var(--acc)', ic:'<path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/>'},
+  templates:   {nav:'模板', en:'Templates',      c:'var(--acc)', ic:'<path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/>'},
+  collocations:{nav:'搭配', en:'Collocations',   c:'var(--acc)', ic:'<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>'},
+  mistakes:    {nav:'错题', en:'Mistake log',    c:'var(--acc)', ic:'<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>'}
 };
 var ORDER = ['plan','grammar','dialogues','templates','collocations','mistakes'];
 var IC = {
@@ -48,11 +48,11 @@ D.sections.forEach(function(s){
   });
 });
 
-/* 主题：默认浅色纸张，可切冷灰深色 */
+/* 主题：默认浅色，可切石板深色 */
 function toggleTheme(){
   var t = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
   document.documentElement.dataset.theme = t; try{ localStorage.setItem('ielts.theme', t); }catch(e){}
-  var m = document.querySelector('meta[name=theme-color]'); if (m) m.content = t === 'dark' ? '#15181d' : '#f6f1e7';
+  var m = document.querySelector('meta[name=theme-color]'); if (m) m.content = t === 'dark' ? '#0f172a' : '#ffffff';
 }
 $('themeTop').onclick = toggleTheme;
 
@@ -88,6 +88,10 @@ function refreshNav(){
     var n = e.querySelector('.tp-n'); if (n) n.textContent = t.d;
     var p = e.querySelector('.tp-p'); if (p) p.textContent = t.p + '%';
   });
+  var kt = document.querySelector('[data-kpi=today]');
+  if (kt){ var ti = todaySet(); kt.textContent = ti.filter(function(i){ return done[i]; }).length + ' / ' + ti.length; }
+  var kp = document.querySelector('[data-kpi=total]'); if (kp) kp.textContent = t.p + '%';
+  var kd = document.querySelector('[data-kpi=done]'); if (kd) kd.textContent = t.d;
   var td = document.querySelector('[data-today]');
   if (td){ var ids = todaySet(), d = ids.filter(function(i){ return done[i]; }).length, pp = ids.length ? Math.round(d*100/ids.length) : 100;
     td.querySelector('.td-n').textContent = d + ' / ' + ids.length; var bi = td.querySelector('.pbar i'); if (bi) bi.style.width = pp + '%'; }
@@ -207,35 +211,41 @@ function renderHome(){
   var h = '<section class="greet">'+
     '<p class="date">'+now.getFullYear()+' 年 '+(now.getMonth()+1)+' 月 '+now.getDate()+' 日 · 星期'+WK[now.getDay()]+'</p>'+
     '<h1>'+greet()+'，SIYIN</h1>'+
-    '<p class="lede">'+esc(strip(cover[1] || ''))+'。今天还有 <b class="hl">'+(tids.length - tdone)+' 条</b>任务，距 2027 年 5 月申请还有 <b>'+daysTo(exam)+'</b> 天。</p>'+
-    toolbar('搜索 '+t.n+' 条：单词、句型、错题')+
-    '</section><div id="results"></div>';
+    '<p class="lede">'+esc(strip(cover[1] || ''))+'。今天还剩 <b class="hl">'+(tids.length - tdone)+' 条</b>任务。</p>'+
+    toolbar('搜索 '+t.n+' 条内容')+
+    '</section>'+
+    ((!terms().length && !UNREAD) ? '<section class="kpis">'+
+      '<div class="kpi"><small>今日任务</small><b data-kpi="today">'+tdone+' / '+tids.length+'</b></div>'+
+      '<div class="kpi"><small>总进度</small><b data-kpi="total">'+t.p+'%</b></div>'+
+      '<div class="kpi"><small>已学条目</small><b data-kpi="done">'+t.d+'</b></div>'+
+      '<div class="kpi"><small>距申请</small><b>'+daysTo(exam)+' 天</b></div></section>' : '')+
+    '<div id="results"></div>';
 
   if (!terms().length && !UNREAD){
     h += '<div class="home-grid"><div class="col-main">';
-    /* 本阶段：便签 */
-    if (st) h += '<section class="stage paper">'+
+    /* 本阶段 */
+    if (st) h += '<section class="stage block">'+
       '<div class="stage-h"><span class="kicker">'+(st.now?'本阶段':'下一阶段')+' · 第 '+(st.i+1)+' / '+st.total+' 段</span><span class="stage-d">'+esc(strip(st.c['时间']))+'</span></div>'+
       '<h2>'+esc(strip(st.c['阶段']))+'</h2>'+
       '<p class="ln"><span class="lab">重点</span>'+st.c['重点']+'</p>'+
       (st.c['阶段目标']?'<p class="ln"><span class="lab">目标</span>'+st.c['阶段目标']+'</p>':'')+
-      (st.now ? '<div class="stage-p"><small>本阶段时间已过 '+Math.min(100,Math.round((now-st.a)*100/(st.b-st.a)))+'%</small>'+bar(Math.min(100,Math.round((now-st.a)*100/(st.b-st.a))), '#b07a1e')+'</div>' : '')+
+      (st.now ? '<div class="stage-p"><small>本阶段时间已过 '+Math.min(100,Math.round((now-st.a)*100/(st.b-st.a)))+'%</small>'+bar(Math.min(100,Math.round((now-st.a)*100/(st.b-st.a))), 'var(--acc)')+'</div>' : '')+
       '</section>';
     /* 今日任务清单 */
     var preview = tids.slice(0, 6);
     visible = tids.slice();
     h += '<section class="block today-b" data-today>'+
       '<div class="block-h"><div><h2>今日任务</h2><p>语法 2 · 对话 2 · 模板 2 · 搭配 5 · 错题 6，学完勾掉</p></div>'+
-      '<div class="td-r"><span class="td-n">'+tdone+' / '+tids.length+'</span>'+bar(tids.length?Math.round(tdone*100/tids.length):100, '#2f6b5a')+'</div></div>'+
-      (preview.length ? '<div class="tasks">'+preview.map(function(id){ return taskHTML(byId[id]); }).join('')+'</div>' : '<div class="empty">全部学完了，太强了。</div>')+
+      '<div class="td-r"><span class="td-n">'+tdone+' / '+tids.length+'</span>'+bar(tids.length?Math.round(tdone*100/tids.length):100, 'var(--acc)')+'</div></div>'+
+      (preview.length ? '<div class="tasks">'+preview.map(function(id){ return taskHTML(byId[id]); }).join('')+'</div>'+(tids.length>preview.length?'<p class="more-n">还有 '+(tids.length-preview.length)+' 条在今日任务页</p>':'') : '<div class="empty">全部学完了，太强了。</div>')+
       '<div class="block-f"><a class="b pri" href="#today">打开今日 '+tids.length+' 条 →</a>'+
       '<a class="b ghost" href="#'+last+(nextIt?'/'+nextIt.id:'')+'">接着学「'+esc(S[last].title)+'」</a></div></section>';
     h += '</div><aside class="col-side">';
     /* 总进度 */
-    h += '<section class="block prog-b" data-tp><div class="pb-top"><div><small>总进度</small><p><b class="tp-n">'+t.d+'</b> / '+t.n+' 条</p></div><span class="stamp tp-p">'+t.p+'%</span></div>'+bar(t.p, '#2f6b5a')+
+    h += '<section class="block prog-b" data-tp><div class="pb-top"><div><small>总进度</small><p><b class="tp-n">'+t.d+'</b> / '+t.n+' 条</p></div><span class="pct tp-p">'+t.p+'%</span></div>'+bar(t.p, 'var(--acc)')+
       '<div class="targets">'+[['总分','7.5'],['听力','6.5+'],['阅读','6.5+'],['写作','6.5+'],['口语','6.5+']].map(function(g, i){
         return '<div'+(i?'':' class="main"')+'><span>'+g[0]+'</span><b>'+g[1]+'</b></div>'; }).join('')+'</div><p class="tgt-n">目标分数 · 单科不低于 6.5</p></section>';
-    h += '<section class="block"><div class="block-h"><div><h2>六本笔记</h2><p>点进去按小节学，可搜索、可只看未学</p></div></div>'+sectionList()+'</section>';
+    h += '<section class="block"><div class="block-h"><div><h2>六个版块</h2><p>点进去按小节学，可搜索、可只看未学</p></div></div>'+sectionList()+'</section>';
     h += '</aside></div>';
     h += '<p class="foot">点左边的小方框标记“已学”。进度只存在这台设备的浏览器里，换设备不会同步。<button class="lnk" id="reset" type="button">清空全部进度</button></p>';
   }
@@ -262,7 +272,7 @@ function renderSearch(box){
 function renderToday(){
   var ids = todaySet(), d = ids.filter(function(id){ return done[id]; }).length, p = ids.length ? Math.round(d*100/ids.length) : 100;
   visible = ids.slice();
-  var h = '<section class="s-head" style="--c:#2f6b5a" data-today><div>'+
+  var h = '<section class="s-head" style="--c:var(--acc)" data-today><div>'+
     '<p class="kicker">每天自动挑选各版块里还没学的条目</p>'+
     '<h1>今日任务</h1>'+
     '<p class="lede">语法 2 · 对话 2 · 模板 2 · 搭配 5 · 错题 6。学完一条勾一条，明天换下一批。</p></div>'+
@@ -275,11 +285,11 @@ function renderToday(){
 function renderSection(s){
   var m = META[s.key], x = stat(s);
   var h = '<section class="s-head" style="--c:'+m.c+'" data-sp="'+s.key+'"><div>'+
-    '<p class="kicker"><i></i>第 '+s.idx+' 本 · '+esc(s.source)+'</p>'+
+    '<p class="kicker"><i></i>第 '+s.idx+' 部分 · '+esc(s.source)+'</p>'+
     '<h1>'+esc(s.title)+'<em>'+m.en+'</em></h1></div>'+
     '<div class="s-prog"><span class="sp-p">'+x.p+'%</span><small class="sp-n">'+x.d+' / '+x.n+'</small>'+bar(x.p)+'</div></section>';
   h += '<div class="sec-grid"><div class="col-main"><div class="sticky">'+toolbar('在「'+s.title+'」里搜索…')+'</div><div id="list"></div></div>'+
-    '<aside class="col-toc"><div class="toc-box"><p class="toc-h">本册目录</p><div class="toc" id="sideToc"></div></div></aside></div>';
+    '<aside class="col-toc"><div class="toc-box"><p class="toc-h">目录</p><div class="toc" id="sideToc"></div></div></aside></div>';
   main.innerHTML = h;
   renderList(s);
 }
@@ -305,14 +315,14 @@ function renderList(s){
       pendingH = pendingH.filter(function(h){ return h.t === 'h2'; });
       pendingH.push(n); return;
     }
-    if (n.t === 'note'){ if (!t.length && !UNREAD){ flush(); close(); html += '<div class="note"><span class="note-l">笔记</span><div>'+n.html+'</div></div>'; } return; }
+    if (n.t === 'note'){ if (!t.length && !UNREAD){ flush(); close(); html += '<div class="note"><span class="note-l">说明</span><div>'+n.html+'</div></div>'; } return; }
     if (!match(n, t)) return;
     flush();
     if (!open){ html += '<div class="cards">'; open = true; }
     html += cardHTML(n, shown); visible.push(n.id); shown++;
   });
   close();
-  if (!shown) html += '<div class="empty">'+(UNREAD && !t.length ? '这一本全部学完了 🎉' : '没有符合条件的条目')+'</div>';
+  if (!shown) html += '<div class="empty">'+(UNREAD && !t.length ? '这个版块全部学完了 🎉' : '没有符合条件的条目')+'</div>';
   else if (t.length || UNREAD) html = '<p class="count">'+(t.length?'找到 ':'未学 ')+shown+' 条</p>' + html;
   $('list').innerHTML = html;
   ctx.toc = toc;
@@ -370,7 +380,7 @@ function openToc(){
   $('dClose').onclick = closeSheet;
 }
 function openSections(){
-  openSheet(sheetHead('六本笔记')+'<div class="d-body">'+sectionList()+'</div>', 'tocs');
+  openSheet(sheetHead('六个版块')+'<div class="d-body">'+sectionList()+'</div>', 'tocs');
   $('dClose').onclick = closeSheet;
   sheet.querySelector('.secs').onclick = function(){ setTimeout(closeSheet, 0); };
 }
@@ -427,8 +437,8 @@ window.addEventListener('scroll', function(){ $('top').classList.toggle('scrolle
 
 function render(){
   var s = S[cur];
-  $('title').textContent = s ? s.title : cur === 'today' ? '今日任务' : '雅思笔记';
-  document.title = (s ? s.title + ' · ' : cur==='today' ? '今日任务 · ' : '') + '雅思笔记 · XU SIYIN';
+  $('title').textContent = s ? s.title : cur === 'today' ? '今日任务' : '雅思学习';
+  document.title = (s ? s.title + ' · ' : cur==='today' ? '今日任务 · ' : '') + '雅思学习 · XU SIYIN';
   if (s){ LS.set('ielts.last', cur); renderSection(s); }
   else if (cur === 'today') renderToday();
   else renderHome();
