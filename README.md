@@ -18,3 +18,16 @@
 ## 说明
 - 已学勾选、深浅色、各页滚动位置保存在浏览器 localStorage（键名 `ielts.done` / `ielts.theme` / `ielts.scroll` / `ielts.today` / `ielts.unread` / `ielts.last`），只保存在当前设备当前浏览器。
 - 条目 ID 由内容哈希生成，修改 combined.html 后重新运行 build.py，未改动的条目勾选状态保留。
+
+## v5c 内容加厚（2026-10-10）
+视觉沿用 v5，`data.js` 947 条不变，新增模块：
+- `content/grammar-deep.js` 两周语法 14 天加厚：每天讲解 + 6–8 例句 + 4–5 题小测（答案速查）+ 常错对照表 + 输出练习，约 12–15 分钟
+- `content/listening.js` 12 套原创听力（Part 1–4，62 题，含陷阱说明），浏览器朗读播放 + 盲听 / 先读再听
+- `content/reading.js` 8 篇原创学术短文（45 题，T/F/NG、选择、填空）
+- `content/writing.js` Task 1 ×4、Task 2 ×8（思路、范文片段、表达）+ 评分自查表（T1 9 项 / T2 10 项）
+- `content/speaking.js` Part 1 ×10 话题（33 问）、Part 2 ×10 题卡（范例 + 30 个 Part 3 追问）、6 项自评
+- `content/drills.js` 写作语言 18 题、听力陷阱 12 题；语法/搭配/口语专项直接用 data.js 的错题、搭配、对话出题
+- `content/course.js` 课表：按复习计划的 5 个阶段生成每天的学习块（含分钟数）与周视图
+- `study.js` / `study.css` 课表、练习、档案三页 + 复习曲线（1/3/7/14/30 天）+ 改错对排版修复
+新增本地存储键：`ielts.srs` `ielts.plan` `ielts.prac` `ielts.notes` `ielts.draft` `ielts.wcheck` `ielts.gout` `ielts.log` `ielts.rate` `ielts.lmode` `ielts.ptab`（`ielts.done` 不变）。
+TODO：听力真人录音（在 listening.js 每套加 `audio` 字段后接入）。

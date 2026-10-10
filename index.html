@@ -15,6 +15,7 @@
 <link rel="preload" href="fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
 <script>try{var t=localStorage.getItem('ielts.theme');document.documentElement.dataset.theme=(t==='dark'?'dark':'light')}catch(e){}</script>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="study.css">
 </head>
 <body>
 <div id="sentinel" aria-hidden="true"></div>
@@ -25,6 +26,7 @@
     <nav class="tabs" id="tabs" aria-label="版块"></nav>
     <div class="top-r">
       <span class="top-prog mono" id="topProg" title="已学条目"></span>
+      <a class="icon" id="searchTop" href="#home" aria-label="搜索"><svg class="ph" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M232.49,215.51,185,168a92.12,92.12,0,1,0-17,17l47.53,47.54a12,12,0,0,0,17-17ZM44,112a68,68,0,1,1,68,68A68.07,68.07,0,0,1,44,112Z"/></svg></a>
       <button class="icon" id="themeTop" type="button" aria-label="切换浅色/深色"></button>
     </div>
   </div>
@@ -39,6 +41,14 @@
 <div class="toast" id="toast" role="status"></div>
 
 <script src="data.js" charset="utf-8"></script>
+<script src="content/course.js" charset="utf-8"></script>
+<script src="content/grammar-deep.js" charset="utf-8"></script>
+<script src="content/listening.js" charset="utf-8"></script>
+<script src="content/reading.js" charset="utf-8"></script>
+<script src="content/writing.js" charset="utf-8"></script>
+<script src="content/speaking.js" charset="utf-8"></script>
+<script src="content/drills.js" charset="utf-8"></script>
+<script src="study.js" charset="utf-8"></script>
 <script src="app.js" charset="utf-8"></script>
 </body>
 </html>
