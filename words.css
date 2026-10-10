@@ -1,0 +1,122 @@
+/* 划词释义 · 单词本 · 词汇复习（沿用 v5 黑白编辑风：白底墨黑、橙色唯一强调色、衬线英文） */
+.wb-top{position:relative}
+.wb-top .wb-ic{display:grid;place-items:center}
+.wb-top.on{background:color-mix(in srgb,var(--line) 70%,transparent);color:var(--ink)}
+.wb-n{position:absolute;top:2px;right:0;min-width:16px;height:16px;padding:0 4px;border-radius:999px;background:var(--acc);color:#fff;font-size:10px;line-height:16px;text-align:center;font-weight:600}
+.wb-n[hidden]{display:none}
+
+/* 划词弹层 */
+.wpop{position:fixed;z-index:70;width:min(360px,calc(100vw - 24px));max-height:min(70vh,520px);overflow:auto;background:var(--surface);color:var(--ink);border:1px solid var(--line2);border-radius:12px;box-shadow:0 2px 6px rgba(22,22,21,.06),0 18px 48px rgba(22,22,21,.14);padding:14px 16px 12px;opacity:0;transform:translateY(4px);transition:opacity .16s,transform .22s var(--ease);font-size:14px}
+.wpop.show{opacity:1;transform:none}
+.wpop[hidden]{display:none}
+.wpop.mob{left:10px!important;right:10px;width:auto;top:auto!important;bottom:calc(76px + env(safe-area-inset-bottom));max-height:52vh}
+.wp-h{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;padding-right:64px;position:relative;min-height:28px}
+.wp-w{font:500 26px/1.1 var(--serif);letter-spacing:-.01em}
+.wp-ipa{font-size:12.5px;color:var(--muted)}
+.wp-ic{width:30px;height:30px;display:inline-grid;place-items:center;border-radius:8px;color:var(--ink2);font-size:17px}
+.wp-ic:hover{background:color-mix(in srgb,var(--line) 70%,transparent)}
+.wp-h .wp-ic{position:absolute;top:-2px;right:32px}
+.wp-h .wp-x{right:-4px}
+.wp-load{margin:8px 0 2px;font-size:13px}
+.wp-form{margin:4px 0 0;font-size:12px;color:var(--muted)}
+.wp-tags{display:flex;gap:4px;flex-wrap:wrap;margin:8px 0 0}
+.wp-tag{font:600 10.5px/18px var(--mono);padding:0 6px;border-radius:4px;border:1px solid var(--line2);color:var(--ink2)}
+.wp-tag.star{border:0;color:var(--acc-ink);letter-spacing:1px;padding:0}
+.wp-g{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:4px}
+.wp-g li{display:flex;gap:8px;align-items:baseline;line-height:1.5}
+.wp-pos{flex:none;font-size:11.5px;color:var(--muted);min-width:2.6em}
+.wp-def{margin:8px 0 0;font:italic 14px/1.45 var(--serif);color:var(--ink2)}
+.wp-def .mono{font:600 10px var(--mono);font-style:normal;color:var(--faint);margin-right:2px}
+.wp-ex{margin:10px 0 0;padding-top:10px;border-top:1px solid var(--line)}
+.wp-lab{display:block;font-size:11px;font-weight:600;color:var(--muted);letter-spacing:.04em;margin-bottom:4px}
+.wp-ex p{margin:0 0 6px;font:15px/1.45 var(--serif);color:var(--ink)}
+.wp-ex u,.wb-ctx u,.wr-ctx u{text-decoration:none;background:linear-gradient(transparent 62%,var(--mark) 62%)}
+.wp-miss{margin:10px 0 0;color:var(--muted);font-size:13.5px}
+.wp-in{width:100%;height:38px;margin-top:8px;border:1px solid var(--line2);border-radius:8px;background:var(--surface);color:var(--ink);font:14px var(--sans);padding:0 10px}
+.wp-in:focus{outline:0;border-color:var(--ink)}
+.wp-f{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:12px}
+.wp-f .b.sm{height:34px;padding:0 12px;font-size:13.5px}
+.wp-in-st{display:inline-flex;align-items:center;gap:4px;font-size:13px;font-weight:600;color:var(--ink);margin-right:auto}
+.wp-in-st .ph{color:var(--acc)}
+
+/* 首页小块 */
+.wb-home{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:16px 18px;margin-top:28px}
+.wb-home .sec-h{margin:0 0 4px}
+.wb-hs{margin:0;font-size:14px;color:var(--ink2)}
+.wb-hr{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.wb-due{display:flex;align-items:baseline;gap:6px;margin-right:6px}
+.wb-due b{font-size:28px;font-weight:500;color:var(--ink)}
+.wb-due small{font:12px var(--sans);color:var(--muted)}
+
+/* 单词本页 */
+.x-words{--tb:#f3efe6;--ti:#5a4a22}
+[data-theme=dark] .x-words{--tb:#26231b;--ti:#d9c79a}
+.wb-stat{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:24px}
+.wb-stat span{background:var(--surface);padding:14px 16px;display:flex;flex-direction:column;gap:2px}
+.wb-stat b{font-size:30px;font-weight:500;line-height:1}
+.wb-stat small{font-size:12px;color:var(--muted)}
+.b.dis{color:var(--muted);cursor:default}
+.wb-add{display:grid;grid-template-columns:1fr 1.4fr auto;gap:8px;margin-top:20px}
+.wb-add input,.wb-tools input{height:42px;border:1px solid var(--line2);border-radius:8px;background:var(--surface);color:var(--ink);font:15px var(--sans);padding:0 12px;min-width:0}
+.wb-add input:focus,.wb-tools input:focus{outline:0;border-color:var(--ink)}
+.wb-tools{display:flex;align-items:center;gap:12px;margin:12px 0}
+.wb-tools input{flex:1}
+.wb-list .wb-row{display:grid;grid-template-columns:1fr auto auto auto auto;gap:12px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+.wb-main{display:flex;align-items:baseline;gap:10px;min-width:0;text-align:left;padding:4px 0;background:none;border:0;color:inherit;font:inherit;cursor:pointer}
+.wb-w{font:500 19px/1.2 var(--serif);flex:none}
+.wb-ipa{font-size:11.5px;color:var(--muted);flex:none}
+.wb-g{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13.5px;color:var(--ink2)}
+.wb-st{font-size:11.5px;font-weight:600;padding:0 8px;height:20px;line-height:20px;border-radius:999px;background:color-mix(in srgb,var(--line) 70%,transparent);color:var(--ink2);white-space:nowrap}
+.wb-st.st-new{background:var(--ink);color:var(--bg)}
+.wb-st.st-mastered{background:transparent;border:1px solid var(--line2);color:var(--muted)}
+.wb-row.open{border-bottom-color:transparent}
+.wb-ed{padding:4px 0 18px;border-bottom:1px solid var(--line)}
+.wb-ed textarea{border:1px solid var(--line2);border-radius:8px;background:var(--surface);color:var(--ink);font:14.5px/1.5 var(--sans);padding:8px 12px;width:100%;resize:vertical}
+.wb-ed textarea:focus{outline:0;border-color:var(--ink)}
+.wb-ctx{margin:12px 0 0;font:15px/1.5 var(--serif)}
+.wb-ctx .lnk{font-family:var(--sans);color:var(--acc-ink)}
+.wb-meta{margin:10px 0 0;font-size:12px;color:var(--muted)}
+.wb-ed .b.sm,.wr-act .b.sm{height:34px}
+
+/* 复习卡 */
+.wr{max-width:640px;margin:0 auto}
+.wr-card{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:32px 28px 24px;margin-top:20px}
+.wr-front{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.wr-w{font:400 54px/1 var(--serif);letter-spacing:-.025em}
+.wr-ipa{font-size:14px;color:var(--muted)}
+.wr-ctx{margin:18px 0 0;font:17px/1.55 var(--serif);color:var(--ink2)}
+.wr-ctx u.bl{background:none;border-bottom:1px solid var(--ink);color:var(--faint);letter-spacing:1px}
+.wr-back{margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
+.wr-back .wp-g{margin:0;font-size:16px}
+.wr-note{margin:10px 0 0;font-size:14px;color:var(--muted)}
+.wr-act{margin-top:24px}
+.wr-act kbd,.wr-rate kbd{font:11px var(--mono);border:1px solid currentColor;border-radius:4px;padding:0 4px;opacity:.45;margin-left:6px}
+.wr-show{width:100%;height:48px}
+.wr-act .srs-help{margin-top:10px;text-align:center}
+.wr-rate{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.wr-rate .b{height:auto;min-height:56px;flex-direction:column;gap:2px;padding:8px}
+.wr-rate .b small{font-size:11.5px;font-weight:400;opacity:.7}
+.wr-rate .r0{border-color:color-mix(in srgb,var(--acc) 50%,var(--line2));color:var(--acc-ink)}
+.wr-rate kbd{position:absolute;opacity:0}
+
+@media (hover:hover){ .wr-rate .b{position:relative} .wr-rate kbd{position:absolute;top:6px;right:6px;opacity:.35;margin:0} }
+@media (max-width:640px){
+  .wb-home{margin:24px 0 0;padding:14px}
+  .wb-stat{grid-template-columns:repeat(2,1fr)}
+  .wb-add{grid-template-columns:1fr auto}
+  .wb-add #wbAg{grid-column:1/2;grid-row:2}
+  .wb-add .b{grid-row:1/3;grid-column:2;height:auto}
+  .wb-list .wb-row{grid-template-columns:1fr auto auto;row-gap:2px}
+  .wb-main{flex-wrap:wrap;row-gap:0;grid-column:1;grid-row:1/3}
+  .wb-g{flex-basis:100%}
+  .wb-st{grid-column:2;grid-row:1;justify-self:end}
+  .wb-list .qi-lv{grid-column:2;grid-row:2;justify-self:end}
+  .wb-list .qi-d{display:none}
+  .wb-list .qi-x{grid-column:3;grid-row:1/3}
+  .wr-card{padding:24px 18px 18px}
+  .wr-w{font-size:42px}
+  .wr-act kbd{display:none}
+}
+.wp-own{margin:6px 0 0;padding:6px 10px;border-radius:8px;background:color-mix(in srgb,var(--line) 45%,transparent);font-size:13px}
+.wp-own > .mono{font-size:11.5px;color:var(--muted)}
+.wp-own .wp-g{margin-top:2px}

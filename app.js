@@ -70,6 +70,7 @@ $('langTop').title = T('界面语言');
 $('langSel').onchange = function(){ I.set(this.value); };
 $('setTop').setAttribute('aria-label', T('设置'));
 $('searchTop').setAttribute('aria-label', T('搜索'));
+if ($('wordsTop')){ $('wordsTop').querySelector('.wb-ic').innerHTML = window.IELTS_WORDS ? window.IELTS_WORDS.icon() : ic('notebook'); if (window.IELTS_WORDS) window.IELTS_WORDS.badge(); }
 $('searchTop').onclick = function(e){ e.preventDefault(); if (cur !== 'home') go('#/home'); setTimeout(function(){ var q = $('q'); if (q){ q.focus(); q.scrollIntoView({block:'center'}); } }, 80); };
 
 /* ---------- 导航 ---------- */
@@ -245,6 +246,7 @@ function renderHome(){
   h += '</section><div id="results"></div>';
 
   if (!searching && EXT) h += EXT.homeBlock();
+  if (!searching && window.IELTS_WORDS) h += window.IELTS_WORDS.homeBlock();
   if (!searching){
     var preview = tids.slice(0, 6);
     visible = tids.slice();
@@ -447,7 +449,7 @@ function baseLabel(h){
   if (r.v === 'section') return secNav(r.a);
   if (r.v === 'practice' && r.sub){ var tb = {listening:'听力', reading:'阅读', writing:'写作', speaking:'口语', drill:'专项'}[r.sub.split('/')[0]]; if (tb) return T(tb); }
   if (r.v === 'archive' && r.sub) return T('档案');
-  return T({home:'首页', today:'今日', course:'课表', practice:'练习', archive:'档案', settings:'设置', gday:'语法'}[r.v] || '返回');
+  return T({home:'首页', today:'今日', course:'课表', practice:'练习', archive:'档案', settings:'设置', gday:'语法', words:'单词本'}[r.v] || '返回');
 }
 function showItem(id){
   var n = byId[id]; if (!n) return;
@@ -517,6 +519,8 @@ function toast(msg, act){
 }
 
 /* 事件 */
+var cardT;
+function hasSel(){ var x = window.getSelection && window.getSelection(); return !!(x && !x.isCollapsed && String(x).trim()); }
 main.addEventListener('click', function(e){
   var chk = e.target.closest('.card > .chk');
   if (chk){ var id = chk.closest('.card').dataset.id, v = !done[id]; setDone(id, v); toast(T(v ? '已标记为已学' : '已取消')); return; }
@@ -525,7 +529,13 @@ main.addEventListener('click', function(e){
   if (e.target.closest('#tocBtn')){ openToc(); return; }
   if (e.target.closest('#clr')){ Q = ''; var qi = $('q'); if (qi) qi.value = ''; rerenderList(); return; }
   var card = e.target.closest('.card');
-  if (card && card.dataset.id && byId[card.dataset.id] && !e.target.closest('a') && !e.target.closest('.q') && !e.target.closest('textarea')) openItem(card.dataset.id);
+  /* 划词：选中文字 / 双击选词时不打开详情（单击稍等一下，确认不是双击） */
+  if (card && card.dataset.id && byId[card.dataset.id] && !e.target.closest('a') && !e.target.closest('.q') && !e.target.closest('textarea')){
+    clearTimeout(cardT);
+    if (e.detail > 1 || hasSel()) return;
+    var cid = card.dataset.id;
+    cardT = setTimeout(function(){ if (!hasSel()) openItem(cid); }, 230);
+  }
 });
 /* 任何 data-back 链接：上一页就是它的父级时用浏览器返回，否则直接替换到父级 */
 document.addEventListener('click', function(e){
@@ -573,6 +583,7 @@ function parse(h){
   if (k === 'item' && p[1]) return {v:'item', a:p.slice(1).join('/')};
   if (k === 'home' || k === 'today' || k === 'course' || k === 'settings') return {v:k};
   if (k === 'practice') return {v:'practice', sub:p.slice(1).join('/')};
+  if (k === 'words') return {v:'words', sub:p[1] === 'review' ? 'review' : ''};
   if (k === 'archive'){ var sub = p.slice(1).join('/').replace(/^drill-/, 'drill/'); return {v:'archive', sub:sub}; }
   return {v:'home'};
 }
@@ -582,6 +593,7 @@ function canon(r){
   if (r.v === 'gday') return '#/grammar/day/'+r.a;
   if (r.v === 'practice') return '#/practice'+(r.sub ? '/'+(EXT ? EXT.practicePath(r.sub) : r.sub) : '');
   if (r.v === 'archive') return '#/archive'+(r.sub ? '/'+r.sub : '');
+  if (r.v === 'words') return '#/words'+(r.sub ? '/'+r.sub : '');
   return '#/'+r.v;
 }
 /* 每个页面的父级（页内返回、顶栏返回都用它） */
@@ -592,6 +604,7 @@ function parentOf(h){
   if (r.v === 'practice'){ var p = (r.sub||'').split('/'); return p.length >= 2 ? '#/practice/'+p[0] : (r.sub ? null : null); }
   if (r.v === 'archive') return r.sub ? '#/archive' : null;
   if (r.v === 'settings') return '#/home';
+  if (r.v === 'words') return r.sub ? '#/words' : '#/home';
   return null;
 }
 /* 导航栈跟着真实浏览历史走（存 sessionStorage，刷新后还在）：
@@ -654,7 +667,7 @@ function renderRoute(r, h){
   cur = r.v === 'section' ? r.a : r.v;
   if (prev !== cur && S[cur]) Q = '';
   ctx.sub = r.sub || '';
-  var titles = {home:'雅思 7.5', today:'今日任务', course:'课表', practice:'练习', archive:'档案', settings:'设置', gday:'语法'};
+  var titles = {home:'雅思 7.5', today:'今日任务', course:'课表', practice:'练习', archive:'档案', settings:'设置', gday:'语法', words:'单词本'};
   var tt = S[cur] ? secTitle(cur) : T(titles[cur] || '雅思 7.5');
   $('title').textContent = tt;
   document.title = (cur === 'home' ? '' : tt + ' · ') + T('雅思 7.5 学习站');
@@ -663,9 +676,11 @@ function renderRoute(r, h){
   else if (S[cur]){ LS.set('ielts.last', cur); renderSection(S[cur]); }
   else if (cur === 'today') renderToday();
   else if (cur === 'settings') renderSettings();
+  else if (cur === 'words' && window.IELTS_WORDS) window.IELTS_WORDS.render(ctx.sub, main);
   else renderHome();
-  document.body.dataset.page = S[cur] ? 'section' : (EXT && EXT.routes[cur]) || cur === 'gday' ? 'x' : cur;
+  document.body.dataset.page = S[cur] ? 'section' : (EXT && EXT.routes[cur]) || cur === 'gday' || cur === 'words' ? 'x' : cur;
   refreshNav();
+  if ($('wordsTop')){ $('wordsTop').classList.toggle('on', cur === 'words'); if (window.IELTS_WORDS) window.IELTS_WORDS.badge(); }
 }
 /* 顶栏返回按钮：有父级的页面才显示 */
 function setBack(h){
