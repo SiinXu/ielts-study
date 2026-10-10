@@ -10,7 +10,7 @@ check:[
 ],
 p1:[
  {topic:'Work or studies', qs:['What do you do?','Why did you choose this job?','What is the most challenging part of your work?','Would you like to change jobs in the future?'],
-  model:'I work as a product manager at a tech company, mainly on AI tools. What I enjoy most is turning vague user needs into something concrete, although juggling different teams can be quite demanding.'},
+  model:'I work as a product manager at a tech company, mainly on internal tools. What I enjoy most is turning vague user needs into something concrete, although juggling different teams can be quite demanding.'},
  {topic:'Hometown', qs:['Where is your hometown?','What do you like about it?','Has it changed much recently?','Would you like to live there in the future?'],
   model:'I\'m based in Shanghai now. It has changed enormously, especially the public transport; when I first arrived there were far fewer metro lines.'},
  {topic:'Reading', qs:['Do you like reading?','What kinds of books do you read?','Do you prefer paper books or e-books?','Did you read a lot as a child?'],

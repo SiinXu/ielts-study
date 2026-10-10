@@ -337,3 +337,32 @@
   .sess .en-q{font-size:19px}
   .selfc{padding:18px}
 }
+
+/* ---------- v5d：题目栏加宽，长题目可在栏内滚动，不被截断 ---------- */
+.set-grid{grid-template-columns:minmax(0,1fr) minmax(380px,1fr);gap:36px}
+.qcol{max-height:calc(100vh - var(--hdr) - 24px);overflow-y:auto;overscroll-behavior:contain;padding-right:6px;scrollbar-gutter:stable}
+.qcol .q,.qcol label,.qcol .opt,.qcol button{white-space:normal;overflow-wrap:break-word}
+@media (max-width:900px){
+  .set-grid{grid-template-columns:1fr}
+  .qcol{max-height:none;overflow:visible;padding-right:0}
+}
+/* ---------- 复习：加入 / 取消 ---------- */
+.srs-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:16px}
+.srs-row .b{display:inline-flex;align-items:center;gap:6px}
+.srs-st{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;color:var(--acc-ink)}
+.srs-st svg{width:16px;height:16px}
+.srs-help{flex-basis:100%;margin:0;font-size:12.5px;color:var(--muted)}
+.sec-h + .srs-help{margin:-4px 0 10px}
+.d-body .srs-row{padding-top:14px;border-top:1px dashed var(--line2)}
+.qi{grid-template-columns:auto 1fr auto auto auto}
+a.qi-t{color:inherit;text-decoration:none}
+a.qi-t:hover{text-decoration:underline}
+.qi-x{width:32px;height:32px;display:grid;place-items:center;border-radius:8px;color:var(--muted)}
+.qi-x:hover{background:color-mix(in srgb,var(--line) 60%,transparent);color:var(--ink)}
+.qi-x svg{width:16px;height:16px}
+@media (max-width:640px){
+  .qi{grid-template-columns:auto 1fr auto auto}
+  .qi-x{grid-row:1/3;grid-column:4}
+}
+.toast.act{pointer-events:auto;display:flex;align-items:center;gap:14px;padding:8px 8px 8px 16px}
+.t-act{color:var(--bg);font:600 13.5px var(--sans,inherit);padding:6px 10px;border-radius:6px;background:color-mix(in srgb,var(--bg) 18%,transparent)}

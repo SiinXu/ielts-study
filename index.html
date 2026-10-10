@@ -9,25 +9,31 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="雅思 7.5">
 <meta name="format-detection" content="telephone=no">
-<title>雅思 7.5 · XU SIYIN</title>
+<title>雅思 7.5 学习站</title>
+<meta name="description" content="免费的雅思自学站：语法速成、听说读写原创练习、间隔复习。进度只存在你自己的浏览器里。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%23161615%27/%3E%3Crect x=%2718%27 y=%2718%27 width=%278%27 height=%278%27 rx=%272%27 fill=%27%23ff5a1f%27/%3E%3C/svg%3E">
 <link rel="preload" href="fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+<script src="i18n/core.js" charset="utf-8"></script>
 <script>try{var t=localStorage.getItem('ielts.theme');document.documentElement.dataset.theme=(t==='dark'?'dark':'light')}catch(e){}</script>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="study.css">
+<link rel="stylesheet" href="nav.css">
 </head>
 <body>
 <div id="sentinel" aria-hidden="true"></div>
 <header class="top" id="top">
   <div class="top-in">
-    <a class="logo" href="#home" aria-label="雅思 7.5 首页"><span class="mark" aria-hidden="true"><i></i></span><span class="wm">雅思<em>Band 7.5</em></span></a>
+    <a class="back-top" id="backTop" href="#/home" data-back="#/home" hidden><svg class="ph" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M168.49,199.51a12,12,0,0,1-17,17l-80-80a12,12,0,0,1,0-17l80-80a12,12,0,0,1,17,17L97,128Z"/></svg><span></span></a>
+    <a class="logo" href="#/home" aria-label="IELTS 7.5"><span class="mark" aria-hidden="true"><i></i></span><span class="wm">雅思<em>Band 7.5</em></span></a>
     <span class="m-title" id="title">雅思 7.5</span>
     <nav class="tabs" id="tabs" aria-label="版块"></nav>
     <div class="top-r">
       <span class="top-prog mono" id="topProg" title="已学条目"></span>
-      <a class="icon" id="searchTop" href="#home" aria-label="搜索"><svg class="ph" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M232.49,215.51,185,168a92.12,92.12,0,1,0-17,17l47.53,47.54a12,12,0,0,0,17-17ZM44,112a68,68,0,1,1,68,68A68.07,68.07,0,0,1,44,112Z"/></svg></a>
-      <button class="icon" id="themeTop" type="button" aria-label="切换浅色/深色"></button>
+      <a class="icon" id="searchTop" href="#/home" aria-label="search"><svg class="ph" viewBox="0 0 256 256" fill="currentColor" aria-hidden="true"><path d="M232.49,215.51,185,168a92.12,92.12,0,1,0-17,17l47.53,47.54a12,12,0,0,0,17-17ZM44,112a68,68,0,1,1,68,68A68.07,68.07,0,0,1,44,112Z"/></svg></a>
+      <button class="icon lang-b" id="langTop" type="button"></button>
+      <a class="icon" id="setTop" href="#/settings"><svg class="ph" viewBox="0 0 256 256" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="22" stroke-linecap="round"><path d="M40 64h52M148 64h68M40 128h112M208 128h8M40 192h20M116 192h100"/><circle cx="120" cy="64" r="24"/><circle cx="180" cy="128" r="24"/><circle cx="88" cy="192" r="24"/></g></svg></a>
+      <button class="icon" id="themeTop" type="button"></button>
     </div>
   </div>
 </header>
@@ -43,11 +49,17 @@
 <script src="data.js" charset="utf-8"></script>
 <script src="content/course.js" charset="utf-8"></script>
 <script src="content/grammar-deep.js" charset="utf-8"></script>
+<script src="content/grammar-more.js" charset="utf-8"></script>
 <script src="content/listening.js" charset="utf-8"></script>
+<script src="content/listening-more.js" charset="utf-8"></script>
 <script src="content/reading.js" charset="utf-8"></script>
+<script src="content/reading-more.js" charset="utf-8"></script>
 <script src="content/writing.js" charset="utf-8"></script>
+<script src="content/writing-more.js" charset="utf-8"></script>
 <script src="content/speaking.js" charset="utf-8"></script>
+<script src="content/speaking-more.js" charset="utf-8"></script>
 <script src="content/drills.js" charset="utf-8"></script>
+<script src="content/drills-more.js" charset="utf-8"></script>
 <script src="study.js" charset="utf-8"></script>
 <script src="app.js" charset="utf-8"></script>
 </body>

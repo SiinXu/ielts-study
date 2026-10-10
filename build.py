@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Parse ../combined.html into data.js for the IELTS study site."""
+"""Parse ../combined.html into data.js for the IELTS study site.
+NOTE (v5d): data.js has since been hand-edited to remove personal details (generic names, relative plan weeks,
+7.5 targets with a 6.5 floor). Re-running this script would overwrite those edits."""
 import json, hashlib, re, os
 from bs4 import BeautifulSoup, NavigableString, Tag
 
