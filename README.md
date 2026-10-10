@@ -1,12 +1,12 @@
-# 雅思备考学习站 v2（手机 + 电脑）
+# 雅思备考学习站 v3「雅思笔记」（手机 + 电脑）
 
 内容全部来自 `../combined.html`（雅思备考资料合集，零到五共 6 部分），没有新增内容。
 
 ## 文件
 - `index.html` 页面入口
-- `style.css` 样式（深色默认，可切浅色；字体 Geist / Geist Mono / Instrument Serif 本地打包在 `fonts/`，中文用系统字体，无外部 CDN）
-- `app.js` 交互：首页（目标、当前阶段、今日任务、各版块进度环）、版块大卡片列表、搜索、只看未学、目录、详情抽屉（上一条/下一条）、已学勾选与进度、深浅色切换
-- 视觉参考 Aceternity UI / Magic UI / 21st.dev 等：光晕网格背景、聚光灯卡片、边框光束、Bento 布局；手机底部导航，电脑左侧导航
+- `style.css` 样式：浅色纸张笔记本风格（米白纸底、横线便签、索引贴色标），可切冷灰深色；英文用 Newsreader 衬线、界面用 Plus Jakarta Sans（本地打包在 `fonts/`），中文用系统字体，无外部 CDN
+- `app.js` 交互：首页（问候 + 倒计时、本阶段便签、今日任务清单、总进度与目标分数、六本笔记）、版块页（右侧目录栏、索引卡片）、搜索、只看未学、详情抽屉（上一条/下一条）、已学勾选与进度、深浅色切换
+- 视觉参考 shadcn/ui 干净表面、Land-book / Beautiful UI 的暖色纸张感、Ant Design X 的信息层级；电脑顶部标签导航 + 右侧栏，手机底部导航
 - `data.js` 由 `build.py` 从 `combined.html` 生成的内容数据
 - `build.py` 重新生成 `data.js`：`python3 build.py`（需要 beautifulsoup4）
 
