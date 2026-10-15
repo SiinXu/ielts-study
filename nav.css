@@ -87,3 +87,14 @@
 .dt-x{position:absolute;right:4px;top:6px;width:32px;height:32px;display:none;align-items:center;justify-content:center;border-radius:6px;color:var(--muted);z-index:2}
 .dt.has .dt-x{display:flex}
 .dt-x:hover{background:var(--line)}
+
+/* review fixes 2026-10-15 */
+/* one back control only: the top-bar back is shown whenever the page has a parent */
+body.has-back .back-l{display:none!important}
+/* question column: no nested scroll, no clipping (Q6 was cut at the fold) */
+.qcol{max-height:none!important;overflow:visible!important;position:static!important;padding-right:0!important}
+/* grammar day strip: edge fade shows there is more to scroll */
+.s-head .gdays.strip{--fl:0px;--fr:56px;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 var(--fl),#000 calc(100% - var(--fr)),transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 var(--fl),#000 calc(100% - var(--fr)),transparent 100%);scroll-snap-type:x proximity;scroll-padding:0 24px}
+.s-head .gdays.strip.sl{--fl:40px}.s-head .gdays.strip.se{--fr:0px}
+.s-head .gdays.strip .gday{scroll-snap-align:start;align-items:center;min-height:36px}
+@media(max-width:700px){.gday{min-height:36px;align-items:center}.s-head .gdays.strip{--fr:40px}}

@@ -702,3 +702,11 @@ if (window.IELTS_EXT_BOOT){ try{ window.IELTS_EXT_BOOT(window.IELTS_APP); EXT = 
 navHTML();
 route();
 })();
+
+/* review fix 2026-10-15: toggle edge fades on horizontally scrolling grammar-day strips */
+(function(){
+  function upd(el){ var m = el.scrollWidth - el.clientWidth; el.classList.toggle('sl', el.scrollLeft > 4); el.classList.toggle('se', el.scrollLeft >= m - 4); }
+  document.addEventListener('scroll', function(e){ var t = e.target; if (t && t.classList && t.classList.contains('strip')) upd(t); }, true);
+  new MutationObserver(function(){ document.querySelectorAll('.gdays.strip').forEach(function(el){ if (!el.dataset.fx){ el.dataset.fx = 1; upd(el); } }); }).observe(document.body, {childList:true, subtree:true});
+  window.addEventListener('resize', function(){ document.querySelectorAll('.gdays.strip').forEach(upd); });
+})();
