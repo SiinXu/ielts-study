@@ -6,7 +6,8 @@
 var I = window.I18N || {lang:'zh', t:function(s){return s;}, add:function(){}};
 var LANG = I.lang;
 function T(s, v){ return I.t(s, v); }
-function L(p){ return !p ? '' : (LANG === 'zh' ? p[0] : (p[1] || p[0])); }
+var ZH = LANG === 'zh' || LANG === 'zh-Hant';
+function L(p){ return !p ? '' : (ZH ? T(p[0]) : (p[1] || p[0])); }
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
 function strip(h){ return String(h||'').replace(/<br\s*\/?>/g,' ').replace(/<[^>]+>/g,'').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/\s+/g,' ').trim(); }
 function hash(s){ var h = 0; for (var i=0;i<s.length;i++){ h = (h*31 + s.charCodeAt(i)) | 0; } return Math.abs(h); }
@@ -41,7 +42,7 @@ var SCENE = {
  gt:['培训类书信 (GT)','General Training letter','GT 手紙','GT 편지','Carta General Training','Surat General Training']
 };
 var LI = {zh:0,en:1,ja:2,ko:3,es:4,ms:5};
-function scene(k){ var s = SCENE[k]; return s ? (s[LI[LANG]] || s[1]) : ''; }
+function scene(k){ var s = SCENE[k]; return !s ? '' : (ZH ? T(s[0]) : (s[LI[LANG]] || s[1])); }
 
 /* 界面标签翻译 */
 var LBL = {

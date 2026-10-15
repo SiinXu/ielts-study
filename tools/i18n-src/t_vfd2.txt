@@ -1,0 +1,150 @@
+150 ¦ Hết giờ ¦ Temps écoulé ¦ Zeit abgelaufen
+151 ¦ Trình duyệt này không ghi âm được; hãy dùng ứng dụng ghi âm trên điện thoại ¦ Ce navigateur ne peut pas enregistrer ; utilisez plutôt le dictaphone de votre téléphone ¦ Dieser Browser kann nicht aufnehmen; nutze stattdessen die Sprachaufnahme deines Handys
+152 ¦ Bản ghi âm chỉ tồn tại trong trang đang mở; không bao giờ được tải lên hay lưu lại. ¦ Les enregistrements n'existent que dans cette page ouverte ; ils ne sont jamais envoyés ni sauvegardés. ¦ Aufnahmen existieren nur auf dieser geöffneten Seite; sie werden nie hochgeladen oder gespeichert.
+153 ¦ Ghi lại ¦ Réenregistrer ¦ Neu aufnehmen
+154 ¦ Dừng ghi âm ¦ Arrêter l'enregistrement ¦ Aufnahme stoppen
+155 ¦ Không có quyền dùng micro; bạn có thể bỏ qua phần ghi âm ¦ Pas d'accès au micro ; vous pouvez passer l'enregistrement ¦ Kein Mikrofonzugriff; du kannst die Aufnahme überspringen
+156 ¦ Lịch học và đường cong ôn tập ¦ Programme et courbe de révision ¦ Lernplan und Wiederholungskurve
+157 ¦ Còn {n} ngày đến kỳ thi ¦ {n} jours avant l'examen ¦ {n} Tage bis zur Prüfung
+158 ¦ Hoàn thành lần lượt các khối dưới đây là xong một ngày. Thời gian là gợi ý thực tế; dấu tích được lưu trên thiết bị này. ¦ Terminez les blocs ci-dessous dans l'ordre et votre journée est faite. Les durées sont des suggestions réalistes ; les coches sont enregistrées sur cet appareil. ¦ Erledige die Blöcke unten der Reihe nach, dann ist das Tagespensum geschafft. Die Zeiten sind realistische Vorschläge; Häkchen werden auf diesem Gerät gespeichert.
+159 ¦ Hôm nay ¦ Aujourd'hui ¦ Heute
+160 ¦ Tuần này ¦ Cette semaine ¦ Diese Woche
+161 ¦ Giai đoạn ¦ Phases ¦ Phasen
+162 ¦ Từ {d} ¦ À partir du {d} ¦ Ab {d}
+163 ¦ Đổi ngày bắt đầu ¦ Modifier la date de début ¦ Startdatum ändern
+164 ¦ Khoảng {h} giờ mỗi tuần ¦ Environ {h} h par semaine ¦ Etwa {h} Std. pro Woche
+165 ¦ Ngữ pháp cấp tốc · {n} ngày ¦ Sprint de grammaire · {n} jours ¦ Grammatiksprint · {n} Tage
+166 ¦ Giai đoạn này ¦ Phase actuelle ¦ Aktuelle Phase
+167 ¦ Giai đoạn tiếp theo ¦ Phase suivante ¦ Nächste Phase
+168 ¦ Giai đoạn {a} / {b} ¦ Phase {a} / {b} ¦ Phase {a} / {b}
+169 ¦ Đã qua {p}% ¦ {p} % écoulé ¦ {p} % vergangen
+170 ¦ Chưa bắt đầu ¦ Pas commencé ¦ Nicht begonnen
+171 ¦ Mở lịch học ¦ Ouvrir le programme ¦ Lernplan öffnen
+172 ¦ Đường cong ôn tập ¦ Courbe de révision ¦ Wiederholungskurve
+173 ¦ ngày sau ¦ jours plus tard ¦ Tage später
+174 ¦ Mục nào bạn làm sai hoặc đánh dấu "Chưa thuộc" sẽ quay lại vào ngày hôm sau; mỗi lần đúng sẽ lên một cấp, với khoảng cách 3, 7, 14 và 30 ngày. Đúng sau 30 ngày là đã thành thạo. Sai một lần sẽ về lại cấp 1. ¦ Tout ce que vous ratez ou marquez « Pas encore » revient le lendemain ; chaque bonne réponse le fait monter d'un niveau, avec des intervalles de 3, 7, 14 et 30 jours. Juste après 30 jours = maîtrisé. Une erreur le renvoie au niveau 1. ¦ Alles, was du falsch beantwortest oder mit „Noch nicht“ markierst, kommt am nächsten Tag wieder; jede richtige Antwort hebt es eine Stufe höher, mit Abständen von 3, 7, 14 und 30 Tagen. Richtig nach 30 Tagen heißt beherrscht. Eine falsche Antwort setzt es auf Stufe 1 zurück.
+175 ¦ Đến hạn trong 14 ngày tới ¦ À revoir dans les 14 prochains jours ¦ Fällig in den nächsten 14 Tagen
+176 ¦ Bây giờ ¦ Maintenant ¦ Jetzt
+177 ¦ {a} đến hạn hôm nay · {b} đang ôn ¦ {a} à revoir aujourd'hui · {b} en révision ¦ {a} heute fällig · {b} in Wiederholung
+178 ¦ Bắt đầu ôn ¦ Commencer la révision ¦ Wiederholung starten
+179 ¦ Ngân hàng đề ¦ Banque de questions ¦ Aufgabenpool
+180 ¦ {a} bộ · {b} câu Nghe & Đọc ¦ {a} séries · {b} questions d'écoute et de lecture ¦ {a} Sets · {b} Hör- und Leseaufgaben
+181 ¦ Mọi bài luyện ở đây đều do trang này tự soạn (không phải đề Cambridge). Câu sai tự động vào Nhật ký và quay lại theo đường cong ôn tập. ¦ Tous les exercices ici sont originaux (ce ne sont pas des textes d'examens Cambridge). Les erreurs vont automatiquement dans le Journal et reviennent selon la courbe de révision. ¦ Alle Übungen hier sind Eigenproduktionen dieser Seite (keine Cambridge-Prüfungstexte). Falsche Antworten landen automatisch im Protokoll und kommen über die Wiederholungskurve zurück.
+182 ¦ Chưa làm ¦ Pas essayé ¦ Nicht versucht
+183 ¦ Âm thanh dùng giọng tiếng Anh có sẵn của trình duyệt (hai người nói có cao độ khác nhau). Lần đầu nghe "không nhìn" và trả lời; sau đó dùng "Đọc rồi nghe" để nhại theo từng câu. ¦ L'audio utilise la voix anglaise intégrée à votre navigateur (les deux locuteurs ont une hauteur différente). Écoutez d'abord « à l'aveugle » et répondez ; puis utilisez « Lire puis écouter » pour répéter ligne par ligne. ¦ Der Ton nutzt die eingebaute englische Stimme deines Browsers (die beiden Sprecher haben unterschiedliche Tonhöhen). Hör zuerst „blind“ und antworte; nutze dann „Erst lesen, dann hören“, um Zeile für Zeile nachzusprechen.
+184 ¦ {n} bộ ¦ {n} séries ¦ {n} Sets
+185 ¦ {n} câu ¦ {n} questions ¦ {n} Fragen
+186 ¦ Giới hạn {n} phút ¦ Limite de {n} minutes ¦ {n}-Minuten-Limit
+187 ¦ 20 phút, 150 từ ¦ 20 min, 150 mots ¦ 20 Min., 150 Wörter
+188 ¦ 40 phút, 250 từ ¦ 40 min, 250 mots ¦ 40 Min., 250 Wörter
+189 ¦ Thẻ đề Part 2 · chuẩn bị 1 phút + nói 2 phút ¦ Carte de sujet Part 2 · 1 min de préparation + 2 min de parole ¦ Part-2-Themenkarte · 1 Min. Vorbereitung + 2 Min. Sprechen
+190 ¦ Bài mẫu + {n} câu hỏi nối tiếp Part 3 ¦ Réponse modèle + {n} questions de suivi Part 3 ¦ Musterantwort + {n} Part-3-Anschlussfragen
+191 ¦ Chủ đề Part 1 ¦ Sujets Part 1 ¦ Part-1-Themen
+192 ¦ {n} câu hỏi + bài mẫu ¦ {n} questions + modèles ¦ {n} Fragen + Muster
+193 ¦ Mỗi bài luyện có 10 câu: trước hết là các điểm yếu chưa thành thạo trong thẻ này, sau đó bổ sung từ ngân hàng đề. Câu ngữ pháp và cụm từ lấy trực tiếp từ phần lỗi thường gặp và cụm từ có sẵn. ¦ Chaque exercice compte 10 questions : d'abord vos points faibles non maîtrisés sous cette étiquette, puis des questions de la banque. Les questions de grammaire et de collocations viennent directement des erreurs et collocations existantes. ¦ Jede Übung hat 10 Fragen: zuerst deine noch nicht beherrschten Schwachstellen unter diesem Tag, dann Ergänzungen aus dem Pool. Grammatik- und Kollokationsaufgaben stammen direkt aus den vorhandenen Fehlern und Kollokationen.
+194 ¦ Yếu {a} · đến hạn {b} ¦ Faibles {a} · à revoir {b} ¦ Schwach {a} · fällig {b}
+195 ¦ Ngân hàng {n} ¦ Banque {n} ¦ Pool {n}
+196 ¦ Bộ trước ¦ Série précédente ¦ Vorheriges Set
+197 ¦ Bộ tiếp theo ¦ Série suivante ¦ Nächstes Set
+198 ¦ Không có bộ này ¦ Série introuvable ¦ Dieses Set gibt es nicht
+199 ¦ Quay lại luyện tập ¦ Retour à l'entraînement ¦ Zurück zum Üben
+200 ¦ Tốc độ ¦ Vitesse ¦ Tempo
+201 ¦ Nghe không nhìn ¦ À l'aveugle ¦ Blind
+202 ¦ Đọc rồi nghe ¦ Lire puis écouter ¦ Erst lesen, dann hören
+203 ¦ Âm thanh do trình duyệt tổng hợp để luyện tai và nhại theo; bản ghi giọng thật sẽ có sau. Chạm vào câu bất kỳ để phát từ đó. ¦ L'audio est synthétisé par votre navigateur pour entraîner l'oreille et répéter ; des enregistrements humains viendront plus tard. Touchez une ligne pour lire à partir de là. ¦ Der Ton wird von deinem Browser synthetisiert, fürs Hörtraining und Nachsprechen; echte Aufnahmen folgen noch. Tippe auf eine Zeile, um ab dort abzuspielen.
+204 ¦ Lời thoại ¦ Transcription ¦ Transkript
+205 ¦ Hiện sau khi bạn trả lời hết các câu ¦ Affichée une fois toutes les questions répondues ¦ Wird angezeigt, wenn alle Fragen beantwortet sind
+206 ¦ Câu hỏi ¦ Questions ¦ Fragen
+207 ¦ Lần trước {a} / {b} ¦ Dernière fois {a} / {b} ¦ Letztes Mal {a} / {b}
+208 ¦ Trình độ khoảng {l} ¦ Niveau environ {l} ¦ Niveau etwa {l}
+209 ¦ Gợi ý {n} phút ¦ {n} min conseillées ¦ Empfohlen {n} Min.
+210 ¦ Chưa bấm giờ ¦ Minuteur non lancé ¦ Timer nicht gestartet
+211 ¦ Bắt đầu bấm giờ ¦ Lancer le minuteur ¦ Timer starten
+212 ¦ Câu hỏi · TRUE / FALSE / NOT GIVEN và trắc nghiệm ¦ Questions · TRUE / FALSE / NOT GIVEN et QCM ¦ Fragen · TRUE / FALSE / NOT GIVEN und Multiple Choice
+213 ¦ Còn lại ¦ Restant ¦ Übrig
+214 ¦ Dữ liệu ¦ Données ¦ Daten
+215 ¦ Khu vực viết ¦ Zone de rédaction ¦ Schreibbereich
+216 ¦ {a} từ / {b} ¦ {a} mots / {b} ¦ {a} Wörter / {b}
+217 ¦ Viết ở đây; tự động lưu trên thiết bị này. ¦ Écrivez ici ; c'est enregistré automatiquement sur cet appareil. ¦ Schreib hier; es wird automatisch auf diesem Gerät gespeichert.
+218 ¦ Dàn ý ¦ Plan ¦ Gliederung
+219 ¦ Trích bài mẫu (tổng quan) ¦ Extrait modèle (vue d'ensemble) ¦ Musterauszug (Überblick)
+220 ¦ Trích bài mẫu (mở bài) ¦ Extrait modèle (introduction) ¦ Musterauszug (Einleitung)
+221 ¦ Đoạn thân bài mẫu ¦ Paragraphe modèle ¦ Muster-Hauptabsatz
+222 ¦ Cách diễn đạt hữu ích ¦ Expressions utiles ¦ Nützliche Wendungen
+223 ¦ Tự kiểm tra (đánh dấu sau khi viết) ¦ Auto-vérification (à cocher après l'écriture) ¦ Selbstcheck (nach dem Schreiben abhaken)
+224 ¦ Thêm các mục chưa đánh dấu vào ôn tập ¦ Ajouter les points non cochés aux révisions ¦ Nicht abgehakte Punkte zur Wiederholung hinzufügen
+225 ¦ Đã thêm {n} điểm yếu phần Viết ¦ {n} points faibles d'écriture ajoutés ¦ {n} Schreib-Schwachstellen hinzugefügt
+226 ¦ Đạt tất cả tiêu chí ¦ Tous les critères sont remplis ¦ Alle Kriterien erfüllt
+227 ¦ Thẻ đề Part 2 ¦ Carte de sujet Part 2 ¦ Part-2-Themenkarte
+228 ¦ {n} câu hỏi ¦ {n} questions ¦ {n} Fragen
+229 ¦ Chuẩn bị 1 phút → nói 2 phút ¦ Préparer 1 min → parler 2 min ¦ 1 Min. vorbereiten → 2 Min. sprechen
+230 ¦ 30 giây mỗi câu ¦ 30 s par question ¦ 30 Sek. pro Frage
+231 ¦ Bắt đầu chuẩn bị ¦ Commencer la préparation ¦ Vorbereitung starten
+232 ¦ Bắt đầu một câu ¦ Commencer une question ¦ Frage starten
+233 ¦ Ghi âm (không bắt buộc) ¦ Enregistrer (facultatif) ¦ Aufnehmen (optional)
+234 ¦ Bài mẫu ¦ Réponse modèle ¦ Musterantwort
+235 ¦ Câu hỏi nối tiếp Part 3 (mỗi câu 4–5 câu trả lời) ¦ Questions de suivi Part 3 (4 à 5 phrases chacune) ¦ Part-3-Anschlussfragen (je 4–5 Sätze)
+236 ¦ Từ vựng theo chủ đề ¦ Vocabulaire du thème ¦ Themenwortschatz
+237 ¦ Tự đánh giá sau khi nói ¦ Auto-évaluation après l'oral ¦ Selbsteinschätzung nach dem Sprechen
+238 ¦ Ghi lại buổi luyện này ¦ Enregistrer cette séance ¦ Diese Übung protokollieren
+239 ¦ Cụm từ có thể mượn ¦ Formules réutilisables ¦ Übernehmbare Wendungen
+240 ¦ Đang chuẩn bị ¦ Préparation ¦ Vorbereitung
+241 ¦ Bắt đầu nói ¦ Commencer à parler ¦ Mit dem Sprechen beginnen
+242 ¦ Đang trả lời ¦ Réponse en cours ¦ Antwort läuft
+243 ¦ Đã ghi; thêm {n} điểm yếu phần Nói vào ôn tập ¦ Enregistré ; {n} points faibles d'oral ajoutés aux révisions ¦ Protokolliert; {n} Sprech-Schwachstellen zur Wiederholung hinzugefügt
+244 ¦ Đã ghi; đạt tất cả tiêu chí ¦ Enregistré ; tous les critères sont remplis ¦ Protokolliert; alle Kriterien erfüllt
+245 ¦ Lỗi sai ¦ Erreur ¦ Fehler
+246 ¦ Ghi chú ¦ Note ¦ Notiz
+247 ¦ Bài tập về nhà ¦ Devoir ¦ Hausaufgabe
+248 ¦ Sổ lỗi sai và luyện tập có trọng tâm ¦ Journal d'erreurs et exercices ciblés ¦ Fehlerprotokoll und gezielte Übungen
+249 ¦ Câu sai, các mục bạn đánh dấu "Chưa thuộc", và các điểm tự kiểm tra bị thiếu trong phần Viết và Nói đều được gom ở đây theo thẻ. ¦ Les mauvaises réponses, les éléments marqués « Pas encore » et les points d'auto-vérification manqués à l'écrit et à l'oral sont tous regroupés ici par étiquette. ¦ Falsche Antworten, mit „Noch nicht“ markierte Einträge und verpasste Selbstcheck-Punkte beim Schreiben und Sprechen werden hier nach Tags gesammelt.
+250 ¦ Đến hạn hôm nay ¦ À revoir aujourd'hui ¦ Heute fällig
+251 ¦ Đang ôn ¦ En révision ¦ In Wiederholung
+252 ¦ Chuỗi ngày ¦ Jours d'affilée ¦ Tage in Folge
+253 ¦ Ôn {n} mục ngay ¦ Réviser {n} maintenant ¦ Jetzt {n} wiederholen
+254 ¦ Luyện: {t} ¦ Exercice : {t} ¦ Übung: {t}
+255 ¦ Thẻ điểm yếu ¦ Étiquettes de points faibles ¦ Schwachstellen-Tags
+256 ¦ điểm yếu · tổng cộng sai {n} lần ¦ points faibles · {n} erreurs au total ¦ Schwachstellen · insgesamt {n} Fehler
+257 ¦ Ôn lần cuối ¦ Dernière révision ¦ Zuletzt wiederholt
+258 ¦ Lần đến hạn tiếp ¦ Prochaine échéance ¦ Nächste Fälligkeit
+259 ¦ Làm 10 câu ¦ Faire 10 ¦ 10 machen
+260 ¦ Hàng đợi ôn tập ¦ File de révision ¦ Wiederholungsliste
+261 ¦ Chưa có gì ¦ Rien pour l'instant ¦ Noch nichts hier
+262 ¦ Làm một bộ trong Luyện tập, hoặc bấm "Thêm vào ôn tập" ở bất kỳ mục nào. ¦ Faites une série dans Entraînement, ou touchez « Ajouter aux révisions » sur n'importe quel élément. ¦ Mach ein Set unter Üben oder tippe bei einem beliebigen Eintrag auf „Zur Wiederholung hinzufügen“.
+263 ¦ Ghi một mục: ghi chú / bài tập / lỗi sai ¦ Noter : note / devoir / erreur ¦ Eintragen: Notiz / Hausaufgabe / Fehler
+264 ¦ vd. I have seen him yesterday → I saw him yesterday (không dùng hiện tại hoàn thành với thời điểm quá khứ cụ thể) ¦ ex. I have seen him yesterday → I saw him yesterday (pas de present perfect avec un moment passé précis) ¦ z. B. I have seen him yesterday → I saw him yesterday (kein Present Perfect mit einem bestimmten Zeitpunkt in der Vergangenheit)
+265 ¦ Mục "Lỗi sai" cũng được đưa vào đường cong ôn tập. ¦ Les entrées « Erreur » sont aussi ajoutées à la courbe de révision. ¦ „Fehler“-Einträge kommen ebenfalls auf die Wiederholungskurve.
+266 ¦ Lịch sử luyện tập ¦ Historique d'entraînement ¦ Übungsverlauf
+267 ¦ Chưa có. ¦ Rien pour l'instant. ¦ Noch keine.
+268 ¦ Danh sách "ghi nhớ lỗi" cũ: đã đánh dấu {a} / {b}. ¦ Ancienne liste « erreurs à retenir » : {a} / {b} cochées. ¦ Alte „Fehler merken“-Liste: {a} / {b} abgehakt.
+269 ¦ Ôn tập hôm nay ¦ Révision du jour ¦ Heutige Wiederholung
+270 ¦ Hôm nay không có gì đến hạn ¦ Rien à revoir aujourd'hui ¦ Heute ist nichts fällig
+271 ¦ Hãy làm một bài luyện có trọng tâm, hoặc quay lại vào ngày mai. ¦ Faites un exercice ciblé ou revenez demain. ¦ Mach eine gezielte Übung oder komm morgen wieder.
+272 ¦ Luyện có trọng tâm ¦ Exercice ciblé ¦ Gezielte Übung
+273 ¦ Hoàn thành bộ ¦ Série terminée ¦ Set abgeschlossen
+274 ¦ Câu sai được hẹn lại vào ngày mai; câu đúng được dời ra 3/7/14/30 ngày. ¦ Les erreurs sont reprogrammées pour demain ; les bonnes réponses passent à 3/7/14/30 jours. ¦ Falsche kommen morgen wieder; richtige rücken auf 3/7/14/30 Tage.
+275 ¦ Quay lại nhật ký ¦ Retour au journal ¦ Zurück zum Protokoll
+276 ¦ Thêm một bộ ¦ Une autre série ¦ Noch ein Set
+277 ¦ Cấp {n} ¦ Niveau {n} ¦ Stufe {n}
+278 ¦ Mục này không còn tồn tại; đã bỏ qua. ¦ Cet élément n'existe plus ; ignoré. ¦ Dieser Eintrag existiert nicht mehr; übersprungen.
+279 ¦ Bỏ qua ¦ Passer ¦ Überspringen
+280 ¦ Lộ trình học hôm nay ¦ Parcours du jour ¦ Heutiger Lernpfad
+281 ¦ {n} mục cần ôn ¦ {n} à réviser ¦ {n} zur Wiederholung fällig
+282 ¦ Đang ôn ¦ En révision ¦ In Wiederholung
+283 ¦ Bỏ khỏi ôn tập ¦ Retirer des révisions ¦ Aus der Wiederholung entfernen
+284 ¦ Câu sai tự động vào ôn tập; mục bạn tự thêm có thể bỏ ra bất cứ lúc nào. ¦ Les erreurs vont automatiquement en révision ; ce que vous ajoutez vous-même peut être retiré à tout moment. ¦ Falsche Antworten kommen automatisch in die Wiederholung; selbst Hinzugefügtes kannst du jederzeit entfernen.
+285 ¦ Đã thêm vào ôn tập — có thể hoàn tác ở đây ¦ Ajouté aux révisions — vous pouvez annuler ici ¦ Zur Wiederholung hinzugefügt — hier rückgängig machen
+286 ¦ Hoàn tác ¦ Annuler ¦ Rückgängig
+287 ¦ Đã bỏ khỏi ôn tập ¦ Retiré des révisions ¦ Aus der Wiederholung entfernt
+288 ¦ {g}. ¦ {g}. ¦ {g}.
+289 ¦ {g}, {name}. ¦ {g}, {name}. ¦ {g}, {name}.
+290 ¦ Ngữ pháp cấp tốc ¦ Sprint de grammaire ¦ Grammatiksprint
+291 ¦ Nắm ngữ pháp cốt lõi trong 14 ngày và tìm được mệnh đề chính trong các câu dài của bài đọc Cambridge ¦ Couvrir la grammaire essentielle en 14 jours et savoir trouver la proposition principale dans les longues phrases de lecture Cambridge ¦ In 14 Tagen die Kerngrammatik abdecken und in langen Cambridge-Lesesätzen den Hauptsatz finden
+292 ¦ Ngữ pháp · {G} ¦ Grammaire · {G} ¦ Grammatik · {G}
+293 ¦ Đọc giải thích, nhại theo 6–8 ví dụ, làm 5 câu hỏi nhanh; câu sai tự động vào nhật ký ¦ Lisez l'explication, répétez 6 à 8 exemples, faites le quiz de 5 questions ; les erreurs vont automatiquement au journal ¦ Erklärung lesen, 6–8 Beispiele nachsprechen, 5-Fragen-Quiz machen; Fehler landen automatisch im Protokoll
+294 ¦ Nghe chuyên sâu · {L} ¦ Écoute intensive · {L} ¦ Intensives Hören · {L}
+295 ¦ Nghe một lần và trả lời, sau đó dùng "Đọc rồi nghe" để nhại theo từng câu; ghi lại các từ nghe sót ¦ Écoutez une fois et répondez, puis utilisez « Lire puis écouter » pour répéter ligne par ligne ; notez les mots manqués ¦ Einmal hören und antworten, dann mit „Erst lesen, dann hören“ Zeile für Zeile nachsprechen; verpasste Wörter notieren
+296 ¦ Nói Part 1 · {P1} ¦ Oral Part 1 · {P1} ¦ Sprechen Part 1 · {P1}
+297 ¦ 3–4 câu mỗi câu hỏi: trả lời thẳng + lý do + ví dụ; 30 giây mỗi câu ¦ 3 à 4 phrases par question : réponse directe + raison + exemple ; 30 s par question ¦ 3–4 Sätze pro Frage: direkte Antwort + Grund + Beispiel; 30 Sek. pro Frage
+298 ¦ 10 cụm từ + 6 lỗi thường gặp ¦ 10 collocations + 6 erreurs fréquentes ¦ 10 Kollokationen + 6 häufige Fehler
+299 ¦ Với mỗi cụm từ và lỗi trong việc hôm nay, tự đặt một câu ¦ Pour chaque collocation et erreur du jour, faites une phrase à vous ¦ Bilde zu jeder Kollokation und jedem Fehler der heutigen Aufgaben einen eigenen Satz

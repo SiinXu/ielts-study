@@ -1366,3 +1366,30 @@ I18N.add("en", {
 "单词本还是空的": "Your word book is empty"
 });
 I18N.add("en", {"{n} 天 · 本组再练": "{n} d · again now"});
+/* traps v10 */
+I18N.add("en", {
+"except Monday": "Key words \"except Monday\": it's closed on Monday",
+"not at reception": "\"not at reception\": reception is ruled out — go to the information desk",
+"gloves and bags will be provided": "\"gloves and bags will be provided\" — so the thing to bring is litter pickers",
+"strongest volunteers": "\"strongest volunteers\" = strong (paraphrase)",
+"rather than cancel": "\"rather than cancel\": it isn't cancelled — it moves to Sunday",
+"not Friday": "\"not Friday\": Friday is ruled out",
+"Not more, better": "\"Not more, better\": not more sources, but better-quality ones",
+"rather than in the conclusion": "\"rather than in the conclusion\": cut the second section, not the conclusion",
+"rather than ... alone": "\"rather than ... alone\": not just the environment — mainly to reduce congestion",
+"might have left those at home": "\"might have left those at home\": anything she might have left at home was NOT definitely in the bag",
+"moved from ... to": "\"moved from ... to\": the answer is the new place after \"to\"",
+"not at midday": "\"not at midday\": the biggest difference is after sunset, not at midday",
+"includes water but not electricity": "\"includes water but not electricity\": water is included, electricity isn't",
+"no desk, I'm afraid": "\"no desk, I'm afraid\": the flat has no desk",
+"the current tenant asked us not to come before five": "\"the current tenant asked us not to come before five\": the time changed because the tenant asked",
+"not quite a beginner → Level 2": "\"not quite a beginner\" → Level 2",
+"14 / 40": "14 / 40: fourteen is stressed at the end, forty at the start",
+"textbook is included": "\"textbook is included\" — so students bring a notebook",
+"not cash": "\"not cash\": cash isn't accepted",
+"glasses were on my face": "\"glasses were on my face\": the glasses weren't in the bag",
+"used to start at the ticket desk": "\"used to start at the ticket desk\": the ticket desk was the old starting point",
+"we arrange and pay for": "\"we arrange and pay for\": the farm pays",
+"46 / 64": "46 / 64: listen to the order — forty-six vs sixty-four",
+"understand the reasons behind the numbers": "\"understand the reasons behind the numbers\" = they explain reasons (paraphrase)"
+});

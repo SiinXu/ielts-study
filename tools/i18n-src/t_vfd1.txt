@@ -1,0 +1,150 @@
+0 ¦ Kế hoạch ¦ Plan ¦ Plan
+1 ¦ Ngữ pháp ¦ Grammaire ¦ Grammatik
+2 ¦ Hội thoại ¦ Dialogues ¦ Dialoge
+3 ¦ Mẫu câu ¦ Modèles ¦ Vorlagen
+4 ¦ Cụm từ cố định ¦ Collocations ¦ Kollokationen
+5 ¦ Lỗi thường gặp ¦ Erreurs fréquentes ¦ Häufige Fehler
+6 ¦ Chuyển sáng/tối ¦ Mode clair/sombre ¦ Hell/Dunkel umschalten
+7 ¦ Ngôn ngữ giao diện ¦ Langue de l'interface ¦ Sprache der Oberfläche
+8 ¦ Câu ví dụ, đề bài và bài mẫu giữ nguyên tiếng Anh (IELTS kiểm tra tiếng Anh); phần giải thích, mẹo và giao diện theo ngôn ngữ bạn chọn. ¦ Les exemples, les questions et les modèles restent en anglais (l'IELTS évalue l'anglais) ; les explications, les conseils et l'interface suivent la langue choisie. ¦ Beispielsätze, Aufgaben und Musterantworten bleiben auf Englisch (IELTS prüft Englisch); Erklärungen, Tipps und Oberfläche folgen der gewählten Sprache.
+9 ¦ Cài đặt ¦ Réglages ¦ Einstellungen
+10 ¦ Tìm kiếm ¦ Rechercher ¦ Suchen
+11 ¦ Trang chủ ¦ Accueil ¦ Start
+12 ¦ Hôm nay ¦ Aujourd'hui ¦ Heute
+13 ¦ Lịch học ¦ Programme ¦ Lernplan
+14 ¦ Luyện tập ¦ Entraînement ¦ Üben
+15 ¦ Nhật ký ¦ Journal ¦ Protokoll
+16 ¦ Chuyên mục ¦ Rubriques ¦ Bereiche
+17 ¦ IELTS ¦ IELTS ¦ IELTS
+18 ¦ Thanh điều hướng dưới ¦ Navigation du bas ¦ Untere Navigation
+19 ¦ Đã học ¦ Fait ¦ Erledigt
+20 ¦ Xem toàn văn ¦ Afficher le texte complet ¦ Ganzen Text anzeigen
+21 ¦ Đánh dấu đã học ¦ Marquer comme fait ¦ Als erledigt markieren
+22 ¦ Cách nói đã sửa ¦ Version corrigée ¦ Korrigierte Fassung
+23 ¦ Xóa ¦ Effacer ¦ Leeren
+24 ¦ Chỉ mục chưa học ¦ Seulement non faits ¦ Nur offene
+25 ¦ Mục lục ¦ Sommaire ¦ Inhalt
+26 ¦ Khuya rồi ¦ Il est tard ¦ Späte Stunde
+27 ¦ Chào buổi sáng ¦ Bonjour ¦ Guten Morgen
+28 ¦ Chào buổi trưa ¦ Bon après-midi ¦ Guten Tag
+29 ¦ Chào buổi chiều ¦ Bon après-midi ¦ Guten Tag
+30 ¦ Chào buổi tối ¦ Bonsoir ¦ Guten Abend
+31 ¦ Mục tiêu tổng ¦ Objectif global ¦ Gesamtziel
+32 ¦ Nghe ¦ Compréhension orale ¦ Hören
+33 ¦ Đọc ¦ Compréhension écrite ¦ Lesen
+34 ¦ Viết ¦ Expression écrite ¦ Schreiben
+35 ¦ Nói ¦ Expression orale ¦ Sprechen
+36 ¦ Mức tối thiểu mỗi kỹ năng ¦ Minimum par compétence ¦ Minimum pro Fertigkeit
+37 ¦ Trung bình mục tiêu các kỹ năng {a} → tổng {b} ¦ Moyenne des objectifs {a} → global {b} ¦ Durchschnitt der Ziele {a} → gesamt {b}
+38 ¦ Không khớp với mục tiêu tổng — chỉnh trong Cài đặt ¦ Ne correspond pas à l'objectif global — à ajuster dans Réglages ¦ Passt nicht zum Gesamtziel — in den Einstellungen anpassen
+39 ¦ Đã học {d} / {n}, {p} ¦ {d} / {n} faits, {p} ¦ {d} / {n} erledigt, {p}
+40 ¦ Đổi mục tiêu ¦ Modifier les objectifs ¦ Ziele ändern
+41 ¦ Mục tiêu tổng {o}, tối thiểu mỗi kỹ năng {f}. ¦ Objectif global {o}, minimum par compétence {f}. ¦ Gesamtziel {o}, Minimum pro Fertigkeit {f}.
+42 ¦ Còn {n} ngày đến kỳ thi. ¦ Plus que {n} jours avant l'examen. ¦ Noch {n} Tage bis zur Prüfung.
+43 ¦ Đặt ngày thi ¦ Définir la date d'examen ¦ Prüfungsdatum festlegen
+44 ¦ Hôm nay còn {n}. ¦ Encore {n} aujourd'hui. ¦ Heute noch {n}.
+45 ¦ Tìm trong {n} mục ¦ Rechercher parmi {n} fiches ¦ {n} Einträge durchsuchen
+46 ¦ Tất cả ¦ Tout ¦ Alle
+47 ¦ Việc hôm nay ¦ Tâches du jour ¦ Heutige Aufgaben
+48 ¦ Hôm nay đã xong hết ¦ Tout est fait pour aujourd'hui ¦ Für heute alles erledigt
+49 ¦ Ngày mai sẽ có lượt mới. ¦ Une nouvelle série arrive demain. ¦ Morgen kommt die nächste Runde.
+50 ¦ Bắt đầu {n} mục hôm nay ¦ Commencer les {n} du jour ¦ Die heutigen {n} starten
+51 ¦ Tiếp tục: {s} ¦ Reprendre : {s} ¦ Weiter: {s}
+52 ¦ Sáu chuyên mục ¦ Six rubriques ¦ Sechs Bereiche
+53 ¦ Đánh dấu ô bên cạnh để ghi là đã học. Tiến độ chỉ lưu trong trình duyệt này trên thiết bị này và không bao giờ được tải lên. ¦ Cochez la case à côté d'un élément pour le marquer comme fait. La progression est enregistrée uniquement dans ce navigateur, sur cet appareil, et n'est jamais envoyée. ¦ Hake das Kästchen neben einem Eintrag ab, um ihn als erledigt zu markieren. Der Fortschritt wird nur in diesem Browser auf diesem Gerät gespeichert und nie hochgeladen.
+54 ¦ Đặt lại toàn bộ tiến độ ¦ Réinitialiser toute la progression ¦ Gesamten Fortschritt zurücksetzen
+55 ¦ Xóa tất cả dấu "đã học"? ¦ Effacer toutes les marques « fait » ? ¦ Alle „Erledigt“-Markierungen löschen?
+56 ¦ Xem tất cả ¦ Tout voir ¦ Alle anzeigen
+57 ¦ {n} mục ¦ {n} éléments ¦ {n} Einträge
+58 ¦ Không tìm thấy ¦ Aucun résultat ¦ Nichts gefunden
+59 ¦ Thử từ khóa khác, hoặc tắt "Chỉ mục chưa học". ¦ Essayez un autre mot-clé ou désactivez « Seulement non faits ». ¦ Versuche ein anderes Stichwort oder schalte „Nur offene“ aus.
+60 ¦ Mỗi ngày lấy các mục chưa học từ mọi chuyên mục: ngữ pháp 2, hội thoại 2, mẫu câu 2, cụm từ 5, lỗi thường gặp 6. Đánh dấu từng mục; ngày mai sẽ có lượt tiếp theo. ¦ Chaque jour, des éléments non faits sont tirés de chaque rubrique : grammaire 2, dialogues 2, modèles 2, collocations 5, erreurs fréquentes 6. Cochez-les un par un ; demain arrive la série suivante. ¦ Jeden Tag werden offene Einträge aus allen Bereichen gezogen: Grammatik 2, Dialoge 2, Vorlagen 2, Kollokationen 5, häufige Fehler 6. Hake sie einzeln ab; morgen kommt die nächste Runde.
+61 ¦ Phần {n} ¦ Partie {n} ¦ Teil {n}
+62 ¦ Tìm trong {s} ¦ Rechercher dans {s} ¦ In {s} suchen
+63 ¦ Đã học xong chuyên mục này ¦ Cette rubrique est terminée ¦ Dieser Bereich ist abgeschlossen
+64 ¦ Tắt "Chỉ mục chưa học" để ôn lại. ¦ Désactivez « Seulement non faits » pour la revoir. ¦ Schalte „Nur offene“ aus, um ihn zu wiederholen.
+65 ¦ Thử từ khóa khác. ¦ Essayez un autre mot-clé. ¦ Versuche ein anderes Stichwort.
+66 ¦ Tìm thấy {n} ¦ {n} résultats ¦ {n} gefunden
+67 ¦ {n} chưa học ¦ {n} non faits ¦ {n} offen
+68 ¦ Không có mục con ¦ Aucune sous-rubrique ¦ Keine Unterabschnitte
+69 ¦ Quay lại ¦ Retour ¦ Zurück
+70 ¦ Những thông tin này chỉ lưu trong trình duyệt này trên thiết bị này. Không bao giờ được tải lên và không hiện trên trang của người khác. Không điền vẫn dùng được mọi chức năng. ¦ Ces informations sont enregistrées uniquement dans ce navigateur, sur cet appareil. Elles ne sont jamais envoyées et n'apparaissent sur la page de personne d'autre. Tout fonctionne sans elles. ¦ Diese Angaben werden nur in diesem Browser auf diesem Gerät gespeichert. Sie werden nie hochgeladen und erscheinen auf keiner anderen Seite. Alles funktioniert auch ohne sie.
+71 ¦ Cá nhân ¦ Personnel ¦ Persönlich
+72 ¦ Tên (không bắt buộc) ¦ Prénom (facultatif) ¦ Name (optional)
+73 ¦ vd. Alex ¦ ex. Alex ¦ z. B. Alex
+74 ¦ Ngày thi (không bắt buộc) ¦ Date d'examen (facultatif) ¦ Prüfungsdatum (optional)
+75 ¦ Ngày bắt đầu lịch học ¦ Date de début du programme ¦ Startdatum des Lernplans
+76 ¦ Điểm mục tiêu ¦ Scores visés ¦ Zielwerte
+77 ¦ Điểm tổng IELTS là trung bình của bốn kỹ năng (.25 làm tròn lên .5, .75 làm tròn lên số nguyên kế tiếp). Vì vậy trung bình bốn mục tiêu kỹ năng nên bằng mục tiêu tổng; mức tối thiểu chỉ là ngưỡng mà không kỹ năng nào được thấp hơn. ¦ Le score global IELTS est la moyenne des quatre compétences (.25 est arrondi à .5, .75 au point entier suivant). La moyenne de vos quatre objectifs doit donc égaler votre objectif global ; le minimum n'est que le plancher sous lequel aucune compétence ne doit descendre. ¦ Das IELTS-Gesamtergebnis ist der Durchschnitt der vier Fertigkeiten (.25 wird auf .5 aufgerundet, .75 auf das nächste ganze Band). Der Durchschnitt deiner vier Ziele sollte also deinem Gesamtziel entsprechen; das Minimum ist nur die Untergrenze, die keine Fertigkeit unterschreiten darf.
+78 ¦ Lưu ¦ Enregistrer ¦ Speichern
+79 ¦ Đặt cả bốn bằng điểm tổng ¦ Aligner les quatre sur le global ¦ Alle vier aufs Gesamtziel setzen
+80 ¦ Khôi phục mặc định ¦ Rétablir les valeurs par défaut ¦ Standard wiederherstellen
+81 ¦ Trung bình bốn kỹ năng {a} → tổng {b} ¦ Moyenne des quatre {a} → global {b} ¦ Durchschnitt der vier {a} → gesamt {b}
+82 ¦ Không khớp với mục tiêu tổng {o} ¦ Ne correspond pas à l'objectif global {o} ¦ Passt nicht zum Gesamtziel {o}
+83 ¦ Có kỹ năng thấp hơn mức tối thiểu ¦ Une compétence est sous le minimum ¦ Eine Fertigkeit liegt unter dem Minimum
+84 ¦ Đã lưu ¦ Enregistré ¦ Gespeichert
+85 ¦ Đóng ¦ Fermer ¦ Schließen
+86 ¦ Chủ đề ¦ Sujet ¦ Thema
+87 ¦ Trước ¦ Précédent ¦ Zurück
+88 ¦ Thêm vào ôn tập ¦ Ajouter aux révisions ¦ Zur Wiederholung hinzufügen
+89 ¦ Đã có trong ôn tập ¦ Déjà en révision ¦ Bereits in der Wiederholung
+90 ¦ Thêm vào ôn tập (1/3/7/14/30 ngày) ¦ Ajouter aux révisions (1/3/7/14/30 jours) ¦ Zur Wiederholung hinzufügen (1/3/7/14/30 Tage)
+91 ¦ Đã học — bấm để hoàn tác ¦ Fait — cliquez pour annuler ¦ Erledigt — zum Rückgängigmachen klicken
+92 ¦ Đánh dấu đã học, tiếp ¦ Marquer comme fait, suivant ¦ Erledigt, weiter
+93 ¦ Tiếp ¦ Suivant ¦ Weiter
+94 ¦ Đã thêm vào ôn tập · ôn vào ngày mai ¦ Ajouté aux révisions · à revoir demain ¦ Zur Wiederholung hinzugefügt · fällig morgen
+95 ¦ Ở đây không có mục con ¦ Pas de sous-rubrique ici ¦ Hier gibt es keine Unterabschnitte
+96 ¦ Đã đánh dấu đã học ¦ Marqué comme fait ¦ Als erledigt markiert
+97 ¦ Đã hoàn tác ¦ Annulé ¦ Rückgängig gemacht
+98 ¦ IELTS 7.5 ¦ IELTS 7.5 ¦ IELTS 7.5
+99 ¦ Trang học IELTS 7.5 ¦ Site d'étude IELTS 7.5 ¦ IELTS-7.5-Lernseite
+100 ¦ Bẫy phần Nghe ¦ Pièges de l'écoute ¦ Hörfallen
+101 ¦ Đọc: định vị thông tin ¦ Lecture : repérage ¦ Lesen: Informationen finden
+102 ¦ Ngôn ngữ phần Viết ¦ Langue pour l'écrit ¦ Sprache fürs Schreiben
+103 ¦ Cách diễn đạt phần Nói ¦ Expressions pour l'oral ¦ Redemittel fürs Sprechen
+104 ¦ Từ vựng ¦ Vocabulaire ¦ Wortschatz
+105 ¦ Ôn tập ¦ Révision ¦ Wiederholung
+106 ¦ Thi thử ¦ Examen blanc ¦ Probetest
+107 ¦ Ngày {n} ¦ Jour {n} ¦ Tag {n}
+108 ¦ Đã học ¦ Fait ¦ Erledigt
+109 ¦ Bắt đầu ¦ Commencer ¦ Starten
+110 ¦ Nhập câu trả lời, nhấn Enter ¦ Tapez votre réponse, puis Entrée ¦ Antwort eingeben, Enter drücken
+111 ¦ Kiểm tra ¦ Vérifier ¦ Prüfen
+112 ¦ Đúng ¦ Correct ¦ Richtig
+113 ¦ Đáp án: ¦ Réponse : ¦ Antwort:
+114 ¦ Bẫy ¦ Piège ¦ Falle
+115 ¦ Đã thêm vào nhật ký · ôn vào ngày mai ¦ Ajouté au journal · à revoir demain ¦ Ins Protokoll aufgenommen · morgen wiederholen
+116 ¦ Ngữ pháp ngày {n} ¦ Grammaire, jour {n} ¦ Grammatik Tag {n}
+117 ¦ Cách nói tiếng Anh nào có nghĩa là "{zh}"? ¦ Quelle expression anglaise signifie « {zh} » ? ¦ Welcher englische Ausdruck bedeutet „{zh}“?
+118 ¦ Tìm lỗi và sửa lại ¦ Trouvez l'erreur et corrigez-la ¦ Finde den Fehler und korrigiere ihn
+119 ¦ Nói bằng tiếng Anh thế nào? ¦ Comment le dire en anglais ? ¦ Wie sagt man das auf Englisch?
+120 ¦ Nhớ lại các ý chính ¦ Rappelez-vous les points clés ¦ Erinnere dich an die Kernpunkte
+121 ¦ Nhớ lại cách dùng và ví dụ ¦ Rappelez-vous l'usage et les exemples ¦ Erinnere dich an Gebrauch und Beispiele
+122 ¦ Hãy nghĩ xem bạn có làm được không, rồi trả lời thật lòng. ¦ Demandez-vous si vous savez le faire, puis répondez honnêtement. ¦ Überlege, ob du es kannst, und antworte dann ehrlich.
+123 ¦ Xem đáp án ¦ Voir la réponse ¦ Antwort zeigen
+124 ¦ Chưa thuộc ¦ Pas encore ¦ Noch nicht
+125 ¦ Đã thuộc ¦ Compris ¦ Kann ich
+126 ¦ Lỗi thường gặp: ¦ Erreur fréquente : ¦ Häufiger Fehler:
+127 ¦ Khoảng {m} phút · {e} ví dụ · {q} câu hỏi · {r} lỗi thường gặp ¦ Environ {m} min · {e} exemples · {q} questions · {r} erreurs fréquentes ¦ Etwa {m} Min. · {e} Beispiele · {q} Quizfragen · {r} häufige Fehler
+128 ¦ Giải thích ¦ Explication ¦ Erklärung
+129 ¦ Câu ví dụ ¦ Exemples ¦ Beispielsätze
+130 ¦ Câu hỏi nhanh ¦ Quiz ¦ Quiz
+131 ¦ Chạm vào đáp án để kiểm tra. Câu sai sẽ vào Nhật ký và quay lại sau 1/3/7/14/30 ngày. ¦ Touchez une réponse pour la vérifier. Les erreurs vont dans le Journal et reviennent après 1/3/7/14/30 jours. ¦ Tippe auf eine Antwort, um sie zu prüfen. Falsche Antworten landen im Protokoll und kommen nach 1/3/7/14/30 Tagen wieder.
+132 ¦ Đáp án ¦ Corrigé ¦ Lösungen
+133 ¦ Lỗi thường gặp ¦ Erreurs fréquentes ¦ Häufige Fehler
+134 ¦ Bài viết hôm nay ¦ Production du jour ¦ Heutige Übung
+135 ¦ Viết 5 câu về công việc hoặc cuộc sống của bạn với cấu trúc hôm nay (chỉ lưu trên thiết bị này), rồi đánh dấu hoàn thành. ¦ Écrivez 5 phrases sur votre travail ou votre vie avec la structure du jour (enregistrées uniquement sur cet appareil), puis cochez. ¦ Schreibe 5 Sätze über deine Arbeit oder dein Leben mit der heutigen Struktur (nur auf diesem Gerät gespeichert) und hake es dann ab.
+136 ¦ Giải thích · {e} ví dụ · {q} câu hỏi · khoảng {m} phút ¦ Explication · {e} exemples · quiz de {q} questions · environ {m} min ¦ Erklärung · {e} Beispiele · Quiz mit {q} Fragen · etwa {m} Min.
+137 ¦ Mở ngày {n} ¦ Ouvrir le jour {n} ¦ Tag {n} öffnen
+138 ¦ Ngữ pháp cấp tốc hai tuần ¦ Sprint de grammaire de deux semaines ¦ Zwei-Wochen-Grammatiksprint
+139 ¦ Nâng cao ¦ Avancé ¦ Fortgeschritten
+140 ¦ Đánh dấu hôm nay đã học ¦ Marquer aujourd'hui comme étudié ¦ Heute als gelernt markieren
+141 ¦ Tất cả các ngày ¦ Tous les jours ¦ Alle Tage
+142 ¦ Tiếp theo: ¦ Ensuite : ¦ Als Nächstes:
+143 ¦ Đã thành thạo ¦ Maîtrisé ¦ Beherrscht
+144 ¦ Hẹn gặp ngày mai ¦ À demain ¦ Bis morgen
+145 ¦ {n} phút ¦ {n} min ¦ {n} Min.
+146 ¦ Đã trả lời {n} ¦ {n} réponses ¦ {n} beantwortet
+147 ¦ Trình duyệt này không đọc to được; hãy dùng chế độ "Đọc rồi nghe" ¦ Ce navigateur ne peut pas lire à voix haute ; utilisez le mode « Lire puis écouter » ¦ Dieser Browser kann nicht vorlesen; nutze den Modus „Erst lesen, dann hören“
+148 ¦ Dừng ¦ Arrêter ¦ Stopp
+149 ¦ Phát tất cả ¦ Tout lire ¦ Alles abspielen
