@@ -98,3 +98,5 @@ body.has-back .back-l{display:none!important}
 .s-head .gdays.strip.sl{--fl:40px}.s-head .gdays.strip.se{--fr:0px}
 .s-head .gdays.strip .gday{scroll-snap-align:start;align-items:center;min-height:36px}
 @media(max-width:700px){.gday{min-height:36px;align-items:center}.s-head .gdays.strip{--fr:40px}}
+/* bigger invisible hit areas for small controls on touch screens */
+@media(pointer:coarse),(max-width:700px){.chk{position:relative}.chk::after{content:"";position:absolute;inset:-9px}.gd-badge .lnk{display:inline-block;padding:7px 0}}
