@@ -397,3 +397,7 @@ main{max-width:1160px;margin:0 auto;padding:0 20px 120px}
   .d-body{padding:22px 20px 28px}
   .d-cells .lead.en .v,.d-cells .m.good .v,.d-cells .pe{font-size:25px}
 }
+/* 语法 / 模板页：正文行宽约 68ch */
+.t-grammar .rich :is(p,li,blockquote),.t-templates .rich :is(p,li,blockquote),.t-grammar dd,.t-templates dd,
+.d-sec-grammar :is(p,li,dd,blockquote),.d-sec-templates :is(p,li,dd,blockquote),
+.gday-main :is(.gd-p,.gd-tip,.gd-ex li),.gday-h .srs-help{max-width:68ch}

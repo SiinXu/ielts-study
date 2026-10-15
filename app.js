@@ -463,7 +463,7 @@ function showItem(id){
       '<button class="d-back" id="dBack" type="button">'+ic('caret-left')+'<span>'+T('返回')+'</span></button>'+
       '<span class="d-crumb"><span class="tag t-'+n.sec+'">'+esc(secNav(n.sec))+'</span><span class="d-path">'+esc(n.h2 ? T(n.h2).replace(/^\d+\.\s*/,'') : T(s.title))+'</span>'+(idx>=0?'<span class="mono muted">'+(idx+1)+' / '+visible.length+'</span>':'')+'</span>'+
       '<button class="icon" id="dClose" type="button" aria-label="'+T('关闭')+'">'+ic('x')+'</button></div>'+
-    '<div class="d-body">'+body+(EXT ? '<div class="srs-row" id="dSrs">'+EXT.srsToggleHTML('item:'+id)+'</div>' : '')+'</div>'+
+    '<div class="d-body d-sec-'+n.sec+'">'+body+(EXT ? '<div class="srs-row" id="dSrs">'+EXT.srsToggleHTML('item:'+id)+'</div>' : '')+'</div>'+
     '<div class="d-foot">'+
       '<button class="b ghost sq" id="dPrev" type="button"'+(idx>0?'':' disabled')+' aria-label="'+T('上一条')+'">'+ic('caret-left')+'</button>'+
       '<button class="b '+(on?'ghost':'pri')+' grow" id="dDone" type="button">'+T(on?'已学，点击取消':'标记已学，下一条')+'</button>'+

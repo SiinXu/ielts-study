@@ -387,3 +387,12 @@ a.qi-t:hover{text-decoration:underline}
 .set-ok span{color:var(--ink2);overflow-wrap:anywhere}
 .set-ok .lnk{align-self:flex-start;color:var(--acc-ink)}
 @media (max-width:640px){ .blk-r{flex-wrap:wrap} }
+/* 逐题解析 */
+.xp{display:grid;gap:8px;margin-top:8px;padding:12px 14px;border-radius:12px;background:var(--surface);border:1px solid var(--line)}
+.xp-row{margin:0;line-height:1.6;max-width:68ch}
+.xp-ev{margin:0}.xp-ev figcaption{font-size:11px;color:var(--faint,var(--muted));letter-spacing:.04em;margin-bottom:4px}
+.xp-ev blockquote{margin:0;padding:8px 12px;border-left:3px solid var(--acc);background:var(--bg);border-radius:0 8px 8px 0;font-family:var(--serif);font-size:15px;line-height:1.55;color:var(--ink);max-width:68ch}
+.xp-ev mark{background:var(--mark,rgba(250,204,21,.35));color:inherit;border-radius:3px;padding:0 2px}
+.xp-kw{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px}.xp-chips{display:flex;flex-wrap:wrap;gap:6px}
+.xp-chip{font-size:12.5px;border:1px solid var(--line2);border-radius:99px;padding:3px 10px;color:var(--ink2)}.xp-chip b{font-weight:600;color:var(--ink)}
+.xp-chip small{font-size:10.5px;color:var(--muted);margin-left:2px}.xp-chip.syn{border-color:var(--acc)}

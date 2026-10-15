@@ -269,6 +269,7 @@ function checkQ(el, q, val){
   var ans = q.t === 'mcq' ? q.o[q.a] : q.t === 'tfng' ? ({T:'TRUE',F:'FALSE',NG:'NOT GIVEN'})[q.a] : q.a[0];
   var fb = el.querySelector('.q-fb'); fb.hidden = false;
   fb.innerHTML = '<b>'+(ok?'✓ '+T('对了'):'✗ '+T('正确答案：')+esc(ans))+'</b>'+(q.why?'<span>'+esc(T(q.why))+'</span>':'')+(q.trap && q.trap !== '—'?'<span><i class="lab">'+T('陷阱')+'</i>'+esc(T(q.trap))+'</span>':'')+(ok?'':'<em class="mono">'+T('已加入档案 · 明天复习')+'</em>');
+  if (window.IELTS_XP) fb.insertAdjacentHTML('beforeend', IELTS_XP.render(q, el.dataset.key));
   return ok;
 }
 /* 所有可复习题目的统一索引 */
