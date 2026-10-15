@@ -10,6 +10,7 @@ var TZ = {'Asia/Taipei':'zh-Hant','Asia/Hong_Kong':'zh-Hant','Asia/Macau':'zh-Ha
   'America/Bogota':'es','America/Argentina/Buenos_Aires':'es','America/Lima':'es','America/Santiago':'es'};
 function zhVariant(l){ return /-(tw|hk|mo|hant)\b/.test(l) ? 'zh-Hant' : 'zh'; }
 function detect(){
+  try{ var q = new URLSearchParams(location.search).get('lang'); if (q && ok(q)) return q; }catch(e){}
   var s = null; try{ s = localStorage.getItem('ielts.lang'); }catch(e){}
   if (s && ok(s)) return s;
   var nl = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];

@@ -1,0 +1,18 @@
+# IELTS 7.5 study site (雅思 7.5 学习站)
+> A free IELTS self-study site aiming at band 7.5 overall (6.5 minimum per skill), for people preparing on their own: 947 study items (489 common-mistake cards, 287 collocations and sentence patterns, 73 speaking dialogues, 44 grammar and pronunciation notes, 43 writing/speaking templates, 11 plan notes) plus original listening, reading, writing and speaking practice and spaced review. Progress stays in your own browser; 10 languages.
+
+- Site: https://siinxu.github.io/ielts-study/
+- Languages: zh, zh-Hant, en, ja, ko, es, ms, vi, fr, de (append ?lang=<code>)
+- Publisher: Incidental AI (https://incidental.site/)
+- Full outline: https://siinxu.github.io/ielts-study/llms-full.txt
+
+## Sections
+- 复习计划 (plan): 11 items
+- 语法与口音 (grammar): 44 items
+- 写作口语模板 (templates): 43 items
+- 口语对话 (dialogues): 73 items
+- 错题记忆 (mistakes): 489 items
+- 固定搭配与句式 (collocations): 287 items
+
+## Overview (Chinese)
+免费的雅思自学站，目标总分 7.5（单科保底 6.5），适合自学备考的人：共 947 条学习内容（错题记忆 489、固定搭配与句式 287、口语对话 73、语法与口音 44、写作口语模板 43、复习计划 11），另有原创听力、阅读、写作、口语练习和间隔复习。进度只存在你自己的浏览器里，支持 10 种语言。
