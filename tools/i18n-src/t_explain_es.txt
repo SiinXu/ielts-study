@@ -1,0 +1,692 @@
+0|S + V: "rise" es intransitivo y no lleva objeto
+1|S + V + O: "raise" es transitivo y necesita objeto
+2|S + verbo copulativo + atributo: "become" es copulativo y va seguido de un adjetivo
+3|S + V + objeto indirecto + objeto directo: show sb sth
+4|S + V + O + complemento del objeto: make sb + adjetivo
+5|Un solo verbo principal por oración: "want" es el verbo y "to learn" su objeto
+6|En una oración con "there be", un segundo verbo debe ir dentro de una subordinada
+7|El sujeto es "results", no "survey"
+8|"remain" es un verbo copulativo, seguido de un adjetivo
+9|make + objeto + adjetivo
+10|Elige la oración correcta
+11|Estructura copulativa: was + adjetivo; sin "to" después de "became"
+12|¿A qué oración le falta el verbo principal?
+13|"very humid" necesita el verbo copulativo "is" delante
+14|Después de "there be", otro verbo debe convertirse en subordinada o participio: who have / having
+15|make + objeto + adjetivo (complemento del objeto), no un adverbio
+16|"Because" solo introduce una subordinada; "crowded" necesita "is" delante
+17|"seem" es copulativo y va seguido directamente de un adjetivo
+18|Verbo en presente simple en forma base: use
+19|El adverbio "very" no puede modificar directamente a un verbo
+20|Dos verbos principales en una oración: quita "There are" o añade "who"
+21|Un adjetivo no puede ser el verbo; añade "be"
+22|"rise" es intransitivo y no tiene pasiva
+23|make sb do, sin "to"
+24|No repitas "it" después del sujeto
+25|Un adjetivo necesita un verbo copulativo delante
+26|Acción habitual: la tercera persona del singular añade -s
+27|Algo que está pasando en esta época
+28|La negación es doesn't + forma base, no "don't likes"
+29|Los años pasados de un gráfico van en pasado
+30|Part 2: hablar de la infancia
+31|Pasado continuo (fondo) + pasado simple (interrupción)
+32|Verbo de estado: no "am knowing"
+33|Presente simple: horarios y hábitos
+34|Continuo: una tendencia que está cambiando
+35|Acción larga en continuo, acción corta en pasado simple
+36|Sujeto en tercera persona del singular + works
+37|"Look!" indica que algo ocurre ahora mismo
+38|1990 es un momento del pasado ya terminado
+39|Elige la oración incorrecta
+40|"know" es un verbo de estado y no se usa en continuo; además "for years" pide el present perfect
+41|Las preguntas en tercera persona del singular usan Does + forma base
+42|Los hechos objetivos van en presente simple
+43|"Look!" muestra que está pasando ahora
+44|Una acción larga interrumpida va en pasado continuo
+45|Falta la -s de tercera persona
+46|La negación en tercera persona usa doesn't
+47|Un momento pasado requiere el pasado
+48|"understand" es un verbo de estado
+49|Task 1: los años pasados van en pasado
+50|"know" es un verbo de estado y no se usa en continuo
+51|Tiempo pasado, verbo en pasado
+52|for + periodo: todavía vive allí
+53|since + punto de inicio, frecuente en ensayos
+54|Experiencia: ever / never
+55|"last year" → pasado simple
+56|"yet" se usa en preguntas y negaciones
+57|Ha ido dos veces y ha vuelto
+58|Una acción que ha continuado
+59|Experiencia: have been to
+60|just + perfecto: acaba de ocurrir
+61|since + punto de inicio: continúa hasta ahora
+62|since + punto de inicio hasta ahora → present perfect
+63|"in 2019" es un momento concreto del pasado
+64|La persona no está aquí: usa "has gone"
+65|"ever" pregunta por la experiencia → Have you ever eaten
+66|"over the past decade" llega hasta ahora
+67|"since" lleva el perfecto
+68|"last week" es un momento concreto del pasado
+69|"this year" aún no ha terminado: usa el perfecto
+70|"yesterday" no puede ir con el perfecto
+71|"since" exige el perfecto
+72|El perfecto usa el participio pasado
+73|Para preguntar por la duración: usa el perfecto
+74|"ago" lleva pasado simple
+75|Ha ido y ha vuelto: "been to"
+76|Las afirmaciones generales van en plural, sin "the"
+77|"advice" es incontable
+78|"the number" es singular
+79|"everyone" es singular
+80|"the" con instrumentos musicales, no con deportes de pelota
+81|"the" para el gobierno de tu propio país; "education" en general no lleva "the"
+82|Usa "the" para algo concreto
+83|Después de "each of", el verbo va en singular
+84|"information" es incontable
+85|El sujeto "the number" es singular
+86|Ideas abstractas en general: incontables, sin artículo
+87|Sustantivos contables en general: usa el plural
+88|"each of ..." lleva verbo en singular
+89|"the number of" lleva verbo en singular
+90|(dejar en blanco)
+91|Los sustantivos abstractos en general no llevan artículo
+92|"homework" es incontable
+93|"people" es plural
+94|Un cargo o profesión en singular necesita a/an
+95|"research" es incontable; verbo en singular
+96|"life" en general no lleva "the"; la de una ciudad concreta sí
+97|every + sustantivo singular + verbo singular
+98|"research" es incontable
+99|Diagrama de proceso: pasiva + secuencia
+100|Quién realiza la acción no importa
+101|Pasiva en pasado
+102|Pasiva en perfecto
+103|Modal + be + participio
+104|should + forma base para dar consejos
+105|"may" hace la afirmación más prudente
+106|Pasiva en futuro
+107|"might" suaviza una sugerencia
+108|El puente fue terminado (pasiva); 1937 es pasado
+109|should + be + participio pasado
+110|Tras un modal va la forma base
+111|Describe procesos con la pasiva en presente simple
+112|¿Cuál es mejor para la escritura académica?
+113|"may" + limitar el alcance hace la afirmación más segura
+114|be + participio pasado
+115|Posibilidad: might
+116|Modal negativo + be + participio
+117|La pasiva necesita el participio pasado
+118|"happen" es intransitivo: sin pasiva
+119|Sin "to" después de un modal
+120|"agree" es un verbo; no lo uses con "am"
+121|Forma base después de un modal
+122|El participio pasado de "hold" es "held"
+123|Una subordinada con that después de "suggest" es más estándar
+124|Subordinada de sujeto
+125|Subordinada de objeto
+126|whether = if (si… o no)
+127|Orden de oración afirmativa, no "where is the station"
+128|Sujeto formal (it)
+129|Subordinada atributiva
+130|Subordinada apositiva que explica "evidence"
+131|Una subordinada con whether como sujeto
+132|Una subordinada con that como atributo
+133|Las preguntas indirectas usan el orden de oración afirmativa
+134|Orden afirmativo + -s de tercera persona
+135|Una subordinada de sujeto al principio solo puede usar "whether"
+136|Sujeto formal "It"
+137|Las subordinadas apositivas usan "that"
+138|Orden de oración afirmativa
+139|Las subordinadas de objeto usan el orden afirmativo
+140|what = lo que, como subordinada de sujeto
+141|Las subordinadas usan el orden afirmativo
+142|No repitas "it" después de una subordinada de sujeto
+143|Adelantar la negación suena más natural
+144|Usa "that" después de "reason"
+145|Sin inversión en las preguntas indirectas
+146|Una oración de 40 palabras en un texto de lectura de Cambridge suele tener un esqueleto de solo 5. Cuando lo hagas de forma automática, tu velocidad de lectura subirá notablemente.
+147|Método: en cada ejemplo, tapa con el dedo todo menos la parte subrayada, lee solo el esqueleto y después la oración completa.
+148|Esqueleto: Researchers found that...
+149|Esqueleto: The idea has fascinated scientists
+150|Esqueleto: the number continues to grow
+151|Subordinada de sujeto + subordinada atributiva
+152|Primero el participio, después el esqueleto
+153|Esqueleto: Cities tend to attract residents
+154|Oración principal: The idea is popular
+155|Oración principal: Workers need retraining
+156|Subordinada de sujeto + is + subordinada atributiva
+157|"The report, which was published last week by an independent agency, suggests that fees should fall." ¿Cuál es el verbo principal?
+158|"was published", dentro de la subordinada con which, no es el verbo principal
+159|"Students who work part-time often manage their time better." ¿Cuál es el sujeto?
+160|"who work part-time" modifica a "Students"
+161|"Not until the 19th century did scientists understand germs." ¿Cuál es el verbo principal?
+162|Inversión: did scientists understand
+163|"Built in 1880, the station remains a landmark." ¿Cuál es el esqueleto?
+164|"Built in 1880" es un participio pasado con valor adverbial
+165|Encuentra la oración principal: Students who study abroad often face challenges that they did not expect.
+166|Las dos subordinadas son modificadores
+167|El sujeto es "the book"
+168|"one of ..." lleva verbo en singular
+169|El sujeto de la subordinada, "teenagers", es plural
+170|El sujeto es "The idea" (singular)
+171|Sujeto: the number
+172|El antecedente "people" es plural
+173|"who" se refiere a "people": plural
+174|No uses "although" y "but" juntos
+175|Personas → who
+176|Cosas → which/that
+177|Explicativa: usa which, no that
+178|whose = posesión
+179|Lugar: where
+180|Tiempo: when
+181|Preposición delante: registro formal
+182|"whose" indica posesión
+183|Persona + sujeto de la subordinada → who
+184|Explicativa + a "visited" le falta el objeto → which
+185|Después de "born" no falta nada; es un complemento de lugar → where
+186|No repitas el objeto dentro de la subordinada
+187|Sus novelas → whose
+188|Posesión: whose
+189|Después de un sustantivo de tiempo usa "when"
+190|Después de un superlativo usa "that"
+191|Personas: who
+192|Las explicativas no usan "that"
+193|Falta el pronombre relativo
+194|"live" es intransitivo: usa where / in which
+195|"stay" es intransitivo: necesita where o at
+196|No repitas el sujeto dentro de la subordinada
+197|Concesión + subordinada, sin "but" después
+198|despite + sustantivo
+199|Causa + subordinada
+200|because of + sustantivo
+201|Condición
+202|Consecuencia: so ... that
+203|Finalidad: so that
+204|Condición: as long as
+205|Concesión: even though
+206|Consecuencia: punto y coma + as a result
+207|Usa "although" delante de una subordinada
+208|"the traffic" es un sustantivo
+209|No combines "although" con "but"
+210|Delante de un sustantivo usa "because of"
+211|"as soon as" introduce una subordinada temporal
+212|Contraste con "however"
+213|although + but es redundante
+214|because + so es redundante
+215|Una subordinada no puede ir sola
+216|Después de "despite" no va una subordinada
+217|Usa "such" con un sintagma nominal
+218|because of + sustantivo; because + subordinada
+219|En las condicionales, el presente expresa el futuro
+220|"to" es una preposición
+221|Preposición + -ing
+222|Dejó de fumar (stop doing)
+223|Se detuvo para contestar el teléfono
+224|Un gerundio como sujeto
+225|Gerundio como sujeto, verbo en singular
+226|Recordar que hay que hacerlo → to do
+227|Preposición "in" + -ing
+228|El "to" de "look forward to" es una preposición
+229|stop doing: dejar algo que ya se estaba haciendo
+230|"suggest" no admite sb to do
+231|-ing describe cómo es algo; -ed describe cómo se sienten las personas
+232|Hacerlo después de terminar
+233|En los gráficos se usan a menudo participios pasivos
+234|Un participio pasivo que expresa la causa
+235|Participio pasado: pasiva + anterior a la oración principal
+236|Participio presente: activa, simultánea
+237|Participio pospuesto al sustantivo como modificador
+238|Los sentimientos de las personas usan -ed
+239|Activa → working
+240|Los datos fueron recogidos → collected
+241|La empresa fue fundada (pasiva)
+242|¿Qué oración tiene un participio colgante (dangling participle)?
+243|No es el zorro quien vuelve a casa caminando
+244|El pueblo es lo que se ve: participio pasado
+245|Participio presente después del sustantivo
+246|El sujeto lógico del participio debe coincidir con el de la principal
+247|"boring" significa que aburre a la gente
+248|Las cosas llevan -ing
+249|Dos verbos principales
+250|Uso fijo del participio pasado
+251|Participio colgante: el sujeto debe ser la persona que camina
+252|-ing describe cosas, -ed describe sentimientos
+253|"much" modifica un comparativo
+254|El segundo más ...
+255|Múltiplos
+256|Condición real
+257|Irreal en presente; "be" pasa a "were"
+258|Irreal en pasado
+259|the + comparativo, the + comparativo
+260|Múltiplo + as ... as
+261|Tercer condicional: contrario al pasado
+262|En las subordinadas con if, el presente expresa el futuro
+263|Irreal en presente
+264|Contrario al presente: usa "were"
+265|El comparativo de "cheap" es "cheaper"
+266|Contrario al pasado: would have done
+267|Comparativo doble
+268|Sin "will" en la subordinada con if
+269|El subjuntivo formal usa "were"
+270|Superlativo doble
+271|Usa "much" para intensificar un comparativo
+272|No añadas "more" a un comparativo
+273|Sin "would" en la subordinada con if
+274|No memorices párrafos enteros de plantilla: los examinadores están entrenados para detectarlos y el lenguaje de plantilla resta puntos. Aprende solo la estructura y rellena el contenido en el momento.
+275|Inversión después de "not only"
+276|Oración escindida (cleft)
+277|Subordinada con what como sujeto (muy útil al hablar)
+278|Inversión omitiendo "if"
+279|Empezar con concesión o contraste
+280|Presentar una opinión
+281|It is + participio pasado + that
+282|"Not only" al principio exige inversión
+283|"Not only" al principio: inversión parcial
+284|Escindida: It was ... that
+285|Una subordinada con what como sujeto
+286|"Not only" al principio: inversión parcial
+287|"It could be argued that" es objetivo y prudente
+288|Causa y efecto dichos dos veces
+289|Repite la idea; quita "I think"
+290|Di directamente el cambio concreto
+291|Las aperturas de plantilla vacías restan puntos
+292|"in my opinion" y "I think" dicen lo mismo
+293|Sustituye la apertura de manual por algo propio del tema
+294|Pasadas dos semanas, no estudies gramática por separado: cuando un punto aparezca en una lectura o en la corrección de un ensayo, vuelve a ese día y refuerza lo que falte.
+295|Relativo + perfecto
+296|Concesión + manage to do
+297|Participio + comparación
+298|Inversión omitiendo "if"
+299|Relativo explicativo
+300|Participio perfecto: ocurrió antes
+301|"the number" es singular + since → has doubled
+302|"despite" delante de un sustantivo
+303|"which" explicativo
+304|Irreal en presente
+305|Regla de proximidad: "students" es plural
+306|El pasado anterior al pasado: past perfect
+307|Sin "of" después de "despite"
+308|Inversión y oraciones escindidas
+309|"Rarely" al principio + do + sujeto
+310|"Only" + complemento al principio exige inversión
+311|"Not until" al principio: invierte la principal
+312|"Little" con el sentido de "en absoluto"
+313|Se puede usar "who" al enfatizar a una persona
+314|Enfatizar el tiempo
+315|Una subordinada con what como sujeto
+316|Under no circumstances + inversión
+317|So + adjetivo al principio, luego inversión
+318|Adverbio negativo al principio: primero el auxiliar
+319|"Only" + complemento al principio: inversión
+320|Una subordinada con what como sujeto cuenta como singular
+321|¿Cuál suena más natural (Task 2)?
+322|La inversión debe ser gramatical y clara
+323|Una palabra negativa al principio exige inversión
+324|No repitas el sujeto en una oración escindida
+325|subordinada con what + is
+326|"Only if" al principio: invierte la principal
+327|"Not only" al principio con inversión; la segunda parte queda completa
+328|El subjuntivo y los condicionales mixtos
+329|Contrario al presente
+330|Mixto: condición pasada, resultado presente
+331|wish + had done: lamentar el pasado
+332|It's time + pasado
+333|recommend that + forma base
+334|Inversión sin "if": Were + sujeto
+335|"without" en lugar de una condición con if
+336|Inversión con "Had" = If they had invested
+337|suppose + pasado
+338|Contrario al presente: pasado
+339|Condicional mixto: el resultado está en el presente
+340|Lamentar el pasado: had done
+341|insist that + forma base
+342|La inversión sin "if" usa "Were"
+343|Subjuntivo: were + would
+344|Después de "wish" usa el pasado / could
+345|Contrario al pasado: had done + would have done
+346|Las dos estructuras no se pueden mezclar
+347|Nominalización y estilo académico
+348|No nominalices todas las oraciones o el texto quedará pesado. Funciona mejor en las frases de visión general y en las frases temáticas de Task 1 y Task 2.
+349|"lack" usado como sustantivo
+350|a decline in + sustantivo
+351|"use" como sustantivo, con un adjetivo delante
+352|access to + sustantivo
+353|Nominaliza "Unemployment rose sharply":
+354|a sharp rise in + sustantivo
+355|Elige la colocación correcta: a significant increase ___ the number of students
+356|¿Cuál funciona mejor como frase temática de Task 2?
+357|Nominalización + colocación precisa
+358|El porcentaje va delante de "increase"
+359|Hace falta la forma nominal
+360|El sujeto es "lack": singular
+361|Concesión y contraste
+362|although + subordinada
+363|despite the fact that + subordinada
+364|"whereas" une un contraste
+365|"While" al principio para concesión/contraste
+366|"By contrast" al principio
+367|Nevertheless = aun así
+368|Delante de un sustantivo usa "despite"
+369|Contrasta dos oraciones con "whereas"
+370|Delante de una subordinada usa "even though"
+371|Adverbio oracional al principio + coma
+372|Elige la oración correcta
+373|"although" no se combina con "but"; después de "despite" no va una subordinada
+374|Después de "despite" no va una subordinada
+375|"however" no puede unir un sustantivo así
+376|Elige "although" o "but", no ambos
+377|Quita "but"
+378|On the contrary, City B fell. (solo es un contraste)
+379|"on the contrary" significa "todo lo contrario" y corrige lo dicho antes
+380|Construcciones de participio y absolutas
+381|Un participio que expresa el resultado
+382|Un participio que añade el resultado
+383|with + sustantivo + -ing
+384|Frase absoluta fija
+385|Construcción absoluta: weather permitting
+386|Sintagma de participio pasado para comparar
+387|Participio perfecto pasivo
+388|"followed by" para lo que viene después
+389|Un participio para un resultado concomitante
+390|considering = teniendo en cuenta
+391|La ley fue aprobada (pasiva)
+392|Las construcciones absolutas usan "being"
+393|¿Qué oración tiene un participio colgante?
+394|Un accidente no puede conducir
+395|El sujeto del participio debe coincidir
+396|Entre dos verbos usa un participio o "and"
+397|Sin "so" después de una estructura con with
+398|Una construcción absoluta necesita su propio sujeto
+399|Cohesión, referencia y sustantivos de resumen
+400|this + sustantivo de resumen
+401|such + sustantivo plural
+402|Retoma la oración anterior con un sustantivo
+403|The former / the latter (el primero / el segundo)
+404|Pronombre + "also" para continuar
+405|these + sustantivo de datos
+406|"otherwise" significa "si no"
+407|"trend" es singular: usa "this"
+408|¿Qué continuación es más natural?
+409|this + sustantivo de resumen es más claro que "this" solo
+410|The former = A
+411|"issue" puede resumir lo anterior
+412|¿Qué párrafo repite demasiado?
+413|"children" se repite una y otra vez
+414|Un sustantivo después de "this" es más claro; verbo en singular
+415|Varía los conectores
+416|Los demostrativos deben concordar en número con el sustantivo
+417|No acumules conectores
+418|"And" al principio es demasiado informal
+419|Tiempos avanzados: perfecto continuo y futuro perfecto
+420|Perfecto continuo: continúa hasta ahora
+421|Pasado perfecto continuo: la causa
+422|Pasado perfecto: antes de otro hecho pasado
+423|Futuro perfecto: previsiones en Task 1
+424|Futuro continuo
+425|Una pregunta habitual de Part 1
+426|"be expected to" para previsiones
+427|"be due to" para planes
+428|Continúa hasta ahora y no ha terminado
+429|by + momento futuro → futuro perfecto
+430|El pasado anterior al pasado
+431|En curso en un momento futuro
+432|Una acción anterior y continuada causó el resultado
+433|for + periodo hasta ahora: perfecto continuo
+434|by + momento futuro: futuro perfecto
+435|Para indicar que ya se habían ido, usa el past perfect
+436|Los verbos de estado no se usan en continuo
+437|to + forma base
+438|Inscripción en un gimnasio
+439|Reserva de una casa rural
+440|Visita a la nueva biblioteca (monólogo)
+441|Anuncio de la jornada de limpieza vecinal
+442|Dos estudiantes hablan de una presentación en grupo
+443|Un tutor comenta el ensayo de un estudiante
+444|Clase magistral: la historia de la bicicleta
+445|Clase magistral: el sueño y la memoria
+446|Denunciar un objeto perdido
+447|Cambios en el museo
+448|Debate sobre métodos de investigación
+449|Clase magistral: la isla de calor urbana
+450|Consulta sobre un alquiler
+451|Inscripción en un curso de idiomas
+452|Reclamación de equipaje perdido
+453|Visita al museo de la ciudad
+454|Sesión informativa para voluntarios de la granja comunitaria
+455|Aviso de cambios en la biblioteca municipal
+456|Repartirse una presentación en grupo
+457|Comentarios del tutor sobre una propuesta de investigación
+458|Elegir el tema del trabajo de fin de grado
+459|Clase magistral: breve historia de la bicicleta
+460|Clase magistral: el sueño y la memoria
+461|Clase magistral: la isla de calor urbana
+462|La vuelta de los trenes nocturnos
+463|Por qué bailan las abejas
+464|La semana laboral de cuatro días
+465|Adultos que aprenden idiomas
+466|Carreteras hechas de plástico
+467|La ciencia de los hábitos
+468|Las ciudades antiguas y el agua
+469|Algoritmos de recomendación
+470|Por qué las ciudades plantan "minibosques"
+471|Párrafo 4: the canopy suppresses weeds
+472|Cómo se forman los hábitos
+473|Párrafo 2
+474|Cómo se revitalizan las lenguas en peligro
+475|Párrafo 3
+476|La economía de la entrada gratuita a los museos
+477|Párrafo 4
+478|Cómo se orientan las abejas
+479|El auge de la semana de cuatro días
+480|¿Puede la desalinización cubrir el déficit de agua?
+481|Aprender de los errores
+482|TA Cumplimiento de la tarea (Task Achievement)
+483|Hay una visión general (tendencia global / máximo y mínimo) en el primer o segundo párrafo
+484|Se seleccionan los rasgos clave y se apoyan con datos, sin enumerar todas las cifras
+485|Al menos 150 palabras, sin opiniones personales ni suposiciones sobre las causas
+486|CC Coherencia y cohesión (Coherence and Cohesion)
+487|Compara por grupos (elementos parecidos en un mismo párrafo), 3–4 párrafos
+488|Los conectores son naturales (while, whereas, by contrast) y no aparecen en cada oración
+489|LR Recursos léxicos (Lexical Resource)
+490|Variedad en el vocabulario de tendencias: rise / climb / increase; dip / decline / fall
+491|El lenguaje de datos es preciso: account for, stand at, peak at, roughly a third
+492|GRA Variedad y precisión gramatical (Grammatical Range and Accuracy)
+493|Tiempos verbales correctos (pasado para años pasados, "is expected to" para previsiones)
+494|Al menos 2 tipos de oración compleja (relativo, participio, comparación) sin errores básicos
+495|TR Respuesta a la tarea (Task Response)
+496|Se responde a todas las partes de la pregunta (las dos, si es una pregunta doble)
+497|La postura es clara y coherente y se ve desde la introducción
+498|Cada párrafo de desarrollo tiene una idea principal + explicación + ejemplo
+499|Al menos 250 palabras, terminado en 40 minutos
+500|Los párrafos empiezan con una frase temática; pronombres y sinónimos hacen avanzar las ideas en lugar de repetir sustantivos
+501|La conclusión solo resume; sin ideas nuevas
+502|Vocabulario del tema (p. ej. public infrastructure, workforce) con colocaciones correctas
+503|Evita el lenguaje informal (a lot of → a significant number of; kids → children)
+504|Más de la mitad de las oraciones son complejas y casi sin errores; artículos, plurales y concordancia revisados
+505|Puntuación: no unas dos oraciones completas solo con una coma (comma splice)
+506|Gráfico de líneas
+507|Año
+508|Coches
+509|Bicicletas
+510|Patinetes eléctricos
+511|Visión general: los coches subieron y luego bajaron, pero siguieron siendo los más usados; las bicicletas bajaron y luego se recuperaron; los patinetes crecieron rápido desde cero
+512|Párrafo 1: coches 62 → 70 (máximo en 2010) → 58
+513|Párrafo 2: las bicicletas bajaron de 48 a 35 y volvieron a 46; los patinetes aparecieron en 2010 y llegaron a 27 en 2020
+514|Gráfico de barras
+515|Edad
+516|Redes sociales
+517|Ejercicio
+518|Visión general: cuanto mayor el grupo, menos redes sociales y más lectura; el ejercicio es parecido en todos los grupos
+519|Párrafo 1: redes sociales 18 → 4
+520|Párrafo 2: lectura 3 → 8; ejercicio 3–5 horas
+521|Diagrama de proceso
+522|Paso
+523|Qué ocurre
+524|Las botellas se recogen en puntos de reciclaje
+525|Se llevan a una planta y se clasifican por color
+526|Se lavan y se les quitan las etiquetas
+527|Se trituran en trozos pequeños (calcín)
+528|Se mezclan con arena y otros materiales y se funden a 1500 °C
+529|Se vierten en moldes y se les da forma
+530|Se inspeccionan y se envían a fábricas para llenarlas
+531|Visión general: 7 pasos desde la recogida hasta el rellenado, un ciclo
+532|Párrafo 1: recogida, transporte, clasificación, lavado
+533|Párrafo 2: triturado, fundición, moldeado, inspección
+534|Mapa
+535|Ubicación
+536|Ahora
+537|Norte
+538|Tierras de cultivo
+539|Zona residencial
+540|Centro
+541|Muelle pequeño
+542|Muelle ampliado + amarres para yates
+543|Este
+544|Cabañas de pescadores
+545|Hotel + aparcamiento
+546|Oeste
+547|Bosque
+548|Se conserva, con nuevos senderos
+549|Carreteras
+550|Una carretera principal
+551|Carretera principal + nueva carretera al hotel
+552|Visión general: de pueblo pesquero a zona turística; mucha más vivienda e instalaciones turísticas; el bosque se conserva
+553|Párrafo 1: cambios en el norte y el este
+554|Párrafo 2: muelle, carreteras, bosque del oeste
+555|Gráfico circular
+556|Categoría
+557|Vivienda
+558|Alimentación
+559|Transporte
+560|Ocio
+561|Otros
+562|Visión general: la vivienda pasó a ser el mayor gasto; el peso de la alimentación cayó mucho
+563|Párrafo 1: suben la vivienda 22 → 34 % y el ocio 10 → 16 %
+564|Párrafo 2: bajan la alimentación 28 → 17 % y otros 26 → 18 %; el transporte, casi igual
+565|Tabla
+566|País
+567|Visión general: A fue siempre el más alto pero cambió poco; D fue el que más creció
+568|Párrafo 1: A 560 → 610 → 590; C fluctuó ligeramente
+569|Párrafo 2: B creció de forma constante hasta 410; D se triplicó hasta 280
+570|Descripción
+571|Visión general: siete pasos del reciclaje al tejido, en una fase de preparación y otra de procesamiento
+572|Párrafo 1: recogida, clasificación, lavado, triturado (pasiva + conectores de secuencia)
+573|Párrafo 2: fundido en fibra, hilado, tejido
+574|Gráficos combinados
+575|Horas diarias en línea
+576|Posesión de teléfono 2013
+577|Posesión de teléfono 2023
+578|Visión general: cuanto más joven el grupo, más tiempo en línea; la posesión de teléfono subió en todas las edades, sobre todo entre los mayores
+579|Párrafo 1: el tiempo en línea baja de 6,1 a 1,9 horas
+580|Párrafo 2: posesión de teléfono, mayores de 65 de 12 → 61 %, jóvenes cerca del 100 %
+581|Opinión
+582|Tecnología
+583|Postura: de acuerdo en parte; ganancia neta a largo plazo, pero el coste a corto plazo de los cambios de empleo es alto
+584|Párrafo 1: nuevos empleos (etiquetado de datos, productos de IA, mantenimiento), analogía histórica
+585|Párrafo 2: pérdidas de empleo a corto plazo concentradas en algunos sectores; hace falta reciclaje profesional
+586|Conclusión: creará más empleos de los que destruya, siempre que la política apoye la transición
+587|Debate
+588|Educación
+589|Párrafo 1: la visión académica: pensamiento crítico, investigación básica, el valor del conocimiento en sí
+590|Párrafo 2: la visión laboral: matrículas caras, presión por encontrar trabajo, prácticas
+591|Postura: combinar ambas, con proyectos prácticos en el plan de estudios
+592|Problema–solución
+593|Ciudades
+594|Causas: más coches privados, transporte público insuficiente, urbanismo que separa vivienda y trabajo
+595|Medidas: ampliar metro y autobuses, peajes urbanos, fomentar el teletrabajo y los horarios escalonados
+596|Ventajas–desventajas
+597|Trabajo
+598|Postura: las ventajas superan a las desventajas (para el trabajo intelectual)
+599|Ventajas: sin desplazamientos, flexibilidad, más candidatos donde contratar
+600|Desventajas: aislamiento, colaboración más difícil, límites difusos entre trabajo y vida personal; el modelo híbrido lo suaviza
+601|Pregunta doble
+602|Sociedad
+603|Causas: avances médicos, mejor alimentación e higiene, conciencia sobre la salud
+604|Efectos: presión sobre pensiones y sanidad; pero también el valor de los mayores como trabajadores y voluntarios
+605|Medio ambiente
+606|Postura: en general en desacuerdo
+607|Párrafo 1: es cierto que gobiernos y empresas tienen más influencia (regulación, producción)
+608|Párrafo 2: las decisiones de consumo y el voto de cada persona empujan a empresas y políticas a cambiar
+609|A favor de la libertad: competencias digitales, recursos de aprendizaje, vida social
+610|A favor de los límites: sueño, atención, riesgos en línea
+611|Postura: límites según la edad en vez de una prohibición total
+612|Cultura
+613|Postura: bien gestionado, los beneficios superan a los inconvenientes
+614|Ventajas: empleo, infraestructuras, intercambio cultural
+615|Desventajas: subida de precios, masificación, cultura mercantilizada; se suaviza con cupos de visitantes e impuestos
+616|Salud
+617|Postura: de acuerdo en su mayor parte; los impuestos funcionan, pero deben ir acompañados de educación
+618|Párrafo 1: el precio influye en el consumo (p. ej. las ventas de refrescos bajaron tras un impuesto al azúcar); la recaudación puede financiar programas de salud
+619|Párrafo 2: contraargumento: injusto para quien gana poco → respuesta: devolver lo recaudado en instalaciones deportivas de barrio
+620|Conclusión: de acuerdo, pero un impuesto es solo una parte de un paquete de medidas
+621|Introducción: ambas visiones + mi postura (gratuidad parcial: ayudas según necesidad)
+622|Párrafo 1: argumentos a favor de la gratuidad: igualdad de oportunidades, beneficios para la sociedad
+623|Párrafo 2: argumentos a favor de las tasas: presión presupuestaria, mayor beneficio privado
+624|Párrafo 3 / conclusión: becas según renta + préstamos
+625|Problema 1: los jóvenes retrasan formar una familia y viajan más lejos al trabajo
+626|Problema 2: no se puede retener a trabajadores esenciales (enfermeros, profesores)
+627|Solución 1: más vivienda asequible (vivienda pública, impuesto a pisos vacíos)
+628|Solución 2: mejor transporte para que las zonas periféricas sean una opción
+629|Postura: las ventajas superan a las desventajas (pero exige autodisciplina)
+630|Ventajas: flexible, barato, mucha variedad
+631|Desventajas: poca interacción y supervisión, baja tasa de finalización
+632|Conclusión: funciona mejor como complemento
+633|Causas: avances médicos, mejor nivel de vida, conciencia sobre la salud
+634|Efecto 1 (negativo): presión sobre el gasto en pensiones y sanidad
+635|Efecto 2 (positivo): los mayores cuidan de los nietos y hacen voluntariado
+636|Conclusión: ajustar la edad de jubilación y el apoyo comunitario
+637|Postura: en desacuerdo en parte; el papel individual es pequeño pero real
+638|Párrafo 1: gobiernos y empresas actúan a gran escala (regulación, métodos de producción)
+639|Párrafo 2: las decisiones individuales se suman y mueven mercados; votos y opinión pública
+640|Conclusión: ambos se complementan
+641|Grandes empresas: estabilidad, sistemas de formación, vías de ascenso
+642|Pequeñas empresas: funciones amplias, crecimiento rápido, voz en las decisiones
+643|Mi opinión: sentar las bases en una gran empresa al principio de la carrera y pasar después a una pequeña
+644|Conclusión
+645|Postura: con una gestión moderada, los beneficios superan a los inconvenientes
+646|Ventajas: empleo, ingresos, intercambio cultural
+647|Desventajas: alquileres más caros, aglomeraciones, presión ambiental
+648|Conclusión: cupos de visitantes + tasa turística
+649|¿Cuál es mejor para Task 2?
+650|"a lot of" / "kids" son informales
+651|Evita el vago "good thing"
+652|Sustituye "get better"
+653|Sustituye "big problem"
+654|"pressing issue" es más formal
+655|La forma correcta de empezar la visión general
+656|Task 1 usa "Overall" y no lleva conclusión
+657|¿Qué conexión es más natural?
+658|Los conectores varían
+659|¿Cuál es una oración completa?
+660|Un ejemplo debe ser una oración completa
+661|¿Cuál es más precisa?
+662|Palabra de tendencia + dato
+663|¿Cuál es más objetiva (matizada)?
+664|Lenguaje prudente
+665|Sustituye "nowadays" (evita las plantillas)
+666|La segunda es una plantilla que los examinadores conocen bien
+667|¿Cuál usa "whereas" correctamente?
+668|"whereas" une dos oraciones
+669|La forma correcta de decir "representa ... de"
+670|Sustituye "bad for health"
+671|Una conclusión debe
+672|añadir un argumento nuevo
+673|reafirmar tu postura y resumir las razones principales
+674|dar un ejemplo nuevo
+675|Nada nuevo en la conclusión
+676|¿Cuál se parece más a una frase temática?
+677|Una frase temática debe ser concreta
+678|Una colocación de nota alta para "resolver un problema"
+679|Sustituye "people think"
+680|"Everybody knows" es demasiado absoluto
+681|¿Qué está prohibido en Task 1?
+682|Suponer causas: "because people became richer"
+683|Comparar el máximo y el mínimo
+684|Task 1 no explica causas
+685|Sustituye "very important"
+686|Sustituye "a lot of people"
+687|Los sustantivos contables llevan "a large number of"
+688|¿Cuál encaja mejor en Task 1?
+689|fluctuate + datos concretos
+690|¿Cuál es más objetiva?
+691|Prepara un ejemplo de cada estructura sobre tu propio trabajo o campo (tu experiencia real es la mejor fuente); te servirán tanto para hablar como para escribir.

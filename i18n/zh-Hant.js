@@ -2017,3 +2017,5 @@ I18N.add("zh-Hant", {
 "46 / 64": "46 / 64：注意數字順序 forty-six 與 sixty-four",
 "understand the reasons behind the numbers": "understand the reasons behind the numbers = 解釋原因（同義替換）"
 });
+/* explain v11 */
+I18N.add("zh-Hant", {});

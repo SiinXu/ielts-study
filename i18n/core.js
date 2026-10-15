@@ -41,7 +41,7 @@ window.I18N = {
   set: function(l){ if (!ok(l)) return; try{ localStorage.setItem('ielts.lang', l); }catch(e){} location.reload(); }
 };
 document.documentElement.lang = LOCALE[lang];
-var V = '?v=10';
+var V = '?v=11';
 if (lang !== 'zh' && lang !== 'zh-Hant') document.write('<script src="i18n/en.js'+V+'" charset="utf-8"><\/script>');
 if (lang === 'zh-Hant') document.write('<script src="i18n/zh-Hant-conv.js'+V+'" charset="utf-8"><\/script>');
 if (lang !== 'en') document.write('<script src="i18n/'+(lang === 'zh' ? 'zh' : lang)+'.js'+V+'" charset="utf-8"><\/script>');

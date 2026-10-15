@@ -1,0 +1,692 @@
+0|S + V: „rise“ ist intransitiv und hat kein Objekt
+1|S + V + O: „raise“ ist transitiv und braucht ein Objekt
+2|S + Kopulaverb + Prädikativ: „become“ ist ein Kopulaverb, danach folgt ein Adjektiv
+3|S + V + indirektes Objekt + direktes Objekt: show sb sth
+4|S + V + O + Objektprädikativ: make sb + Adjektiv
+5|Ein Hauptverb pro Satz: „want“ ist das Verb, „to learn“ sein Objekt
+6|In einem There-be-Satz muss ein zweites Verb in einen Nebensatz
+7|Das Subjekt ist „results“, nicht „survey“
+8|„remain“ ist ein Kopulaverb, danach folgt ein Adjektiv
+9|make + Objekt + Adjektiv
+10|Wähle den richtigen Satz
+11|Kopula-Muster: was + Adjektiv; kein „to“ nach „became“
+12|Welchem Satz fehlt das Hauptverb?
+13|Vor „very humid“ braucht es das Kopulaverb „is“
+14|Nach „there be“ muss ein weiteres Verb zum Nebensatz oder Partizip werden: who have / having
+15|make + Objekt + Adjektiv (Objektprädikativ), kein Adverb
+16|„Because“ leitet nur einen Nebensatz ein; vor „crowded“ fehlt „is“
+17|„seem“ ist ein Kopulaverb, direkt gefolgt von einem Adjektiv
+18|Verb im Simple Present in der Grundform: use
+19|Das Adverb „very“ kann kein Verb direkt bestimmen
+20|Zwei Hauptverben in einem Satz: „There are“ streichen oder „who“ ergänzen
+21|Ein Adjektiv kann nicht das Verb sein; „be“ ergänzen
+22|„rise“ ist intransitiv und hat kein Passiv
+23|make sb do, ohne „to“
+24|„it“ nach dem Subjekt nicht wiederholen
+25|Vor einem Adjektiv braucht es ein Kopulaverb
+26|Gewohnheit: 3. Person Singular bekommt -s
+27|Etwas, das gerade in dieser Zeit läuft
+28|Die Verneinung ist doesn't + Grundform, nicht „don't likes“
+29|Vergangene Jahre in einer Grafik stehen in der Vergangenheit
+30|Part 2: über die Kindheit sprechen
+31|Past Continuous (Hintergrund) + Past Simple (Unterbrechung)
+32|Zustandsverb: nicht „am knowing“
+33|Simple Present: Fahrpläne und Gewohnheiten
+34|Verlaufsform: ein Trend, der sich gerade ändert
+35|Lange Handlung in der Verlaufsform, kurze im Past Simple
+36|Subjekt in der 3. Person Singular + works
+37|„Look!“ zeigt, dass etwas gerade jetzt passiert
+38|1990 ist ein abgeschlossener Zeitpunkt in der Vergangenheit
+39|Wähle den falschen Satz
+40|„know“ ist ein Zustandsverb und steht nicht in der Verlaufsform; außerdem verlangt „for years“ das Present Perfect
+41|Fragen in der 3. Person Singular: Does + Grundform
+42|Objektive Tatsachen stehen im Simple Present
+43|„Look!“ zeigt, dass es jetzt passiert
+44|Eine unterbrochene, länger andauernde Handlung steht im Past Continuous
+45|Das -s der 3. Person fehlt
+46|Die Verneinung in der 3. Person: doesn't
+47|Ein Zeitpunkt in der Vergangenheit verlangt die Vergangenheitsform
+48|„understand“ ist ein Zustandsverb
+49|Task 1: vergangene Jahre in der Vergangenheitsform
+50|„know“ ist ein Zustandsverb und steht nicht in der Verlaufsform
+51|Vergangener Zeitpunkt, Vergangenheitsform
+52|for + Zeitraum: wohnt immer noch dort
+53|since + Anfangspunkt, häufig in Essays
+54|Erfahrung: ever / never
+55|„last year“ → Past Simple
+56|„yet“ steht in Fragen und Verneinungen
+57|Zweimal dort gewesen und zurückgekommen
+58|Eine Handlung, die angedauert hat
+59|Erfahrung: have been to
+60|just + Perfekt: ist gerade eben passiert
+61|since + Anfangspunkt: dauert bis jetzt an
+62|since + Anfangspunkt bis jetzt → Present Perfect
+63|„in 2019“ ist ein bestimmter Zeitpunkt in der Vergangenheit
+64|Die Person ist nicht hier: „has gone“ verwenden
+65|„ever“ fragt nach Erfahrung → Have you ever eaten
+66|„over the past decade“ reicht bis heute
+67|„since“ verlangt das Perfekt
+68|„last week“ ist ein bestimmter Zeitpunkt in der Vergangenheit
+69|„this year“ ist noch nicht vorbei: Perfekt verwenden
+70|„yesterday“ steht nicht mit dem Perfekt
+71|„since“ erfordert das Perfekt
+72|Das Perfekt verwendet das Partizip Perfekt (Past Participle)
+73|Frage nach der Dauer: Perfekt verwenden
+74|„ago“ steht mit dem Past Simple
+75|Hingegangen und zurückgekommen: „been to“
+76|Allgemeine Aussagen im Plural, ohne „the“
+77|„advice“ ist unzählbar
+78|„the number“ ist Singular
+79|„everyone“ ist Singular
+80|„the“ bei Musikinstrumenten, nicht bei Ballsportarten
+81|„the“ für die Regierung des eigenen Landes; „education“ allgemein ohne „the“
+82|„the“ für etwas Bestimmtes
+83|Nach „each of“ steht das Verb im Singular
+84|„information“ ist unzählbar
+85|Das Subjekt „the number“ ist Singular
+86|Abstrakte Begriffe allgemein: unzählbar, ohne Artikel
+87|Zählbare Nomen allgemein: Plural verwenden
+88|„each of ...“ verlangt ein Verb im Singular
+89|„the number of“ verlangt ein Verb im Singular
+90|(leer lassen)
+91|Abstrakte Nomen im allgemeinen Sinn ohne Artikel
+92|„homework“ ist unzählbar
+93|„people“ ist Plural
+94|Eine Berufsbezeichnung im Singular braucht a/an
+95|„research“ ist unzählbar; Verb im Singular
+96|„life“ allgemein ohne „the“; das Leben in einer bestimmten Stadt mit
+97|every + Nomen im Singular + Verb im Singular
+98|„research“ ist unzählbar
+99|Prozessdiagramm: Passiv + Reihenfolge
+100|Wer handelt, ist unwichtig
+101|Passiv in der Vergangenheit
+102|Passiv im Perfekt
+103|Modalverb + be + Partizip Perfekt
+104|should + Grundform für Ratschläge
+105|„may“ macht die Aussage vorsichtiger
+106|Passiv in der Zukunft
+107|„might“ schwächt einen Vorschlag ab
+108|Die Brücke wurde fertiggestellt (Passiv); 1937 ist Vergangenheit
+109|should + be + Partizip Perfekt
+110|Nach einem Modalverb steht die Grundform
+111|Prozesse im Passiv des Simple Present beschreiben
+112|Was passt besser zum akademischen Schreiben?
+113|„may“ + eingeschränkte Reichweite macht die Aussage sicherer
+114|be + Partizip Perfekt
+115|Möglichkeit: might
+116|Verneintes Modalverb + be + Partizip Perfekt
+117|Das Passiv braucht das Partizip Perfekt
+118|„happen“ ist intransitiv: kein Passiv
+119|Kein „to“ nach einem Modalverb
+120|„agree“ ist ein Verb; nicht mit „am“ verwenden
+121|Grundform nach einem Modalverb
+122|Das Partizip Perfekt von „hold“ ist „held“
+123|Ein that-Satz nach „suggest“ ist üblicher
+124|Subjektsatz
+125|Objektsatz
+126|whether = if (ob … oder nicht)
+127|Wortstellung des Aussagesatzes, nicht „where is the station“
+128|Formales Subjekt (it)
+129|Prädikativsatz
+130|Appositionssatz, der „evidence“ erklärt
+131|Ein whether-Satz als Subjekt
+132|Ein that-Satz als Prädikativ
+133|Indirekte Fragen haben die Wortstellung des Aussagesatzes
+134|Aussagesatz-Wortstellung + -s der 3. Person
+135|Ein Subjektsatz am Satzanfang kann nur „whether“ verwenden
+136|Formales Subjekt „It“
+137|Appositionssätze verwenden „that“
+138|Wortstellung des Aussagesatzes
+139|Objektsätze haben die Wortstellung des Aussagesatzes
+140|what = das, was; als Subjektsatz
+141|Nebensätze haben die Wortstellung des Aussagesatzes
+142|„it“ nach einem Subjektsatz nicht wiederholen
+143|Die Verneinung nach vorn zu ziehen klingt natürlicher
+144|Nach „reason“ „that“ verwenden
+145|Keine Inversion in indirekten Fragen
+146|Ein Satz mit 40 Wörtern in einem Cambridge-Lesetext hat oft nur ein Gerüst aus 5 Wörtern. Wenn das in Fleisch und Blut übergeht, steigt dein Lesetempo deutlich.
+147|Methode: Decke bei jedem Beispiel unten alles außer dem unterstrichenen Teil mit dem Finger ab, lies nur das Gerüst und dann den ganzen Satz.
+148|Gerüst: Researchers found that...
+149|Gerüst: The idea has fascinated scientists
+150|Gerüst: the number continues to grow
+151|Subjektsatz + Prädikativsatz
+152|Zuerst die Partizipialgruppe, dann das Gerüst
+153|Gerüst: Cities tend to attract residents
+154|Hauptsatz: The idea is popular
+155|Hauptsatz: Workers need retraining
+156|Subjektsatz + is + Prädikativsatz
+157|„The report, which was published last week by an independent agency, suggests that fees should fall.“ Was ist das Hauptverb?
+158|„was published“ im which-Satz ist nicht das Hauptverb
+159|„Students who work part-time often manage their time better.“ Was ist das Subjekt?
+160|„who work part-time“ bestimmt „Students“ näher
+161|„Not until the 19th century did scientists understand germs.“ Was ist das Hauptverb?
+162|Inversion: did scientists understand
+163|„Built in 1880, the station remains a landmark.“ Was ist das Gerüst?
+164|„Built in 1880“ ist ein adverbial gebrauchtes Partizip Perfekt
+165|Finde den Hauptsatz: Students who study abroad often face challenges that they did not expect.
+166|Beide Nebensätze sind Bestimmungen
+167|Das Subjekt ist „the book“
+168|„one of ...“ verlangt ein Verb im Singular
+169|Das Subjekt des Nebensatzes, „teenagers“, ist Plural
+170|Das Subjekt ist „The idea“ (Singular)
+171|Subjekt: the number
+172|Das Bezugswort „people“ ist Plural
+173|„who“ bezieht sich auf „people“: Plural
+174|„although“ und „but“ nicht zusammen verwenden
+175|Personen → who
+176|Dinge → which/that
+177|Nicht notwendiger Relativsatz: which, nicht that
+178|whose = Besitz
+179|Ort: where
+180|Zeit: when
+181|Präposition vorangestellt: formell
+182|„whose“ drückt Besitz aus
+183|Person + Subjekt des Nebensatzes → who
+184|Nicht notwendig + „visited“ fehlt das Objekt → which
+185|Nach „born“ fehlt nichts; es ist eine Ortsangabe → where
+186|Das Objekt im Nebensatz nicht wiederholen
+187|Ihre Romane → whose
+188|Besitz: whose
+189|Nach einem Zeitnomen „when“ verwenden
+190|Nach einem Superlativ „that“ verwenden
+191|Personen: who
+192|Nicht notwendige Relativsätze verwenden kein „that“
+193|Das Relativpronomen fehlt
+194|„live“ ist intransitiv: where / in which verwenden
+195|„stay“ ist intransitiv: braucht where oder at
+196|Das Subjekt im Nebensatz nicht wiederholen
+197|Einräumung + Nebensatz, danach kein „but“
+198|despite + Nomen
+199|Grund + Nebensatz
+200|because of + Nomen
+201|Bedingung
+202|Folge: so ... that
+203|Zweck: so that
+204|Bedingung: as long as
+205|Einräumung: even though
+206|Folge: Semikolon + as a result
+207|Vor einem Nebensatz „although“ verwenden
+208|„the traffic“ ist ein Nomen
+209|„although“ nicht mit „but“ kombinieren
+210|Vor einem Nomen „because of“ verwenden
+211|„as soon as“ leitet einen Temporalsatz ein
+212|Gegensatz mit „however“
+213|although + but ist doppelt gemoppelt
+214|because + so ist doppelt gemoppelt
+215|Ein Nebensatz kann nicht allein stehen
+216|Nach „despite“ folgt kein Nebensatz
+217|„such“ mit einer Nominalgruppe verwenden
+218|because of + Nomen; because + Nebensatz
+219|In Bedingungssätzen drückt das Präsens die Zukunft aus
+220|„to“ ist eine Präposition
+221|Präposition + -ing
+222|Mit dem Rauchen aufgehört (stop doing)
+223|Hat angehalten, um ans Telefon zu gehen
+224|Ein Gerundium als Subjekt
+225|Gerundium als Subjekt, Verb im Singular
+226|Daran denken, dass man es noch tun muss → to do
+227|Präposition „in“ + -ing
+228|Das „to“ in „look forward to“ ist eine Präposition
+229|stop doing: mit etwas aufhören, das schon läuft
+230|„suggest“ steht nicht mit sb to do
+231|-ing beschreibt, wie etwas ist; -ed beschreibt, wie sich Menschen fühlen
+232|Es nach dem Fertigwerden tun
+233|In Grafiken stehen oft passive Partizipien
+234|Ein passives Partizip, das einen Grund angibt
+235|Partizip Perfekt: Passiv + vor dem Hauptsatz geschehen
+236|Partizip Präsens: aktiv, gleichzeitig
+237|Nachgestelltes Partizip als Attribut
+238|Gefühle von Menschen mit -ed
+239|Aktiv → working
+240|Die Daten wurden erhoben → collected
+241|Das Unternehmen wurde gegründet (Passiv)
+242|Welcher Satz hat ein unverbundenes Partizip (dangling participle)?
+243|Nicht der Fuchs geht nach Hause
+244|Die Stadt wird gesehen: Partizip Perfekt
+245|Partizip Präsens nach dem Nomen
+246|Das logische Subjekt des Partizips muss dem Hauptsatzsubjekt entsprechen
+247|„boring“ bedeutet, dass es Menschen langweilt
+248|Dinge bekommen -ing
+249|Zwei Hauptverben
+250|Feste Verwendung des Partizips Perfekt
+251|Unverbundenes Partizip: Subjekt muss die Person sein, die geht
+252|-ing beschreibt Dinge, -ed Gefühle
+253|„much“ verstärkt einen Komparativ
+254|Der/die/das zweitgrößte ...
+255|Vielfache
+256|Reale Bedingung
+257|Irreal in der Gegenwart; „be“ wird zu „were“
+258|Irreal in der Vergangenheit
+259|the + Komparativ, the + Komparativ
+260|Vielfaches + as ... as
+261|Third Conditional: entgegen der Vergangenheit
+262|In if-Sätzen drückt das Präsens die Zukunft aus
+263|Irreale Gegenwart
+264|Entgegen der Gegenwart: „were“ verwenden
+265|Der Komparativ von „cheap“ ist „cheaper“
+266|Entgegen der Vergangenheit: would have done
+267|Doppelter Komparativ
+268|Kein „will“ im if-Satz
+269|Der formelle Konjunktiv verwendet „were“
+270|Doppelter Superlativ
+271|Mit „much“ einen Komparativ verstärken
+272|Kein zusätzliches „more“ vor einem Komparativ
+273|Kein „would“ im if-Satz
+274|Lerne keine ganzen Musterabsätze auswendig: Prüfer sind darauf geschult, sie zu erkennen, und Schablonensprache kostet Punkte. Lerne nur das Gerüst und fülle den Inhalt vor Ort.
+275|Inversion nach „not only“
+276|Spaltsatz (Cleft Sentence)
+277|What-Satz als Subjekt (ideal fürs Sprechen)
+278|Inversion ohne „if“
+279|Mit Einräumung/Gegensatz beginnen
+280|Eine Sichtweise einführen
+281|It is + Partizip Perfekt + that
+282|„Not only“ am Satzanfang verlangt Inversion
+283|„Not only“ am Satzanfang: Teilinversion
+284|Spaltsatz: It was ... that
+285|Ein what-Satz als Subjekt
+286|„Not only“ am Satzanfang: Teilinversion
+287|„It could be argued that“ ist sachlich und vorsichtig
+288|Ursache und Wirkung doppelt gesagt
+289|Doppelt gesagt; „I think“ streichen
+290|Die konkrete Veränderung direkt nennen
+291|Leere Schablonen-Einleitungen kosten Punkte
+292|„in my opinion“ und „I think“ sagen dasselbe
+293|Die Standard-Einleitung durch etwas Themenspezifisches ersetzen
+294|Nach zwei Wochen Grammatik nicht mehr isoliert lernen: Wenn ein Punkt beim Lesen oder bei der Essaykorrektur auftaucht, zum passenden Tag zurückgehen und die Lücke schließen.
+295|Relativsatz + Perfekt
+296|Einräumung + manage to do
+297|Partizip + Vergleich
+298|Inversion ohne „if“
+299|Nicht notwendiger Relativsatz
+300|Partizip Perfekt (having done): zuerst passiert
+301|„the number“ ist Singular + since → has doubled
+302|„despite“ vor einem Nomen
+303|Nicht notwendiges „which“
+304|Irreale Gegenwart
+305|Näheregel: „students“ ist Plural
+306|Vorvergangenheit: Past Perfect
+307|Kein „of“ nach „despite“
+308|Inversion und Spaltsätze
+309|„Rarely“ am Satzanfang + do + Subjekt
+310|„Only“ + Adverbial am Satzanfang verlangt Inversion
+311|„Not until“ am Satzanfang: Hauptsatz invertieren
+312|„Little“ im Sinn von „überhaupt nicht“
+313|Bei Betonung einer Person kann „who“ stehen
+314|Die Zeit betonen
+315|Ein what-Satz als Subjekt
+316|Under no circumstances + Inversion
+317|So + Adjektiv am Satzanfang, dann Inversion
+318|Verneinendes Adverb am Satzanfang: Hilfsverb zuerst
+319|„Only“ + Adverbial am Satzanfang: Inversion
+320|Ein what-Satz als Subjekt zählt als Singular
+321|Was klingt am natürlichsten (Task 2)?
+322|Inversion muss grammatisch korrekt und klar sein
+323|Ein verneinendes Wort am Satzanfang verlangt Inversion
+324|Im Spaltsatz das Subjekt nicht wiederholen
+325|what-Satz + is
+326|„Only if“ am Satzanfang: Hauptsatz invertieren
+327|„Not only“ am Satzanfang mit Inversion; die zweite Hälfte bleibt vollständig
+328|Konjunktiv und gemischte Konditionalsätze
+329|Entgegen der Gegenwart
+330|Gemischt: Bedingung in der Vergangenheit, Folge in der Gegenwart
+331|wish + had done: Bedauern über die Vergangenheit
+332|It's time + Vergangenheitsform
+333|recommend that + Grundform
+334|Inversion ohne „if“: Were + Subjekt
+335|„without“ statt einer if-Bedingung
+336|Inversion mit „Had“ = If they had invested
+337|suppose + Vergangenheitsform
+338|Entgegen der Gegenwart: Vergangenheitsform
+339|Gemischter Konditionalsatz: die Folge liegt in der Gegenwart
+340|Bedauern über die Vergangenheit: had done
+341|insist that + Grundform
+342|Inversion ohne „if“ verwendet „Were“
+343|Konjunktiv: were + would
+344|Nach „wish“ Vergangenheitsform / could
+345|Entgegen der Vergangenheit: had done + would have done
+346|Die beiden Strukturen lassen sich nicht mischen
+347|Nominalisierung und akademischer Stil
+348|Nicht jeden Satz nominalisieren, sonst wird es schwerfällig. Am besten wirkt es in Überblickssätzen und Themensätzen in Task 1 und Task 2.
+349|„lack“ als Nomen
+350|a decline in + Nomen
+351|„use“ als Nomen, mit einem Adjektiv davor
+352|access to + Nomen
+353|Nominalisiere „Unemployment rose sharply“:
+354|a sharp rise in + Nomen
+355|Wähle die richtige Kollokation: a significant increase ___ the number of students
+356|Was eignet sich am besten als Themensatz in Task 2?
+357|Nominalisierung + treffende Kollokation
+358|Der Prozentsatz steht vor „increase“
+359|Hier braucht es die Nomenform
+360|Das Subjekt ist „lack“: Singular
+361|Einräumung und Gegensatz
+362|although + Nebensatz
+363|despite the fact that + Nebensatz
+364|„whereas“ verbindet einen Gegensatz
+365|„While“ am Satzanfang für Einräumung/Gegensatz
+366|„By contrast“ am Satzanfang
+367|Nevertheless = trotzdem
+368|Vor einem Nomen „despite“ verwenden
+369|Zwei Sätze mit „whereas“ gegenüberstellen
+370|Vor einem Nebensatz „even though“ verwenden
+371|Satzadverb am Anfang + Komma
+372|Wähle den richtigen Satz
+373|„although“ nicht mit „but“; nach „despite“ kein Nebensatz
+374|Nach „despite“ folgt kein Nebensatz
+375|„however“ kann so kein Nomen anschließen
+376|Entweder „although“ oder „but“
+377|„but“ streichen
+378|On the contrary, City B fell. (nur ein Gegensatz)
+379|„on the contrary“ heißt „ganz im Gegenteil“ und korrigiert die vorige Aussage
+380|Partizipialsätze und absolute Konstruktionen
+381|Ein Partizip, das die Folge zeigt
+382|Ein Partizip, das die Folge ergänzt
+383|with + Nomen + -ing
+384|Feste absolute Wendung
+385|Absolute Konstruktion: weather permitting
+386|Partizip-Perfekt-Gruppe zum Vergleich
+387|Passives Partizip Perfekt (having been done)
+388|„followed by“ für das, was danach kommt
+389|Ein Partizip für eine begleitende Folge
+390|considering = in Anbetracht
+391|Das Gesetz wurde verabschiedet (Passiv)
+392|Absolute Konstruktionen verwenden „being“
+393|Welcher Satz hat ein unverbundenes Partizip?
+394|Ein Unfall kann nicht fahren
+395|Das Subjekt des Partizips muss passen
+396|Zwischen zwei Verben ein Partizip oder „and“
+397|Kein „so“ nach einer with-Konstruktion
+398|Eine absolute Konstruktion braucht ein eigenes Subjekt
+399|Kohäsion, Bezüge und zusammenfassende Nomen
+400|this + zusammenfassendes Nomen
+401|such + Nomen im Plural
+402|Mit einem Nomen auf den vorigen Satz zurückgreifen
+403|The former / the latter (Ersteres / Letzteres)
+404|Pronomen + „also“, um fortzufahren
+405|these + Datennomen
+406|„otherwise“ heißt „sonst“
+407|„trend“ ist Singular: „this“ verwenden
+408|Welche Fortsetzung ist am natürlichsten?
+409|this + zusammenfassendes Nomen ist klarer als „this“ allein
+410|The former = A
+411|„issue“ kann das Vorige zusammenfassen
+412|Welcher Absatz wiederholt zu viel?
+413|„children“ kommt immer wieder vor
+414|Ein Nomen nach „this“ ist klarer; Verb im Singular
+415|Verbindungswörter variieren
+416|Demonstrativa müssen im Numerus zum Nomen passen
+417|Verbindungswörter nicht stapeln
+418|„And“ am Satzanfang ist zu umgangssprachlich
+419|Fortgeschrittene Zeiten: Perfect Continuous und Future Perfect
+420|Perfect Continuous: dauert bis jetzt an
+421|Past Perfect Continuous: die Ursache
+422|Past Perfect: vor einem anderen vergangenen Ereignis
+423|Future Perfect: Prognosen in Task 1
+424|Future Continuous
+425|Eine häufige Frage in Part 1
+426|„be expected to“ für Prognosen
+427|„be due to“ für Pläne
+428|Dauert bis jetzt an und ist nicht abgeschlossen
+429|by + Zeitpunkt in der Zukunft → Future Perfect
+430|Vorvergangenheit
+431|Zu einem Zeitpunkt in der Zukunft im Gange
+432|Eine vorher andauernde Handlung hat das Ergebnis verursacht
+433|for + Zeitraum bis jetzt: Perfect Continuous
+434|by + Zeitpunkt in der Zukunft: Future Perfect
+435|Um zu zeigen, dass sie schon gegangen waren: Past Perfect
+436|Zustandsverben stehen nicht in der Verlaufsform
+437|to + Grundform
+438|Anmeldung im Fitnessstudio
+439|Ein Ferienhaus buchen
+440|Führung durch die neue Bibliothek (Monolog)
+441|Ankündigung eines Aufräumtags im Viertel
+442|Zwei Studierende besprechen eine Gruppenpräsentation
+443|Ein Tutor gibt Feedback zum Essay einer Studentin
+444|Vorlesung: die Geschichte des Fahrrads
+445|Vorlesung: Schlaf und Gedächtnis
+446|Einen verlorenen Gegenstand melden
+447|Veränderungen im Museum
+448|Gespräch über Forschungsmethoden
+449|Vorlesung: die städtische Wärmeinsel
+450|Mietanfrage
+451|Anmeldung zu einem Sprachkurs
+452|Verlorenes Gepäck melden
+453|Führung durch das Stadtmuseum
+454|Einweisung für Freiwillige auf dem Gemeinschaftshof
+455|Aushang zu Änderungen in der Stadtbibliothek
+456|Eine Gruppenpräsentation aufteilen
+457|Feedback des Tutors zu einem Forschungsexposé
+458|Ein Thema für die Abschlussarbeit wählen
+459|Vorlesung: eine kurze Geschichte des Fahrrads
+460|Vorlesung: Schlaf und Gedächtnis
+461|Vorlesung: die städtische Wärmeinsel
+462|Die Rückkehr der Nachtzüge
+463|Warum Bienen tanzen
+464|Die Vier-Tage-Woche
+465|Erwachsene lernen Sprachen
+466|Straßen aus Kunststoff
+467|Die Wissenschaft der Gewohnheiten
+468|Antike Städte und Wasser
+469|Empfehlungsalgorithmen
+470|Warum Städte „Miniwälder“ pflanzen
+471|Absatz 4: the canopy suppresses weeds
+472|Wie Gewohnheiten entstehen
+473|Absatz 2
+474|Wie bedrohte Sprachen wiederbelebt werden
+475|Absatz 3
+476|Die Ökonomie des freien Museumseintritts
+477|Absatz 4
+478|Wie Bienen ihren Weg finden
+479|Der Aufstieg der Vier-Tage-Woche
+480|Kann Meerwasserentsalzung die Wasserlücke schließen?
+481|Aus Fehlern lernen
+482|TA Aufgabenerfüllung (Task Achievement)
+483|Im ersten oder zweiten Absatz steht ein Überblick (Gesamttrend / Höchst- und Tiefstwert)
+484|Wichtige Merkmale sind ausgewählt und mit Daten belegt, statt alle Zahlen aufzuzählen
+485|Mindestens 150 Wörter, ohne eigene Meinung oder Vermutungen über Ursachen
+486|CC Kohärenz und Kohäsion (Coherence and Cohesion)
+487|Nach Gruppen vergleichen (Ähnliches in einem Absatz), 3–4 Absätze
+488|Verbindungswörter wirken natürlich (while, whereas, by contrast), nicht in jedem Satz
+489|LR Wortschatz (Lexical Resource)
+490|Abwechslungsreiche Trendwörter: rise / climb / increase; dip / decline / fall
+491|Präzise Datensprache: account for, stand at, peak at, roughly a third
+492|GRA Grammatische Bandbreite und Genauigkeit (Grammatical Range and Accuracy)
+493|Zeiten stimmen (Vergangenheit für vergangene Jahre, „is expected to“ für Prognosen)
+494|Mindestens 2 Arten komplexer Sätze (Relativsatz, Partizip, Vergleich) ohne Grundfehler
+495|TR Aufgabenbezug (Task Response)
+496|Jeder Teil der Frage wird beantwortet (bei Doppelfragen beide)
+497|Die Position ist klar, durchgehend und schon in der Einleitung erkennbar
+498|Jeder Hauptteil-Absatz hat einen Hauptpunkt + Erklärung + Beispiel
+499|Mindestens 250 Wörter, in 40 Minuten fertig
+500|Absätze beginnen mit einem Themensatz; Pronomen und Synonyme führen Gedanken weiter, statt Nomen zu wiederholen
+501|Der Schluss fasst nur zusammen; keine neuen Punkte
+502|Themenwortschatz (z. B. public infrastructure, workforce) mit richtigen Kollokationen
+503|Umgangssprache vermeiden (a lot of → a significant number of; kids → children)
+504|Über die Hälfte der Sätze sind komplex und weitgehend fehlerfrei; Artikel, Plural und Kongruenz geprüft
+505|Zeichensetzung: keine zwei vollständigen Sätze nur mit Komma verbinden (Comma Splice)
+506|Liniendiagramm
+507|Jahr
+508|Autos
+509|Fahrräder
+510|E-Scooter
+511|Überblick: Autos stiegen und fielen dann, blieben aber an der Spitze; Fahrräder fielen und erholten sich; Scooter wuchsen schnell von null an
+512|Absatz 1: Autos 62 → 70 (Höchststand 2010) → 58
+513|Absatz 2: Fahrräder fielen von 48 auf 35 und stiegen wieder auf 46; Scooter kamen 2010 auf und erreichten bis 2020 27
+514|Balkendiagramm
+515|Alter
+516|Soziale Medien
+517|Sport
+518|Überblick: Je älter die Gruppe, desto weniger soziale Medien und desto mehr Lesen; Sport ist in allen Gruppen ähnlich
+519|Absatz 1: soziale Medien 18 → 4
+520|Absatz 2: Lesen 3 → 8; Sport 3–5 Stunden
+521|Prozessdiagramm
+522|Schritt
+523|Was passiert
+524|Flaschen werden an Recyclingstellen gesammelt
+525|Zu einem Werk gebracht und nach Farbe sortiert
+526|Gewaschen und von Etiketten befreit
+527|In kleine Stücke zerkleinert (Glasbruch)
+528|Mit Sand und anderen Stoffen gemischt, bei 1500 °C geschmolzen
+529|In Formen gegossen und geformt
+530|Geprüft und zur Abfüllung an Betriebe geschickt
+531|Überblick: 7 Schritte von der Sammlung bis zur erneuten Abfüllung, ein Kreislauf
+532|Absatz 1: Sammeln, Transport, Sortieren, Waschen
+533|Absatz 2: Zerkleinern, Schmelzen, Formen, Prüfen
+534|Karte
+535|Lage
+536|Heute
+537|Norden
+538|Ackerland
+539|Wohngebiet
+540|Mitte
+541|Kleiner Anleger
+542|Verlängerter Anleger + Liegeplätze für Jachten
+543|Osten
+544|Fischerhütten
+545|Hotel + Parkplatz
+546|Westen
+547|Wald
+548|Erhalten, mit neuen Fußwegen
+549|Straßen
+550|Eine Hauptstraße
+551|Hauptstraße + neue Straße zum Hotel
+552|Überblick: vom Fischerdorf zum Tourismusgebiet; deutlich mehr Wohnungen und Tourismuseinrichtungen; der Wald bleibt erhalten
+553|Absatz 1: Veränderungen im Norden und Osten
+554|Absatz 2: Anleger, Straßen, Wald im Westen
+555|Kreisdiagramm
+556|Kategorie
+557|Wohnen
+558|Lebensmittel
+559|Verkehr
+560|Freizeit
+561|Sonstiges
+562|Überblick: Wohnen wurde zum größten Ausgabenposten; der Anteil der Lebensmittel sank stark
+563|Absatz 1: Anstieg bei Wohnen 22 → 34 % und Freizeit 10 → 16 %
+564|Absatz 2: Rückgang bei Lebensmitteln 28 → 17 % und Sonstigem 26 → 18 %; Verkehr nahezu unverändert
+565|Tabelle
+566|Land
+567|Überblick: A lag stets am höchsten, veränderte sich aber kaum; D wuchs am schnellsten
+568|Absatz 1: A 560 → 610 → 590; C schwankte leicht
+569|Absatz 2: B wuchs stetig auf 410; D verdreifachte sich auf 280
+570|Beschreibung
+571|Überblick: sieben Schritte vom Recycling bis zum Weben, in einer Vorbereitungs- und einer Verarbeitungsphase
+572|Absatz 1: Sammeln, Sortieren, Waschen, Schreddern (Passiv + Reihenfolgewörter)
+573|Absatz 2: zu Fasern schmelzen, spinnen, weben
+574|Kombinierte Diagramme
+575|Tägliche Stunden online
+576|Handybesitz 2013
+577|Handybesitz 2023
+578|Überblick: Je jünger die Gruppe, desto länger online; der Handybesitz stieg in allen Altersgruppen, am stärksten bei Älteren
+579|Absatz 1: die Onlinezeit sinkt von 6,1 auf 1,9 Stunden
+580|Absatz 2: Handybesitz, 65+ 12 → 61 %, Jüngere fast 100 %
+581|Meinung
+582|Technologie
+583|Position: teilweise Zustimmung; langfristig ein Nettogewinn, aber die kurzfristigen Kosten der Jobverschiebungen sind hoch
+584|Absatz 1: neue Jobs (Datenannotation, KI-Produkte, Wartung), historische Parallele
+585|Absatz 2: kurzfristige Jobverluste konzentrieren sich auf einige Branchen; Umschulung nötig
+586|Schluss: Sie schafft mehr Jobs, als sie vernichtet, sofern die Politik den Übergang unterstützt
+587|Diskussion
+588|Bildung
+589|Absatz 1: die akademische Sicht: kritisches Denken, Grundlagenforschung, Wert des Wissens an sich
+590|Absatz 2: die Berufssicht: hohe Studiengebühren, Jobdruck, Praktika
+591|Position: beides verbinden, mit Praxisprojekten im Lehrplan
+592|Problem–Lösung
+593|Städte
+594|Ursachen: mehr Privatautos, zu wenig ÖPNV, eine Stadtplanung, die Wohnen und Arbeiten trennt
+595|Maßnahmen: U-Bahn und Busse ausbauen, City-Maut, Homeoffice und gestaffelte Arbeitszeiten fördern
+596|Vor- und Nachteile
+597|Arbeit
+598|Position: die Vorteile überwiegen (bei Wissensarbeit)
+599|Vorteile: kein Pendeln, Flexibilität, größerer Bewerberpool
+600|Nachteile: Isolation, schwierigere Zusammenarbeit, verschwimmende Grenzen zwischen Arbeit und Privatleben, abgefedert durch hybrides Arbeiten
+601|Doppelfrage
+602|Gesellschaft
+603|Ursachen: medizinischer Fortschritt, bessere Ernährung und Hygiene, Gesundheitsbewusstsein
+604|Folgen: Druck auf Renten und Gesundheitswesen; aber auch der Wert Älterer als Arbeitskräfte und Ehrenamtliche
+605|Umwelt
+606|Position: weitgehend nicht einverstanden
+607|Absatz 1: Regierungen und Unternehmen haben zwar mehr Einfluss (Regulierung, Produktion)
+608|Absatz 2: individuelle Kaufentscheidungen und Wählerstimmen bringen Unternehmen und Politik zum Umdenken
+609|Für Freiheit: digitale Kompetenzen, Lernressourcen, soziales Leben
+610|Für Grenzen: Schlaf, Aufmerksamkeit, Online-Risiken
+611|Position: altersgestaffelte Grenzen statt eines Pauschalverbots
+612|Kultur
+613|Position: Gut gesteuert überwiegen die Vorteile
+614|Vorteile: Arbeitsplätze, Infrastruktur, kultureller Austausch
+615|Nachteile: steigende Preise, Überfüllung, kommerzialisierte Kultur, abgefedert durch Besucherobergrenzen und Abgaben
+616|Gesundheit
+617|Position: überwiegend einverstanden; Steuern wirken, müssen aber mit Aufklärung einhergehen
+618|Absatz 1: Der Preis beeinflusst den Konsum (z. B. sanken die Getränkeverkäufe nach einer Zuckersteuer); Steuereinnahmen können Gesundheitsprogramme finanzieren
+619|Absatz 2: Gegenargument: ungerecht für Geringverdiener → Erwiderung: die Einnahmen in Sportstätten vor Ort zurückfließen lassen
+620|Schluss: einverstanden, aber eine Steuer ist nur ein Teil eines Maßnahmenpakets
+621|Einleitung: beide Sichtweisen + meine Position (teilweise kostenlos: bedarfsabhängige Förderung)
+622|Absatz 1: Argumente für Gebührenfreiheit: Chancengleichheit, Nutzen für die Gesellschaft
+623|Absatz 2: Argumente für Gebühren: Haushaltsdruck, größerer privater Nutzen
+624|Absatz 3 / Schluss: einkommensabhängige Stipendien + Darlehen
+625|Problem 1: Junge Menschen schieben die Familiengründung auf und pendeln weiter
+626|Problem 2: Systemrelevante Kräfte (Pflegekräfte, Lehrkräfte) lassen sich nicht halten
+627|Lösung 1: mehr bezahlbarer Wohnraum (Sozialwohnungen, Leerstandsabgabe)
+628|Lösung 2: besserer Nahverkehr, damit Randgebiete eine Option werden
+629|Position: Die Vorteile überwiegen (erfordert aber Selbstdisziplin)
+630|Vorteile: flexibel, günstig, große Auswahl
+631|Nachteile: wenig Austausch und Betreuung, niedrige Abschlussquoten
+632|Schluss: am besten als Ergänzung
+633|Ursachen: medizinischer Fortschritt, höherer Lebensstandard, Gesundheitsbewusstsein
+634|Folge 1 (negativ): Druck auf Renten- und Gesundheitsausgaben
+635|Folge 2 (positiv): Ältere betreuen Enkel und engagieren sich ehrenamtlich
+636|Schluss: Rentenalter und Unterstützung vor Ort anpassen
+637|Position: teilweise nicht einverstanden; die Rolle des Einzelnen ist klein, aber real
+638|Absatz 1: Regierungen/Unternehmen handeln im großen Maßstab (Regulierung, Produktionsweisen)
+639|Absatz 2: Einzelentscheidungen summieren sich und verändern Märkte; Wahlen und öffentliche Meinung
+640|Schluss: beide ergänzen sich
+641|Große Unternehmen: Stabilität, Ausbildungssysteme, Aufstiegswege
+642|Kleine Unternehmen: breite Aufgaben, schnelles Wachstum, Mitsprache bei Entscheidungen
+643|Meine Sicht: zu Beginn der Karriere in einem großen Unternehmen Grundlagen schaffen, später in ein kleines wechseln
+644|Schluss
+645|Position: Maßvoll gesteuert überwiegen die Vorteile
+646|Vorteile: Arbeitsplätze, Einkommen, kultureller Austausch
+647|Nachteile: steigende Mieten, Gedränge, Umweltbelastung
+648|Schluss: Besucherobergrenzen + Tourismusabgabe
+649|Was passt besser zu Task 2?
+650|„a lot of“ / „kids“ sind umgangssprachlich
+651|Das vage „good thing“ vermeiden
+652|„get better“ ersetzen
+653|„big problem“ ersetzen
+654|„pressing issue“ ist formeller
+655|Die richtige Art, den Überblick einzuleiten
+656|Task 1 verwendet „Overall“ und hat keinen Schluss
+657|Welche Verknüpfung ist natürlicher?
+658|Abwechslungsreiche Verbindungswörter
+659|Welcher ist ein vollständiger Satz?
+660|Ein Beispiel muss ein vollständiger Satz sein
+661|Was ist genauer?
+662|Trendwort + Daten
+663|Was ist sachlicher (abgeschwächt)?
+664|Vorsichtige Formulierung
+665|„nowadays“ ersetzen (Schablonen vermeiden)
+666|Letzteres ist eine Schablone, die Prüfer gut kennen
+667|Welcher Satz verwendet „whereas“ richtig?
+668|„whereas“ verbindet zwei Sätze
+669|Die richtige Formulierung für „macht ... aus“
+670|„bad for health“ ersetzen
+671|Ein Schluss sollte
+672|ein neues Argument bringen
+673|die eigene Position bekräftigen und die Hauptgründe zusammenfassen
+674|ein neues Beispiel nennen
+675|Nichts Neues im Schluss
+676|Was ist eher ein Themensatz?
+677|Ein Themensatz sollte konkret sein
+678|Eine punktstarke Kollokation für „ein Problem lösen“
+679|„people think“ ersetzen
+680|„Everybody knows“ ist zu absolut
+681|Was ist in Task 1 tabu?
+682|Ursachen vermuten: „because people became richer“
+683|Höchst- und Tiefstwert vergleichen
+684|Task 1 erklärt keine Ursachen
+685|„very important“ ersetzen
+686|„a lot of people“ ersetzen
+687|Zählbare Nomen: „a large number of“
+688|Was passt besser zu Task 1?
+689|fluctuate + konkrete Daten
+690|Was ist sachlicher?
+691|Bereite zu jedem Muster ein Beispiel aus deiner eigenen Arbeit oder deinem Fachgebiet vor (deine echte Erfahrung ist die beste Quelle); du kannst es beim Sprechen und beim Schreiben verwenden.

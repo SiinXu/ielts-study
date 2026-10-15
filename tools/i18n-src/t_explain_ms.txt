@@ -1,0 +1,692 @@
+0|S + V: "rise" ialah kata kerja tak transitif dan tidak mengambil objek
+1|S + V + O: "raise" ialah kata kerja transitif dan memerlukan objek
+2|S + kata kerja pemaut + pelengkap: "become" ialah kata kerja pemaut, diikuti adjektif
+3|S + V + objek tak langsung + objek langsung: show sb sth
+4|S + V + O + pelengkap objek: make sb + adjektif
+5|Satu kata kerja utama bagi setiap ayat: "want" ialah kata kerjanya, "to learn" ialah objeknya
+6|Dalam ayat there-be, kata kerja kedua mesti dimasukkan ke dalam klausa
+7|Subjeknya "results", bukan "survey"
+8|"remain" ialah kata kerja pemaut, diikuti adjektif
+9|make + objek + adjektif
+10|Pilih ayat yang betul
+11|Pola pemaut: was + adjektif; tiada "to" selepas "became"
+12|Ayat manakah yang tiada kata kerja utama?
+13|"very humid" memerlukan kata kerja pemaut "is" di hadapannya
+14|Selepas "there be", kata kerja lain mesti menjadi klausa atau participle: who have / having
+15|make + objek + adjektif (pelengkap objek), bukan adverba
+16|"Because" hanya memulakan klausa; "crowded" memerlukan "is" di hadapannya
+17|"seem" ialah kata kerja pemaut, terus diikuti adjektif
+18|Kata kerja present simple dalam bentuk dasar: use
+19|Adverba "very" tidak boleh menerangkan kata kerja secara langsung
+20|Dua kata kerja utama dalam satu ayat: buang "There are" atau tambah "who"
+21|Adjektif tidak boleh menjadi kata kerja; tambah "be"
+22|"rise" tak transitif, jadi tiada bentuk pasif
+23|make sb do, tanpa "to"
+24|Jangan ulang "it" selepas subjek
+25|Adjektif memerlukan kata kerja pemaut di hadapannya
+26|Perbuatan kebiasaan: orang ketiga tunggal ditambah -s
+27|Sesuatu yang sedang berlaku dalam tempoh ini
+28|Bentuk negatif ialah doesn't + bentuk dasar, bukan "don't likes"
+29|Tahun-tahun lepas dalam carta menggunakan past tense
+30|Part 2: bercerita tentang zaman kanak-kanak
+31|Past continuous (latar) + past simple (gangguan)
+32|Kata kerja keadaan: bukan "am knowing"
+33|Present simple: jadual waktu dan kebiasaan
+34|Continuous: trend yang sedang berubah
+35|Perbuatan panjang dalam continuous, perbuatan singkat dalam past simple
+36|Subjek orang ketiga tunggal + works
+37|"Look!" menandakan sesuatu sedang berlaku sekarang
+38|1990 ialah titik masa lampau yang sudah tamat
+39|Pilih ayat yang salah
+40|"know" ialah kata kerja keadaan, tidak digunakan dalam continuous; dan "for years" memerlukan present perfect
+41|Soalan orang ketiga tunggal menggunakan Does + bentuk dasar
+42|Fakta objektif menggunakan present simple
+43|"Look!" menunjukkan ia sedang berlaku sekarang
+44|Perbuatan panjang yang terganggu menggunakan past continuous
+45|Tertinggal -s orang ketiga tunggal
+46|Negatif orang ketiga tunggal menggunakan doesn't
+47|Masa lampau memerlukan past tense
+48|"understand" ialah kata kerja keadaan
+49|Task 1: tahun-tahun lepas menggunakan past tense
+50|"know" ialah kata kerja keadaan, tidak digunakan dalam continuous
+51|Masa lampau, past tense
+52|for + tempoh: masih tinggal di sana sekarang
+53|since + titik permulaan, biasa dalam esei
+54|Pengalaman: ever / never
+55|"last year" → past simple
+56|"yet" digunakan dalam soalan dan ayat negatif
+57|Sudah pergi dua kali dan sudah pulang
+58|Perbuatan yang berterusan
+59|Pengalaman: have been to
+60|just + perfect: baru sahaja berlaku
+61|since + titik permulaan: berterusan hingga sekarang
+62|since + titik permulaan hingga sekarang → present perfect
+63|"in 2019" ialah masa lampau yang khusus
+64|Orang itu tiada di sini: gunakan "has gone"
+65|"ever" bertanya tentang pengalaman → Have you ever eaten
+66|"over the past decade" berterusan hingga sekarang
+67|"since" mengambil bentuk perfect
+68|"last week" ialah masa lampau yang khusus
+69|"this year" belum tamat: gunakan perfect
+70|"yesterday" tidak boleh digunakan dengan perfect
+71|"since" mewajibkan perfect
+72|Perfect menggunakan past participle
+73|Bertanya tentang tempoh: gunakan perfect
+74|"ago" mengambil past simple
+75|Sudah pergi dan pulang: "been to"
+76|Kenyataan umum menggunakan jamak, tanpa "the"
+77|"advice" tidak boleh dikira
+78|"the number" ialah tunggal
+79|"everyone" ialah tunggal
+80|"the" untuk alat muzik, bukan untuk sukan bola
+81|"the" untuk kerajaan negara sendiri; "education" secara umum tanpa "the"
+82|Gunakan "the" untuk sesuatu yang khusus
+83|Selepas "each of", kata kerja dalam bentuk tunggal
+84|"information" tidak boleh dikira
+85|Subjek "the number" ialah tunggal
+86|Idea abstrak secara umum: tidak boleh dikira, tanpa artikel
+87|Kata nama boleh dikira secara umum: gunakan jamak
+88|"each of ..." mengambil kata kerja tunggal
+89|"the number of" mengambil kata kerja tunggal
+90|(biarkan kosong)
+91|Kata nama abstrak secara umum tanpa artikel
+92|"homework" tidak boleh dikira
+93|"people" ialah jamak
+94|Nama pekerjaan dalam bentuk tunggal memerlukan a/an
+95|"research" tidak boleh dikira; kata kerja tunggal
+96|"life" secara umum tanpa "the"; kehidupan di bandar tertentu menggunakan "the"
+97|every + kata nama tunggal + kata kerja tunggal
+98|"research" tidak boleh dikira
+99|Rajah proses: pasif + urutan
+100|Pelaku tidak penting
+101|Pasif past tense
+102|Pasif perfect
+103|Modal + be + past participle
+104|should + bentuk dasar untuk memberi nasihat
+105|"may" menjadikan dakwaan lebih berhati-hati
+106|Pasif masa depan
+107|"might" melembutkan cadangan
+108|Jambatan itu disiapkan (pasif); 1937 ialah masa lampau
+109|should + be + past participle
+110|Modal diikuti bentuk dasar
+111|Huraikan proses dengan pasif present simple
+112|Yang manakah lebih sesuai untuk penulisan akademik?
+113|"may" + mengehadkan skop menjadikan dakwaan lebih selamat
+114|be + past participle
+115|Kemungkinan: might
+116|Modal negatif + be + past participle
+117|Pasif memerlukan past participle
+118|"happen" tak transitif: tiada pasif
+119|Tiada "to" selepas modal
+120|"agree" ialah kata kerja; jangan gunakan bersama "am"
+121|Bentuk dasar selepas modal
+122|Past participle bagi "hold" ialah "held"
+123|Klausa that selepas "suggest" lebih standard
+124|Klausa subjek
+125|Klausa objek
+126|whether = if (atau tidak)
+127|Susunan kata ayat penyata, bukan "where is the station"
+128|Subjek palsu (it)
+129|Klausa pelengkap
+130|Klausa aposisi yang menerangkan "evidence"
+131|Klausa whether sebagai subjek
+132|Klausa that sebagai pelengkap
+133|Soalan tak langsung menggunakan susunan ayat penyata
+134|Susunan ayat penyata + -s orang ketiga tunggal
+135|Klausa subjek di awal ayat hanya boleh menggunakan "whether"
+136|Subjek palsu "It"
+137|Klausa aposisi menggunakan "that"
+138|Susunan kata ayat penyata
+139|Klausa objek menggunakan susunan ayat penyata
+140|what = perkara yang, sebagai klausa subjek
+141|Klausa menggunakan susunan ayat penyata
+142|Jangan ulang "it" selepas klausa subjek
+143|Membawa bentuk negatif ke depan kedengaran lebih semula jadi
+144|Gunakan "that" selepas "reason"
+145|Tiada inversi dalam soalan tak langsung
+146|Ayat 40 patah perkataan dalam petikan bacaan Cambridge selalunya hanya ada rangka 5 perkataan. Apabila ini sudah menjadi kebiasaan, kelajuan membaca anda akan meningkat dengan ketara.
+147|Kaedah: bagi setiap contoh di bawah, tutup semua kecuali bahagian bergaris dengan jari, baca rangkanya sahaja, kemudian baca ayat penuh.
+148|Rangka: Researchers found that...
+149|Rangka: The idea has fascinated scientists
+150|Rangka: the number continues to grow
+151|Klausa subjek + klausa pelengkap
+152|Frasa participle dahulu, rangka kemudian
+153|Rangka: Cities tend to attract residents
+154|Klausa utama: The idea is popular
+155|Klausa utama: Workers need retraining
+156|Klausa subjek + is + klausa pelengkap
+157|"The report, which was published last week by an independent agency, suggests that fees should fall." Apakah kata kerja utamanya?
+158|"was published" dalam klausa which bukan kata kerja utama
+159|"Students who work part-time often manage their time better." Apakah subjeknya?
+160|"who work part-time" menerangkan "Students"
+161|"Not until the 19th century did scientists understand germs." Apakah kata kerja utamanya?
+162|Inversi: did scientists understand
+163|"Built in 1880, the station remains a landmark." Apakah rangkanya?
+164|"Built in 1880" ialah past participle yang berfungsi sebagai keterangan
+165|Cari klausa utama: Students who study abroad often face challenges that they did not expect.
+166|Kedua-dua klausa ialah penerang
+167|Subjeknya "the book"
+168|"one of ..." mengambil kata kerja tunggal
+169|Subjek klausa, "teenagers", ialah jamak
+170|Subjeknya "The idea" (tunggal)
+171|Subjek: the number
+172|Anteseden "people" ialah jamak
+173|"who" merujuk kepada "people": jamak
+174|Jangan gunakan "although" dan "but" bersama-sama
+175|Orang → who
+176|Benda → which/that
+177|Tidak mengehadkan (non-defining): gunakan which, bukan that
+178|whose = milikan
+179|Tempat: where
+180|Masa: when
+181|Kata sendi di hadapan: formal
+182|"whose" menunjukkan milikan
+183|Orang + subjek klausa → who
+184|Non-defining + "visited" tiada objek → which
+185|Tiada apa-apa yang tertinggal selepas "born"; ia keterangan tempat → where
+186|Jangan ulang objek dalam klausa
+187|Novel-novelnya → whose
+188|Milikan: whose
+189|Selepas kata nama masa gunakan "when"
+190|Selepas superlatif gunakan "that"
+191|Orang: who
+192|Klausa non-defining tidak menggunakan "that"
+193|Kata ganti relatif tertinggal
+194|"live" tak transitif: gunakan where / in which
+195|"stay" tak transitif: perlu where atau at
+196|Jangan ulang subjek dalam klausa
+197|Konsesi + klausa, tiada "but" selepasnya
+198|despite + kata nama
+199|Sebab + klausa
+200|because of + kata nama
+201|Syarat
+202|Akibat: so ... that
+203|Tujuan: so that
+204|Syarat: as long as
+205|Konsesi: even though
+206|Akibat: koma bertitik + as a result
+207|Gunakan "although" sebelum klausa
+208|"the traffic" ialah kata nama
+209|Jangan pasangkan "although" dengan "but"
+210|Sebelum kata nama gunakan "because of"
+211|"as soon as" memulakan klausa masa
+212|Bandingkan dengan "however"
+213|although + but adalah berganda
+214|because + so adalah berganda
+215|Klausa kecil tidak boleh berdiri sendiri
+216|"despite" tidak diikuti klausa
+217|Gunakan "such" dengan frasa nama
+218|because of + kata nama; because + klausa
+219|Dalam klausa syarat, present menyatakan masa depan
+220|"to" ialah kata sendi
+221|Kata sendi + -ing
+222|Berhenti merokok (stop doing)
+223|Berhenti untuk menjawab telefon
+224|Gerund sebagai subjek
+225|Subjek gerund, kata kerja tunggal
+226|Ingat bahawa anda perlu melakukannya → to do
+227|Kata sendi "in" + -ing
+228|"to" dalam "look forward to" ialah kata sendi
+229|stop doing: menghentikan sesuatu yang sedang dilakukan
+230|"suggest" tidak mengambil sb to do
+231|-ing menerangkan sifat sesuatu; -ed menerangkan perasaan orang
+232|Lakukan selepas selesai
+233|Carta sering menggunakan participle pasif
+234|Participle pasif yang memberi sebab
+235|Past participle: pasif + berlaku lebih awal daripada klausa utama
+236|Present participle: aktif, berlaku serentak
+237|Participle selepas kata nama sebagai penerang
+238|Perasaan orang menggunakan -ed
+239|Aktif → working
+240|Data itu dikumpulkan → collected
+241|Syarikat itu diasaskan (pasif)
+242|Ayat manakah mempunyai dangling participle?
+243|Bukan musang yang berjalan pulang
+244|Pekan itu yang dilihat: past participle
+245|Present participle selepas kata nama
+246|Subjek logik participle mesti sama dengan subjek utama
+247|"boring" bermaksud ia membuatkan orang bosan
+248|Benda menggunakan -ing
+249|Dua kata kerja utama
+250|Penggunaan tetap past participle
+251|Dangling participle: subjeknya mesti orang yang berjalan
+252|-ing untuk benda, -ed untuk perasaan
+253|"much" menerangkan bentuk komparatif
+254|Yang kedua paling ...
+255|Gandaan
+256|Syarat yang mungkin berlaku
+257|Andaian tidak benar masa kini; "be" menjadi "were"
+258|Andaian tidak benar masa lampau
+259|the + komparatif, the + komparatif
+260|Gandaan + as ... as
+261|Third conditional: bertentangan dengan masa lampau
+262|Dalam klausa if, present menyatakan masa depan
+263|Andaian tidak benar masa kini
+264|Bertentangan dengan masa kini: gunakan "were"
+265|Bentuk komparatif "cheap" ialah "cheaper"
+266|Bertentangan dengan masa lampau: would have done
+267|Komparatif berganda
+268|Tiada "will" dalam klausa if
+269|Subjunktif formal menggunakan "were"
+270|Superlatif berganda
+271|Gunakan "much" untuk menguatkan komparatif
+272|Jangan tambah "more" pada komparatif
+273|Tiada "would" dalam klausa if
+274|Jangan hafal perenggan templat secara keseluruhan: pemeriksa dilatih untuk mengesannya dan bahasa templat akan dipotong markah. Hafal rangkanya sahaja dan isi kandungannya semasa menulis.
+275|Inversi selepas "not only"
+276|Ayat cleft (penegasan)
+277|Klausa what sebagai subjek (sangat berguna untuk lisan)
+278|Inversi dengan "if" digugurkan
+279|Bermula dengan konsesi/perbandingan
+280|Memperkenalkan pandangan
+281|It is + past participle + that
+282|"Not only" di awal ayat memerlukan inversi
+283|"Not only" di awal ayat: inversi separa
+284|Cleft: It was ... that
+285|Klausa what sebagai subjek
+286|"Not only" di awal ayat: inversi separa
+287|"It could be argued that" objektif dan berhati-hati
+288|Sebab dan akibat disebut dua kali
+289|Maksud berulang; buang "I think"
+290|Nyatakan perubahan khusus secara terus
+291|Pembukaan templat yang kosong akan dipotong markah
+292|"in my opinion" dan "I think" membawa maksud yang sama
+293|Gantikan pembukaan klise dengan sesuatu yang khusus kepada topik
+294|Selepas dua minggu, jangan belajar tatabahasa secara berasingan: apabila sesuatu perkara muncul semasa membaca atau membetulkan esei, kembali ke hari berkenaan dan tampung kelemahannya.
+295|Klausa relatif + perfect
+296|Konsesi + manage to do
+297|Participle + perbandingan
+298|Inversi dengan "if" digugurkan
+299|Klausa relatif non-defining
+300|Perfect participle: berlaku dahulu
+301|"the number" tunggal + since → has doubled
+302|"despite" sebelum kata nama
+303|"which" non-defining
+304|Andaian tidak benar masa kini
+305|Peraturan kedekatan: "students" ialah jamak
+306|Masa lampau sebelum masa lampau: past perfect
+307|Tiada "of" selepas "despite"
+308|Inversi dan ayat cleft
+309|"Rarely" di awal ayat + do + subjek
+310|"Only" + keterangan di awal ayat memerlukan inversi
+311|"Not until" di awal ayat: songsangkan klausa utama
+312|"Little" bermaksud "langsung tidak"
+313|"who" boleh digunakan apabila menegaskan seseorang
+314|Menegaskan masa
+315|Klausa what sebagai subjek
+316|Under no circumstances + inversi
+317|So + adjektif di awal ayat, kemudian inversi
+318|Adverba negatif di awal ayat: kata kerja bantu didahulukan
+319|"Only" + keterangan di awal ayat: inversi
+320|Subjek klausa what dikira tunggal
+321|Yang manakah paling semula jadi (Task 2)?
+322|Inversi mesti betul dari segi tatabahasa dan jelas
+323|Perkataan negatif di awal ayat memerlukan inversi
+324|Jangan ulang subjek dalam ayat cleft
+325|Klausa what + is
+326|"Only if" di awal ayat: songsangkan klausa utama
+327|"Not only" di awal ayat dengan inversi; separuh kedua kekal lengkap
+328|Subjunktif dan conditional campuran
+329|Bertentangan dengan masa kini
+330|Campuran: syarat masa lampau, hasil masa kini
+331|wish + had done: menyesali masa lampau
+332|It's time + past tense
+333|recommend that + bentuk dasar
+334|Inversi tanpa "if": Were + subjek
+335|"without" sebagai ganti syarat if
+336|Inversi "Had" = If they had invested
+337|suppose + past tense
+338|Bertentangan dengan masa kini: past tense
+339|Conditional campuran: hasilnya pada masa kini
+340|Menyesali masa lampau: had done
+341|insist that + bentuk dasar
+342|Inversi tanpa "if" menggunakan "Were"
+343|Subjunktif: were + would
+344|Selepas "wish" gunakan past tense / could
+345|Bertentangan dengan masa lampau: had done + would have done
+346|Kedua-dua struktur tidak boleh dicampur
+347|Penominalan dan gaya akademik
+348|Jangan nominalkan setiap ayat, nanti jadi janggal. Ia paling berkesan dalam ayat gambaran keseluruhan dan ayat topik untuk Task 1 dan Task 2.
+349|"lack" digunakan sebagai kata nama
+350|a decline in + kata nama
+351|"use" sebagai kata nama, dengan adjektif di hadapannya
+352|access to + kata nama
+353|Nominalkan "Unemployment rose sharply":
+354|a sharp rise in + kata nama
+355|Pilih kolokasi yang betul: a significant increase ___ the number of students
+356|Yang manakah paling sesuai sebagai ayat topik Task 2?
+357|Penominalan + kolokasi yang tepat
+358|Peratusan diletakkan sebelum "increase"
+359|Perlukan bentuk kata nama
+360|Subjeknya "lack": tunggal
+361|Konsesi dan perbandingan
+362|although + klausa
+363|despite the fact that + klausa
+364|"whereas" menghubungkan perbandingan
+365|"While" di awal ayat untuk konsesi/perbandingan
+366|"By contrast" di awal ayat
+367|Nevertheless = walaupun begitu
+368|Sebelum kata nama gunakan "despite"
+369|Bandingkan dua klausa dengan "whereas"
+370|Sebelum klausa gunakan "even though"
+371|Adverba ayat di awal + koma
+372|Pilih ayat yang betul
+373|"although" tidak dipasangkan dengan "but"; "despite" tidak diikuti klausa
+374|"despite" tidak diikuti klausa
+375|"however" tidak boleh menghubungkan kata nama begini
+376|Pilih sama ada "although" atau "but"
+377|Buang "but"
+378|On the contrary, City B fell. (hanya perbandingan)
+379|"on the contrary" bermaksud "malah sebaliknya" dan membetulkan kenyataan sebelumnya
+380|Klausa participle dan binaan mutlak
+381|Participle yang menunjukkan akibat
+382|Participle yang menambah akibat
+383|with + kata nama + -ing
+384|Frasa mutlak tetap
+385|Binaan mutlak: weather permitting
+386|Frasa past participle untuk perbandingan
+387|Perfect participle pasif
+388|"followed by" untuk perkara seterusnya
+389|Participle untuk akibat yang mengiringi
+390|considering = mengambil kira
+391|Undang-undang itu diluluskan (pasif)
+392|Binaan mutlak menggunakan "being"
+393|Ayat manakah mempunyai dangling participle?
+394|Kemalangan tidak boleh memandu
+395|Subjek participle mesti sepadan
+396|Antara dua kata kerja gunakan participle atau "and"
+397|Tiada "so" selepas struktur with
+398|Binaan mutlak memerlukan subjeknya sendiri
+399|Kohesi, rujukan dan kata nama rumusan
+400|this + kata nama rumusan
+401|such + kata nama jamak
+402|Rujuk semula ayat sebelumnya dengan kata nama
+403|The former / the latter (yang pertama / yang kedua)
+404|Kata ganti nama + "also" untuk menyambung
+405|these + kata nama data
+406|"otherwise" bermaksud "jika tidak"
+407|"trend" ialah tunggal: gunakan "this"
+408|Sambungan manakah paling semula jadi?
+409|this + kata nama rumusan lebih jelas daripada "this" sahaja
+410|The former = A
+411|"issue" boleh merumuskan perkara sebelumnya
+412|Perenggan manakah terlalu banyak pengulangan?
+413|"children" diulang berkali-kali
+414|Kata nama selepas "this" lebih jelas; kata kerja tunggal
+415|Pelbagaikan kata penghubung
+416|Kata penunjuk mesti sepadan bilangan dengan kata nama
+417|Jangan menimbun kata penghubung
+418|"And" di awal ayat terlalu tidak formal
+419|Tense lanjutan: perfect continuous dan future perfect
+420|Perfect continuous: berterusan hingga sekarang
+421|Past perfect continuous: puncanya
+422|Past perfect: sebelum peristiwa lampau yang lain
+423|Future perfect: ramalan dalam Task 1
+424|Future continuous
+425|Soalan Part 1 yang lazim
+426|"be expected to" untuk ramalan
+427|"be due to" untuk rancangan
+428|Berterusan hingga sekarang dan belum selesai
+429|by + masa depan → future perfect
+430|Masa lampau sebelum masa lampau
+431|Sedang berlaku pada satu masa depan
+432|Perbuatan berterusan yang lebih awal menyebabkan hasilnya
+433|for + tempoh hingga sekarang: perfect continuous
+434|by + titik masa depan: future perfect
+435|Untuk menunjukkan mereka sudah pergi, gunakan past perfect
+436|Kata kerja keadaan tidak digunakan dalam continuous
+437|to + bentuk dasar
+438|Pendaftaran keahlian gim
+439|Menempah kotej percutian
+440|Lawatan ke perpustakaan baharu (monolog)
+441|Pengumuman hari gotong-royong komuniti
+442|Dua pelajar berbincang tentang pembentangan kumpulan
+443|Tutor memberi maklum balas tentang esei pelajar
+444|Kuliah: sejarah basikal
+445|Kuliah: tidur dan ingatan
+446|Melaporkan barang hilang
+447|Perubahan di muzium
+448|Membincangkan kaedah penyelidikan
+449|Kuliah: pulau haba bandar
+450|Pertanyaan sewa rumah
+451|Mendaftar kursus bahasa
+452|Melaporkan bagasi hilang
+453|Lawatan muzium bandar
+454|Taklimat sukarelawan ladang komuniti
+455|Notis perubahan perpustakaan pekan
+456|Membahagikan tugasan pembentangan kumpulan
+457|Maklum balas tutor tentang kertas cadangan penyelidikan
+458|Memilih topik disertasi
+459|Kuliah: sejarah ringkas basikal
+460|Kuliah: tidur dan ingatan
+461|Kuliah: pulau haba bandar
+462|Kembalinya kereta api malam
+463|Mengapa lebah menari
+464|Minggu kerja empat hari
+465|Orang dewasa belajar bahasa
+466|Jalan raya diperbuat daripada plastik
+467|Sains tabiat
+468|Bandar purba dan air
+469|Algoritma cadangan
+470|Mengapa bandar menanam "hutan mini"
+471|Perenggan 4: the canopy suppresses weeds
+472|Bagaimana tabiat terbentuk
+473|Perenggan 2
+474|Bagaimana bahasa yang terancam dihidupkan semula
+475|Perenggan 3
+476|Ekonomi kemasukan percuma ke muzium
+477|Perenggan 4
+478|Bagaimana lebah mencari jalan
+479|Kebangkitan minggu kerja empat hari
+480|Bolehkah penyahgaraman menampung kekurangan air?
+481|Belajar daripada kesilapan
+482|TA Pencapaian Tugasan (Task Achievement)
+483|Ada gambaran keseluruhan (trend umum / tertinggi dan terendah) dalam perenggan pertama atau kedua
+484|Ciri utama dipilih dan disokong dengan data, bukan semua angka disenaraikan
+485|Sekurang-kurangnya 150 patah perkataan, tanpa pendapat peribadi atau tekaan tentang punca
+486|CC Koheren dan Kohesi (Coherence and Cohesion)
+487|Bandingkan mengikut kumpulan (item serupa dalam satu perenggan), 3–4 perenggan
+488|Kata penghubung digunakan secara semula jadi (while, whereas, by contrast), bukan dalam setiap ayat
+489|LR Sumber Leksikal (Lexical Resource)
+490|Perkataan trend dipelbagaikan: rise / climb / increase; dip / decline / fall
+491|Bahasa data tepat: account for, stand at, peak at, roughly a third
+492|GRA Kepelbagaian dan Ketepatan Tatabahasa (Grammatical Range and Accuracy)
+493|Tense betul (past tense untuk tahun lepas, "is expected to" untuk ramalan)
+494|Sekurang-kurangnya 2 jenis ayat kompleks (klausa relatif, participle, perbandingan) tanpa kesilapan asas
+495|TR Respons Tugasan (Task Response)
+496|Setiap bahagian soalan dijawab (kedua-duanya bagi soalan dua bahagian)
+497|Pendirian jelas dan konsisten, kelihatan sejak pendahuluan
+498|Setiap perenggan isi ada satu isi utama + huraian + contoh
+499|Sekurang-kurangnya 250 patah perkataan, siap dalam 40 minit
+500|Perenggan dimulakan dengan ayat topik; kata ganti nama dan sinonim menyambung idea, bukan mengulang kata nama
+501|Penutup hanya merumuskan; tiada isi baharu
+502|Kosa kata topik (cth. public infrastructure, workforce) dengan kolokasi yang betul
+503|Elakkan bahasa tidak formal (a lot of → a significant number of; kids → children)
+504|Lebih separuh ayat ialah ayat kompleks dan kebanyakannya tanpa kesilapan; artikel, jamak dan persetujuan sudah disemak
+505|Tanda baca: jangan sambung dua ayat lengkap dengan koma sahaja (comma splice)
+506|Graf garis
+507|Tahun
+508|Kereta
+509|Basikal
+510|Skuter elektrik
+511|Gambaran keseluruhan: kereta naik kemudian turun tetapi kekal tertinggi; basikal turun kemudian pulih; skuter berkembang pesat dari sifar
+512|Perenggan 1: kereta 62 → 70 (puncak pada 2010) → 58
+513|Perenggan 2: basikal turun dari 48 ke 35, kemudian kembali ke 46; skuter muncul pada 2010 dan mencecah 27 menjelang 2020
+514|Carta bar
+515|Umur
+516|Media sosial
+517|Senaman
+518|Gambaran keseluruhan: makin tua kumpulan, makin kurang media sosial dan makin banyak membaca; senaman hampir sama bagi semua kumpulan
+519|Perenggan 1: media sosial 18 → 4
+520|Perenggan 2: membaca 3 → 8; senaman 3–5 jam
+521|Rajah proses
+522|Langkah
+523|Apa yang berlaku
+524|Botol dikumpulkan di pusat kitar semula
+525|Dibawa ke kilang dan diasingkan mengikut warna
+526|Dicuci dan labelnya ditanggalkan
+527|Dihancurkan menjadi kepingan kecil (kulet)
+528|Dicampur dengan pasir dan bahan lain, dileburkan pada 1500°C
+529|Dituang ke dalam acuan dan dibentuk
+530|Diperiksa dan dihantar ke kilang untuk diisi
+531|Gambaran keseluruhan: 7 langkah dari pengumpulan hingga pengisian semula — satu kitaran
+532|Perenggan 1: pengumpulan, pengangkutan, pengasingan, pencucian
+533|Perenggan 2: penghancuran, peleburan, pengacuanan, pemeriksaan
+534|Peta
+535|Lokasi
+536|Sekarang
+537|Utara
+538|Tanah ladang
+539|Kawasan perumahan
+540|Tengah
+541|Jeti kecil
+542|Jeti dipanjangkan + tambatan kapal layar
+543|Timur
+544|Pondok nelayan
+545|Hotel + tempat letak kereta
+546|Barat
+547|Hutan
+548|Dikekalkan, dengan laluan pejalan kaki baharu
+549|Jalan raya
+550|Satu jalan utama
+551|Jalan utama + jalan baharu ke hotel
+552|Gambaran keseluruhan: daripada kampung nelayan kepada kawasan pelancongan; jauh lebih banyak perumahan dan kemudahan pelancongan; hutan dikekalkan
+553|Perenggan 1: perubahan di utara dan timur
+554|Perenggan 2: jeti, jalan raya, hutan di barat
+555|Carta pai
+556|Kategori
+557|Perumahan
+558|Makanan
+559|Pengangkutan
+560|Riadah
+561|Lain-lain
+562|Gambaran keseluruhan: perumahan menjadi perbelanjaan terbesar; bahagian makanan jatuh dengan ketara
+563|Perenggan 1: kenaikan perumahan 22 → 34% dan riadah 10 → 16%
+564|Perenggan 2: penurunan makanan 28 → 17% dan lain-lain 26 → 18%; pengangkutan hampir tidak berubah
+565|Jadual
+566|Negara
+567|Gambaran keseluruhan: A sentiasa tertinggi tetapi sedikit berubah; D berkembang paling pesat
+568|Perenggan 1: A 560 → 610 → 590; C turun naik sedikit
+569|Perenggan 2: B meningkat secara berterusan ke 410; D meningkat tiga kali ganda ke 280
+570|Penerangan
+571|Gambaran keseluruhan: tujuh langkah dari kitar semula hingga tenunan, dalam peringkat penyediaan dan peringkat pemprosesan
+572|Perenggan 1: pengumpulan, pengasingan, pencucian, pencincangan (pasif + penanda urutan)
+573|Perenggan 2: dileburkan menjadi gentian, dipintal, ditenun
+574|Carta campuran
+575|Jam dalam talian sehari
+576|Pemilikan telefon 2013
+577|Pemilikan telefon 2023
+578|Gambaran keseluruhan: makin muda kumpulan, makin lama dalam talian; pemilikan telefon meningkat bagi semua umur, paling ketara dalam kalangan warga emas
+579|Perenggan 1: masa dalam talian menurun dari 6.1 ke 1.9 jam
+580|Perenggan 2: pemilikan telefon, 65+ 12 → 61%, golongan muda hampir 100%
+581|Pendapat
+582|Teknologi
+583|Pendirian: bersetuju sebahagiannya — untung bersih dalam jangka panjang, tetapi kos jangka pendek peralihan pekerjaan adalah tinggi
+584|Perenggan 1: pekerjaan baharu (pelabelan data, produk AI, penyelenggaraan), analogi sejarah
+585|Perenggan 2: kehilangan pekerjaan jangka pendek tertumpu dalam sektor tertentu; latihan semula diperlukan
+586|Penutup: ia akan mencipta lebih banyak pekerjaan, asalkan dasar menyokong peralihan
+587|Perbincangan
+588|Pendidikan
+589|Perenggan 1: pandangan akademik — pemikiran kritis, penyelidikan asas, nilai ilmu itu sendiri
+590|Perenggan 2: pandangan pekerjaan — yuran tinggi, tekanan mencari kerja, latihan industri
+591|Pendirian: gabungkan kedua-duanya, dengan projek praktikal dalam kurikulum
+592|Masalah–penyelesaian
+593|Bandar
+594|Punca: lebih banyak kereta persendirian, pengangkutan awam tidak mencukupi, perancangan yang memisahkan rumah dan tempat kerja
+595|Langkah: perluas MRT dan bas, caj kesesakan, galakkan kerja jarak jauh dan waktu kerja berperingkat
+596|Kebaikan–keburukan
+597|Kerja
+598|Pendirian: kebaikan melebihi keburukan (bagi kerja berasaskan pengetahuan)
+599|Kebaikan: tiada perjalanan ke tempat kerja, fleksibel, kumpulan calon yang lebih luas
+600|Keburukan: terasing, kerjasama lebih sukar, sempadan kerja dan kehidupan kabur — dikurangkan dengan kerja hibrid
+601|Soalan dua bahagian
+602|Masyarakat
+603|Punca: kemajuan perubatan, pemakanan dan kebersihan yang lebih baik, kesedaran kesihatan
+604|Kesan: tekanan terhadap pencen dan penjagaan kesihatan; namun warga emas tetap bernilai sebagai pekerja dan sukarelawan
+605|Alam sekitar
+606|Pendirian: kebanyakannya tidak bersetuju
+607|Perenggan 1: kerajaan dan syarikat memang lebih berpengaruh (peraturan, pengeluaran)
+608|Perenggan 2: pilihan pengguna dan undi individu mendorong syarikat dan dasar untuk berubah
+609|Pro-kebebasan: kemahiran digital, sumber pembelajaran, kehidupan sosial
+610|Pro-had: tidur, tumpuan, risiko dalam talian
+611|Pendirian: had mengikut umur dan bukannya larangan menyeluruh
+612|Budaya
+613|Pendirian: kebaikan melebihi keburukan jika diurus dengan baik
+614|Kebaikan: pekerjaan, infrastruktur, pertukaran budaya
+615|Keburukan: harga naik, kesesakan, budaya dikomersialkan — dikurangkan dengan had pelawat dan cukai
+616|Kesihatan
+617|Pendirian: kebanyakannya bersetuju — cukai berkesan, tetapi mesti disertai pendidikan
+618|Perenggan 1: harga mempengaruhi penggunaan (cth. jualan minuman jatuh selepas cukai gula); hasil cukai boleh membiayai program kesihatan
+619|Perenggan 2: hujah balas: tidak adil kepada golongan berpendapatan rendah → jawapan: salurkan semula hasil cukai kepada kemudahan sukan komuniti
+620|Penutup: bersetuju, tetapi cukai hanya satu bahagian daripada pakej langkah
+621|Pendahuluan: kedua-dua pandangan + pendirian saya (percuma sebahagian: bantuan mengikut keperluan)
+622|Perenggan 1: hujah untuk percuma — peluang sama rata, manfaat kepada masyarakat
+623|Perenggan 2: hujah untuk yuran — tekanan bajet, manfaat peribadi yang lebih besar
+624|Perenggan 3 / penutup: biasiswa berdasarkan pendapatan + pinjaman
+625|Masalah 1: golongan muda menangguhkan berkeluarga dan berulang-alik lebih jauh
+626|Masalah 2: pekerja penting (jururawat, guru) tidak dapat dikekalkan
+627|Penyelesaian 1: lebih banyak rumah mampu milik (perumahan awam, cukai rumah kosong)
+628|Penyelesaian 2: pengangkutan yang lebih baik supaya kawasan pinggiran menjadi pilihan
+629|Pendirian: kebaikan melebihi keburukan (tetapi perlukan disiplin diri)
+630|Kebaikan: fleksibel, murah, banyak pilihan
+631|Keburukan: kurang interaksi dan pengawasan, kadar tamat kursus rendah
+632|Penutup: paling berkesan sebagai pelengkap
+633|Punca: kemajuan perubatan, taraf hidup lebih tinggi, kesedaran kesihatan
+634|Kesan 1 (negatif): tekanan terhadap perbelanjaan pencen dan kesihatan
+635|Kesan 2 (positif): warga emas menjaga cucu dan menjadi sukarelawan
+636|Penutup: sesuaikan umur persaraan dan sokongan komuniti
+637|Pendirian: tidak bersetuju sebahagiannya — peranan individu kecil tetapi nyata
+638|Perenggan 1: kerajaan/syarikat bertindak secara besar-besaran (peraturan, kaedah pengeluaran)
+639|Perenggan 2: pilihan individu terkumpul dan mengubah pasaran; undi dan pendapat umum
+640|Penutup: kedua-duanya saling melengkapi
+641|Syarikat besar: kestabilan, sistem latihan, laluan kenaikan pangkat
+642|Syarikat kecil: peranan yang luas, berkembang pantas, ada suara dalam keputusan
+643|Pandangan saya: bina asas di syarikat besar pada awal kerjaya, kemudian berpindah ke syarikat kecil
+644|Penutup
+645|Pendirian: kebaikan melebihi keburukan jika diurus secara sederhana
+646|Kebaikan: pekerjaan, pendapatan, pertukaran budaya
+647|Keburukan: sewa naik, kesesakan, tekanan alam sekitar
+648|Penutup: had pelawat + cukai pelancongan
+649|Yang manakah lebih sesuai untuk Task 2?
+650|"a lot of" / "kids" tidak formal
+651|Elakkan "good thing" yang kabur
+652|Gantikan "get better"
+653|Gantikan "big problem"
+654|"pressing issue" lebih formal
+655|Cara yang betul untuk memulakan gambaran keseluruhan
+656|Task 1 menggunakan "Overall" dan tiada penutup
+657|Penghubung manakah lebih semula jadi?
+658|Kata penghubung dipelbagaikan
+659|Yang manakah ayat lengkap?
+660|Contoh mesti ayat lengkap
+661|Yang manakah lebih tepat?
+662|Perkataan trend + data
+663|Yang manakah lebih objektif (berlapik)?
+664|Bahasa berhati-hati
+665|Gantikan "nowadays" (elakkan templat)
+666|Yang kedua ialah templat yang pemeriksa sudah biasa lihat
+667|Yang manakah menggunakan "whereas" dengan betul?
+668|"whereas" menghubungkan dua klausa
+669|Cara yang betul untuk menyatakan "merangkumi ... daripada"
+670|Gantikan "bad for health"
+671|Penutup sepatutnya
+672|menambah hujah baharu
+673|menyatakan semula pendirian dan merumuskan sebab utama
+674|memberi contoh baharu
+675|Tiada isi baharu dalam penutup
+676|Yang manakah lebih mirip ayat topik?
+677|Ayat topik mesti khusus
+678|Kolokasi markah tinggi untuk "menyelesaikan masalah"
+679|Gantikan "people think"
+680|"Everybody knows" terlalu mutlak
+681|Yang manakah pantang dalam Task 1?
+682|Meneka punca: "because people became richer"
+683|Membandingkan yang tertinggi dan terendah
+684|Task 1 tidak menerangkan punca
+685|Gantikan "very important"
+686|Gantikan "a lot of people"
+687|Kata nama boleh dikira menggunakan "a large number of"
+688|Yang manakah lebih sesuai untuk Task 1?
+689|fluctuate + data khusus
+690|Yang manakah lebih objektif?
+691|Sediakan satu contoh bagi setiap pola tentang kerja atau bidang anda sendiri (pengalaman sebenar anda ialah sumber terbaik); anda boleh menggunakannya dalam lisan dan penulisan.

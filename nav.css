@@ -100,3 +100,24 @@ body.has-back .back-l{display:none!important}
 @media(max-width:700px){.gday{min-height:36px;align-items:center}.s-head .gdays.strip{--fr:40px}}
 /* bigger invisible hit areas for small controls on touch screens */
 @media(pointer:coarse),(max-width:700px){.chk{position:relative}.chk::after{content:"";position:absolute;inset:-9px}.gd-badge .lnk{display:inline-block;padding:7px 0}}
+/* v11 顶栏「更多」下拉：长语言不再裁掉最后几个版块 */
+.tab-more{position:relative;flex:none;margin-left:-14px}
+.tm-b{display:inline-flex;align-items:center;gap:4px;padding:6px 10px;font-size:14px;color:var(--muted);border-radius:6px;white-space:nowrap;position:relative}
+.tm-b:hover,.tm-b[aria-expanded=true]{color:var(--ink);background:var(--line)}
+.tm-b svg{width:12px;height:12px;opacity:.7}
+.tm-b.on{color:var(--ink);font-weight:600}
+.tm-b.on::after{content:"";position:absolute;left:10px;right:10px;bottom:-11px;height:2px;background:var(--acc);border-radius:2px}
+.tm-menu{position:absolute;top:calc(100% + 10px);left:0;min-width:200px;padding:6px;background:var(--surface);border:1px solid var(--line2);border-radius:12px;box-shadow:0 12px 32px -12px rgba(0,0,0,.28);display:grid;gap:2px;z-index:40}
+.tm-menu a{padding:9px 12px;border-radius:8px;font-size:14px;color:var(--ink);white-space:nowrap}
+.tm-menu a:hover{background:var(--line)}
+.tm-menu a.on{font-weight:600;box-shadow:inset 2px 0 0 var(--acc)}
+@media (max-width:900px){.tab-more{display:none!important}}
+/* v11 手机：长语言（en/es/fr/ms）首页任务卡把页面撑宽 → 允许收缩 */
+.home-grid>*,.hero>*,.today-b,.tasks{min-width:0}
+.task.card{grid-template-columns:auto minmax(0,1fr) auto}
+.task.card .tag{max-width:38vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.stage p.mono{white-space:pre-wrap}
+.stage,.score{min-width:0;overflow-wrap:anywhere}
+.score>*{min-width:0}
+.top-in.has-more .tabs{flex:0 1 auto}
+.top-in.has-more .top-r{margin-left:auto}

@@ -1393,3 +1393,5 @@ I18N.add("en", {
 "46 / 64": "46 / 64: listen to the order — forty-six vs sixty-four",
 "understand the reasons behind the numbers": "\"understand the reasons behind the numbers\" = they explain reasons (paraphrase)"
 });
+/* nav-more v11 */
+I18N.add("en", {"更多": "More"});

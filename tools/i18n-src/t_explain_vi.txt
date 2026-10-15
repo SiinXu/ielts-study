@@ -1,0 +1,692 @@
+0|S + V: "rise" là nội động từ, không có tân ngữ
+1|S + V + O: "raise" là ngoại động từ, cần có tân ngữ
+2|S + động từ nối + bổ ngữ: "become" là động từ nối, theo sau là tính từ
+3|S + V + tân ngữ gián tiếp + tân ngữ trực tiếp: show sb sth
+4|S + V + O + bổ ngữ cho tân ngữ: make sb + tính từ
+5|Mỗi câu chỉ một động từ chính: "want" là động từ, "to learn" là tân ngữ của nó
+6|Trong câu there-be, động từ thứ hai phải nằm trong một mệnh đề
+7|Chủ ngữ là "results", không phải "survey"
+8|"remain" là động từ nối, theo sau là tính từ
+9|make + tân ngữ + tính từ
+10|Chọn câu đúng
+11|Mẫu động từ nối: was + tính từ; không dùng "to" sau "became"
+12|Câu nào thiếu động từ chính?
+13|"very humid" cần động từ nối "is" phía trước
+14|Sau "there be", động từ khác phải thành mệnh đề hoặc phân từ: who have / having
+15|make + tân ngữ + tính từ (bổ ngữ cho tân ngữ), không dùng trạng từ
+16|"Because" chỉ mở đầu một mệnh đề phụ; "crowded" cần "is" phía trước
+17|"seem" là động từ nối, theo sau trực tiếp là tính từ
+18|Động từ thì hiện tại đơn ở dạng nguyên mẫu: use
+19|Trạng từ "very" không bổ nghĩa trực tiếp cho động từ
+20|Hai động từ chính trong một câu: bỏ "There are" hoặc thêm "who"
+21|Tính từ không thể làm động từ; thêm "be"
+22|"rise" là nội động từ nên không có dạng bị động
+23|make sb do, không có "to"
+24|Không lặp lại "it" sau chủ ngữ
+25|Tính từ cần động từ nối phía trước
+26|Hành động thói quen: ngôi thứ ba số ít thêm -s
+27|Việc đang diễn ra trong khoảng thời gian này
+28|Phủ định là doesn't + động từ nguyên mẫu, không phải "don't likes"
+29|Các năm đã qua trong biểu đồ dùng thì quá khứ
+30|Part 2: kể về thời thơ ấu
+31|Quá khứ tiếp diễn (bối cảnh) + quá khứ đơn (hành động xen vào)
+32|Động từ trạng thái: không nói "am knowing"
+33|Hiện tại đơn: lịch trình và thói quen
+34|Tiếp diễn: xu hướng đang thay đổi
+35|Hành động dài dùng tiếp diễn, hành động ngắn dùng quá khứ đơn
+36|Chủ ngữ ngôi thứ ba số ít + works
+37|"Look!" báo hiệu việc đang xảy ra ngay lúc này
+38|1990 là một mốc thời gian đã kết thúc
+39|Chọn câu sai
+40|"know" là động từ trạng thái, không dùng ở thì tiếp diễn; và "for years" cần thì hiện tại hoàn thành
+41|Câu hỏi ngôi thứ ba số ít dùng Does + động từ nguyên mẫu
+42|Sự thật khách quan dùng hiện tại đơn
+43|"Look!" cho thấy việc đang xảy ra lúc này
+44|Hành động dài bị cắt ngang dùng quá khứ tiếp diễn
+45|Thiếu -s của ngôi thứ ba số ít
+46|Phủ định ngôi thứ ba số ít dùng doesn't
+47|Thời điểm trong quá khứ cần thì quá khứ
+48|"understand" là động từ trạng thái
+49|Task 1: các năm đã qua dùng thì quá khứ
+50|"know" là động từ trạng thái, không dùng ở thì tiếp diễn
+51|Thời điểm quá khứ, dùng thì quá khứ
+52|for + khoảng thời gian: hiện vẫn đang sống ở đó
+53|since + mốc bắt đầu, thường dùng trong bài luận
+54|Kinh nghiệm: ever / never
+55|"last year" → quá khứ đơn
+56|"yet" dùng trong câu hỏi và câu phủ định
+57|Đã đến đó hai lần và đã quay về
+58|Hành động kéo dài liên tục
+59|Kinh nghiệm: have been to
+60|just + hoàn thành: vừa mới xảy ra
+61|since + mốc bắt đầu: kéo dài đến hiện tại
+62|since + mốc bắt đầu đến nay → hiện tại hoàn thành
+63|"in 2019" là thời điểm cụ thể trong quá khứ
+64|Người đó không có ở đây: dùng "has gone"
+65|"ever" hỏi về kinh nghiệm → Have you ever eaten
+66|"over the past decade" kéo dài đến hiện tại
+67|"since" đi với thì hoàn thành
+68|"last week" là thời điểm cụ thể trong quá khứ
+69|"this year" chưa kết thúc: dùng thì hoàn thành
+70|"yesterday" không đi với thì hoàn thành
+71|"since" bắt buộc dùng thì hoàn thành
+72|Thì hoàn thành dùng phân từ quá khứ
+73|Hỏi về khoảng thời gian: dùng thì hoàn thành
+74|"ago" đi với quá khứ đơn
+75|Đã đi và đã về: "been to"
+76|Nhận định chung dùng số nhiều, không có "the"
+77|"advice" là danh từ không đếm được
+78|"the number" là số ít
+79|"everyone" là số ít
+80|"the" đi với nhạc cụ, không đi với môn thể thao dùng bóng
+81|"the" cho chính phủ nước mình; "education" nói chung không có "the"
+82|Dùng "the" cho thứ cụ thể, xác định
+83|Sau "each of", động từ chia số ít
+84|"information" là danh từ không đếm được
+85|Chủ ngữ "the number" là số ít
+86|Khái niệm trừu tượng nói chung: không đếm được, không có mạo từ
+87|Danh từ đếm được nói chung: dùng số nhiều
+88|"each of ..." đi với động từ số ít
+89|"the number of" đi với động từ số ít
+90|(để trống)
+91|Danh từ trừu tượng nói chung không có mạo từ
+92|"homework" là danh từ không đếm được
+93|"people" là số nhiều
+94|Nghề nghiệp ở số ít cần a/an
+95|"research" không đếm được; động từ số ít
+96|"life" nói chung không có "the"; cuộc sống ở một thành phố cụ thể thì có
+97|every + danh từ số ít + động từ số ít
+98|"research" là danh từ không đếm được
+99|Sơ đồ quy trình: bị động + trình tự
+100|Người thực hiện không quan trọng
+101|Bị động quá khứ
+102|Bị động hoàn thành
+103|Động từ khuyết thiếu + be + phân từ quá khứ
+104|should + động từ nguyên mẫu để khuyên
+105|"may" làm nhận định thận trọng hơn
+106|Bị động tương lai
+107|"might" làm lời đề xuất nhẹ nhàng hơn
+108|Cây cầu được hoàn thành (bị động); 1937 là quá khứ
+109|should + be + phân từ quá khứ
+110|Sau động từ khuyết thiếu là động từ nguyên mẫu
+111|Mô tả quy trình bằng bị động hiện tại đơn
+112|Câu nào hợp với văn viết học thuật hơn?
+113|"may" + giới hạn phạm vi khiến nhận định an toàn hơn
+114|be + phân từ quá khứ
+115|Khả năng: might
+116|Động từ khuyết thiếu phủ định + be + phân từ quá khứ
+117|Bị động cần phân từ quá khứ
+118|"happen" là nội động từ: không có bị động
+119|Không có "to" sau động từ khuyết thiếu
+120|"agree" là động từ; không dùng với "am"
+121|Động từ nguyên mẫu sau động từ khuyết thiếu
+122|Phân từ quá khứ của "hold" là "held"
+123|Mệnh đề that sau "suggest" chuẩn hơn
+124|Mệnh đề chủ ngữ
+125|Mệnh đề tân ngữ
+126|whether = if (có… hay không)
+127|Trật tự câu trần thuật, không phải "where is the station"
+128|Chủ ngữ giả
+129|Mệnh đề bổ ngữ
+130|Mệnh đề đồng vị giải thích cho "evidence"
+131|Mệnh đề whether làm chủ ngữ
+132|Mệnh đề that làm bổ ngữ
+133|Câu hỏi gián tiếp dùng trật tự câu trần thuật
+134|Trật tự câu trần thuật + -s ngôi thứ ba số ít
+135|Mệnh đề chủ ngữ đứng đầu câu chỉ dùng được "whether"
+136|Chủ ngữ giả "It"
+137|Mệnh đề đồng vị dùng "that"
+138|Trật tự câu trần thuật
+139|Mệnh đề tân ngữ dùng trật tự câu trần thuật
+140|what = điều mà, làm mệnh đề chủ ngữ
+141|Mệnh đề dùng trật tự câu trần thuật
+142|Không lặp lại "it" sau mệnh đề chủ ngữ
+143|Đưa phủ định lên trước nghe tự nhiên hơn
+144|Dùng "that" sau "reason"
+145|Không đảo ngữ trong câu hỏi gián tiếp
+146|Một câu 40 từ trong bài đọc Cambridge thường chỉ có bộ khung 5 từ. Khi việc này thành phản xạ, tốc độ đọc của bạn sẽ tăng rõ rệt.
+147|Cách làm: với mỗi ví dụ dưới đây, lấy ngón tay che hết trừ phần gạch chân, chỉ đọc bộ khung, rồi mới đọc cả câu.
+148|Bộ khung: Researchers found that...
+149|Bộ khung: The idea has fascinated scientists
+150|Bộ khung: the number continues to grow
+151|Mệnh đề chủ ngữ + mệnh đề bổ ngữ
+152|Cụm phân từ trước, bộ khung sau
+153|Bộ khung: Cities tend to attract residents
+154|Mệnh đề chính: The idea is popular
+155|Mệnh đề chính: Workers need retraining
+156|Mệnh đề chủ ngữ + is + mệnh đề bổ ngữ
+157|"The report, which was published last week by an independent agency, suggests that fees should fall." Động từ chính là gì?
+158|"was published" trong mệnh đề which không phải động từ chính
+159|"Students who work part-time often manage their time better." Chủ ngữ là gì?
+160|"who work part-time" bổ nghĩa cho "Students"
+161|"Not until the 19th century did scientists understand germs." Động từ chính là gì?
+162|Đảo ngữ: did scientists understand
+163|"Built in 1880, the station remains a landmark." Bộ khung là gì?
+164|"Built in 1880" là phân từ quá khứ dùng như trạng ngữ
+165|Tìm mệnh đề chính: Students who study abroad often face challenges that they did not expect.
+166|Cả hai mệnh đề đều là thành phần bổ nghĩa
+167|Chủ ngữ là "the book"
+168|"one of ..." đi với động từ số ít
+169|Chủ ngữ của mệnh đề, "teenagers", là số nhiều
+170|Chủ ngữ là "The idea" (số ít)
+171|Chủ ngữ: the number
+172|Tiền ngữ "people" là số nhiều
+173|"who" chỉ "people": số nhiều
+174|Không dùng "although" và "but" cùng nhau
+175|Người → who
+176|Vật → which/that
+177|Mệnh đề quan hệ không xác định: dùng which, không dùng that
+178|whose = sở hữu
+179|Nơi chốn: where
+180|Thời gian: when
+181|Giới từ đặt trước: trang trọng
+182|"whose" chỉ sở hữu
+183|Người + làm chủ ngữ của mệnh đề → who
+184|Không xác định + "visited" thiếu tân ngữ → which
+185|Sau "born" không thiếu thành phần nào; đây là trạng ngữ nơi chốn → where
+186|Không lặp lại tân ngữ trong mệnh đề
+187|Các tiểu thuyết của bà ấy → whose
+188|Sở hữu: whose
+189|Sau danh từ chỉ thời gian dùng "when"
+190|Sau so sánh nhất dùng "that"
+191|Người: who
+192|Mệnh đề không xác định không dùng "that"
+193|Thiếu đại từ quan hệ
+194|"live" là nội động từ: dùng where / in which
+195|"stay" là nội động từ: cần where hoặc at
+196|Không lặp lại chủ ngữ trong mệnh đề
+197|Nhượng bộ + mệnh đề, không có "but" phía sau
+198|despite + danh từ
+199|Nguyên nhân + mệnh đề
+200|because of + danh từ
+201|Điều kiện
+202|Kết quả: so ... that
+203|Mục đích: so that
+204|Điều kiện: as long as
+205|Nhượng bộ: even though
+206|Kết quả: dấu chấm phẩy + as a result
+207|Dùng "although" trước mệnh đề
+208|"the traffic" là danh từ
+209|Không ghép "although" với "but"
+210|Trước danh từ dùng "because of"
+211|"as soon as" mở đầu mệnh đề thời gian
+212|Đối lập bằng "however"
+213|although + but là thừa
+214|because + so là thừa
+215|Mệnh đề phụ không thể đứng một mình
+216|Sau "despite" không có mệnh đề
+217|Dùng "such" với cụm danh từ
+218|because of + danh từ; because + mệnh đề
+219|Trong mệnh đề điều kiện, thì hiện tại diễn tả tương lai
+220|"to" là giới từ
+221|Giới từ + V-ing
+222|Bỏ thuốc lá (stop doing)
+223|Dừng lại để nghe điện thoại
+224|Danh động từ làm chủ ngữ
+225|Danh động từ làm chủ ngữ, động từ số ít
+226|Nhớ rằng mình cần làm việc đó → to do
+227|Giới từ "in" + V-ing
+228|"to" trong "look forward to" là giới từ
+229|stop doing: dừng việc đang làm
+230|"suggest" không đi với sb to do
+231|-ing mô tả tính chất của sự vật; -ed mô tả cảm xúc của con người
+232|Làm sau khi đã xong
+233|Biểu đồ thường dùng phân từ bị động
+234|Phân từ bị động nêu lý do
+235|Phân từ quá khứ: bị động + xảy ra trước mệnh đề chính
+236|Phân từ hiện tại: chủ động, xảy ra đồng thời
+237|Phân từ đứng sau danh từ để bổ nghĩa
+238|Cảm xúc của con người dùng -ed
+239|Chủ động → working
+240|Dữ liệu được thu thập → collected
+241|Công ty được thành lập (bị động)
+242|Câu nào có phân từ treo (dangling participle)?
+243|Không phải con cáo đang đi bộ về nhà
+244|Thị trấn là thứ được nhìn thấy: phân từ quá khứ
+245|Phân từ hiện tại đứng sau danh từ
+246|Chủ ngữ logic của phân từ phải trùng với chủ ngữ chính
+247|"boring" nghĩa là khiến người khác chán
+248|Sự vật dùng -ing
+249|Hai động từ chính
+250|Cách dùng cố định của phân từ quá khứ
+251|Phân từ treo: chủ ngữ phải là người đang đi bộ
+252|-ing mô tả sự vật, -ed mô tả cảm xúc
+253|"much" bổ nghĩa cho so sánh hơn
+254|Thứ hai về mức độ ...
+255|Bội số
+256|Điều kiện có thật
+257|Không có thật ở hiện tại; "be" thành "were"
+258|Không có thật ở quá khứ
+259|the + so sánh hơn, the + so sánh hơn
+260|Bội số + as ... as
+261|Câu điều kiện loại 3: trái với quá khứ
+262|Trong mệnh đề if, thì hiện tại diễn tả tương lai
+263|Không có thật ở hiện tại
+264|Trái với hiện tại: dùng "were"
+265|So sánh hơn của "cheap" là "cheaper"
+266|Trái với quá khứ: would have done
+267|So sánh hơn kép
+268|Không dùng "will" trong mệnh đề if
+269|Giả định trang trọng dùng "were"
+270|So sánh nhất kép
+271|Dùng "much" để nhấn mạnh so sánh hơn
+272|Không thêm "more" vào so sánh hơn
+273|Không dùng "would" trong mệnh đề if
+274|Đừng học thuộc cả đoạn văn mẫu: giám khảo được huấn luyện để nhận ra, và ngôn ngữ rập khuôn sẽ bị trừ điểm. Chỉ học bộ khung, nội dung thì điền tại chỗ.
+275|Đảo ngữ sau "not only"
+276|Câu chẻ
+277|Mệnh đề what làm chủ ngữ (rất hữu ích khi nói)
+278|Đảo ngữ lược bỏ "if"
+279|Mở đầu bằng nhượng bộ/đối lập
+280|Giới thiệu một quan điểm
+281|It is + phân từ quá khứ + that
+282|"Not only" đứng đầu câu bắt buộc đảo ngữ
+283|"Not only" đứng đầu câu: đảo ngữ một phần
+284|Câu chẻ: It was ... that
+285|Mệnh đề what làm chủ ngữ
+286|"Not only" đứng đầu câu: đảo ngữ một phần
+287|"It could be argued that" khách quan và thận trọng
+288|Nguyên nhân – kết quả bị nói hai lần
+289|Lặp ý; bỏ "I think"
+290|Nêu thẳng sự thay đổi cụ thể
+291|Câu mở đầu rập khuôn, rỗng nội dung sẽ bị trừ điểm
+292|"in my opinion" và "I think" cùng một nghĩa
+293|Thay câu mở đầu sáo rỗng bằng một câu cụ thể theo đề bài
+294|Sau hai tuần, đừng học ngữ pháp riêng lẻ nữa: khi gặp lại một điểm ngữ pháp lúc làm bài đọc hoặc sửa bài luận, hãy quay về ngày tương ứng để bổ sung.
+295|Mệnh đề quan hệ + thì hoàn thành
+296|Nhượng bộ + manage to do
+297|Phân từ + so sánh
+298|Đảo ngữ lược bỏ "if"
+299|Mệnh đề quan hệ không xác định
+300|Phân từ hoàn thành: xảy ra trước
+301|"the number" là số ít + since → has doubled
+302|"despite" trước danh từ
+303|"which" trong mệnh đề không xác định
+304|Không có thật ở hiện tại
+305|Quy tắc gần: "students" là số nhiều
+306|Quá khứ trước quá khứ: quá khứ hoàn thành
+307|Không có "of" sau "despite"
+308|Đảo ngữ và câu chẻ
+309|"Rarely" đứng đầu câu + do + chủ ngữ
+310|"Only" + trạng ngữ đứng đầu câu bắt buộc đảo ngữ
+311|"Not until" đứng đầu câu: đảo ngữ mệnh đề chính
+312|"Little" mang nghĩa "hoàn toàn không"
+313|Có thể dùng "who" khi nhấn mạnh người
+314|Nhấn mạnh thời gian
+315|Mệnh đề what làm chủ ngữ
+316|Under no circumstances + đảo ngữ
+317|So + tính từ đứng đầu, sau đó đảo ngữ
+318|Trạng từ phủ định đứng đầu: trợ động từ lên trước
+319|"Only" + trạng ngữ đứng đầu: đảo ngữ
+320|Chủ ngữ là mệnh đề what được tính là số ít
+321|Câu nào tự nhiên nhất (Task 2)?
+322|Đảo ngữ phải đúng ngữ pháp và rõ ràng
+323|Từ phủ định đứng đầu câu bắt buộc đảo ngữ
+324|Không lặp lại chủ ngữ trong câu chẻ
+325|Mệnh đề what + is
+326|"Only if" đứng đầu câu: đảo ngữ mệnh đề chính
+327|"Not only" đứng đầu câu có đảo ngữ; vế sau giữ nguyên câu hoàn chỉnh
+328|Thức giả định và câu điều kiện hỗn hợp
+329|Trái với hiện tại
+330|Hỗn hợp: điều kiện quá khứ, kết quả hiện tại
+331|wish + had done: hối tiếc về quá khứ
+332|It's time + thì quá khứ
+333|recommend that + động từ nguyên mẫu
+334|Đảo ngữ không có "if": Were + chủ ngữ
+335|"without" thay cho điều kiện với if
+336|Đảo ngữ với "Had" = If they had invested
+337|suppose + thì quá khứ
+338|Trái với hiện tại: thì quá khứ
+339|Điều kiện hỗn hợp: kết quả ở hiện tại
+340|Hối tiếc về quá khứ: had done
+341|insist that + động từ nguyên mẫu
+342|Đảo ngữ không có "if" dùng "Were"
+343|Giả định: were + would
+344|Sau "wish" dùng thì quá khứ / could
+345|Trái với quá khứ: had done + would have done
+346|Không thể trộn lẫn hai cấu trúc
+347|Danh từ hóa và văn phong học thuật
+348|Đừng danh từ hóa mọi câu, kẻo câu văn nặng nề. Cách này hiệu quả nhất trong câu tổng quan và câu chủ đề của Task 1 và Task 2.
+349|"lack" dùng như danh từ
+350|a decline in + danh từ
+351|"use" dùng như danh từ, có tính từ đứng trước
+352|access to + danh từ
+353|Danh từ hóa câu "Unemployment rose sharply":
+354|a sharp rise in + danh từ
+355|Chọn cụm từ kết hợp (collocation) đúng: a significant increase ___ the number of students
+356|Câu nào làm câu chủ đề Task 2 tốt nhất?
+357|Danh từ hóa + collocation chính xác
+358|Tỷ lệ phần trăm đứng trước "increase"
+359|Cần dạng danh từ
+360|Chủ ngữ là "lack": số ít
+361|Nhượng bộ và đối lập
+362|although + mệnh đề
+363|despite the fact that + mệnh đề
+364|"whereas" nối hai ý đối lập
+365|"While" đứng đầu câu để nhượng bộ/đối lập
+366|"By contrast" đứng đầu câu
+367|Nevertheless = dù vậy
+368|Trước danh từ dùng "despite"
+369|Đối lập hai mệnh đề bằng "whereas"
+370|Trước mệnh đề dùng "even though"
+371|Trạng từ bổ nghĩa cho cả câu đứng đầu + dấu phẩy
+372|Chọn câu đúng
+373|"although" không đi cặp với "but"; sau "despite" không có mệnh đề
+374|Sau "despite" không có mệnh đề
+375|"however" không nối danh từ theo cách này
+376|Chỉ chọn "although" hoặc "but"
+377|Bỏ "but"
+378|On the contrary, City B fell. (chỉ là đối lập)
+379|"on the contrary" nghĩa là "hoàn toàn ngược lại" và dùng để bác bỏ câu trước
+380|Mệnh đề phân từ và cấu trúc độc lập
+381|Phân từ chỉ kết quả
+382|Phân từ bổ sung kết quả
+383|with + danh từ + V-ing
+384|Cụm độc lập cố định
+385|Cấu trúc độc lập: weather permitting
+386|Cụm phân từ quá khứ để so sánh
+387|Phân từ hoàn thành bị động
+388|"followed by" cho việc diễn ra tiếp theo
+389|Phân từ chỉ kết quả đi kèm
+390|considering = xét đến
+391|Luật được thông qua (bị động)
+392|Cấu trúc độc lập dùng "being"
+393|Câu nào có phân từ treo?
+394|Một vụ tai nạn không thể lái xe
+395|Chủ ngữ của phân từ phải trùng khớp
+396|Giữa hai động từ dùng phân từ hoặc "and"
+397|Không dùng "so" sau cấu trúc with
+398|Cấu trúc độc lập cần chủ ngữ riêng
+399|Liên kết, quy chiếu và danh từ tóm tắt
+400|this + danh từ tóm tắt
+401|such + danh từ số nhiều
+402|Quy chiếu câu trước bằng một danh từ
+403|The former / the latter (cái trước / cái sau)
+404|Đại từ + "also" để nói tiếp
+405|these + danh từ chỉ dữ liệu
+406|"otherwise" nghĩa là "nếu không thì"
+407|"trend" là số ít: dùng "this"
+408|Câu tiếp theo nào tự nhiên nhất?
+409|this + danh từ tóm tắt rõ hơn "this" đứng một mình
+410|The former = A
+411|"issue" có thể tóm lại nội dung trước đó
+412|Đoạn nào lặp từ quá nhiều?
+413|"children" bị lặp đi lặp lại
+414|Danh từ sau "this" rõ hơn; động từ số ít
+415|Đa dạng hóa từ nối
+416|Từ chỉ định phải hợp số với danh từ
+417|Không chồng nhiều từ nối
+418|"And" đầu câu quá thân mật
+419|Thì nâng cao: hoàn thành tiếp diễn và tương lai hoàn thành
+420|Hoàn thành tiếp diễn: kéo dài đến hiện tại
+421|Quá khứ hoàn thành tiếp diễn: nguyên nhân
+422|Quá khứ hoàn thành: trước một sự việc quá khứ khác
+423|Tương lai hoàn thành: dự báo trong Task 1
+424|Tương lai tiếp diễn
+425|Câu hỏi thường gặp ở Part 1
+426|"be expected to" cho dự báo
+427|"be due to" cho kế hoạch
+428|Kéo dài đến hiện tại và chưa kết thúc
+429|by + thời điểm tương lai → tương lai hoàn thành
+430|Quá khứ trước quá khứ
+431|Đang diễn ra tại một thời điểm tương lai
+432|Hành động kéo dài trước đó đã gây ra kết quả
+433|for + khoảng thời gian đến nay: hoàn thành tiếp diễn
+434|by + mốc tương lai: tương lai hoàn thành
+435|Để cho thấy họ đã rời đi, dùng quá khứ hoàn thành
+436|Động từ trạng thái không dùng ở thì tiếp diễn
+437|to + động từ nguyên mẫu
+438|Đăng ký thành viên phòng gym
+439|Đặt nhà nghỉ dưỡng
+440|Tham quan thư viện mới (độc thoại)
+441|Thông báo ngày dọn vệ sinh cộng đồng
+442|Hai sinh viên bàn về bài thuyết trình nhóm
+443|Gia sư nhận xét bài luận của sinh viên
+444|Bài giảng: lịch sử xe đạp
+445|Bài giảng: giấc ngủ và trí nhớ
+446|Báo mất đồ
+447|Những thay đổi ở bảo tàng
+448|Thảo luận về phương pháp nghiên cứu
+449|Bài giảng: đảo nhiệt đô thị
+450|Hỏi thuê nhà
+451|Đăng ký khóa học ngoại ngữ
+452|Báo thất lạc hành lý
+453|Tham quan bảo tàng thành phố
+454|Buổi hướng dẫn tình nguyện viên nông trại cộng đồng
+455|Thông báo thay đổi của thư viện thị trấn
+456|Phân chia phần thuyết trình nhóm
+457|Gia sư nhận xét đề cương nghiên cứu
+458|Chọn đề tài luận văn
+459|Bài giảng: sơ lược lịch sử xe đạp
+460|Bài giảng: giấc ngủ và trí nhớ
+461|Bài giảng: đảo nhiệt đô thị
+462|Sự trở lại của tàu đêm
+463|Vì sao ong nhảy múa
+464|Tuần làm việc bốn ngày
+465|Người lớn học ngoại ngữ
+466|Đường làm từ nhựa
+467|Khoa học về thói quen
+468|Các thành phố cổ và nước
+469|Thuật toán đề xuất
+470|Vì sao các thành phố trồng "rừng mini"
+471|Đoạn 4: the canopy suppresses weeds
+472|Thói quen hình thành như thế nào
+473|Đoạn 2
+474|Các ngôn ngữ có nguy cơ biến mất được hồi sinh như thế nào
+475|Đoạn 3
+476|Kinh tế học của việc miễn phí vé bảo tàng
+477|Đoạn 4
+478|Ong tìm đường như thế nào
+479|Sự lên ngôi của tuần làm việc bốn ngày
+480|Khử mặn có bù được thiếu hụt nước?
+481|Học từ sai lầm
+482|TA Hoàn thành yêu cầu đề (Task Achievement)
+483|Có câu tổng quan (xu hướng chung / cao nhất và thấp nhất) ở đoạn một hoặc đoạn hai
+484|Chọn đặc điểm chính và dẫn số liệu minh họa, không liệt kê mọi con số
+485|Ít nhất 150 từ, không nêu ý kiến cá nhân hay đoán nguyên nhân
+486|CC Mạch lạc và liên kết (Coherence and Cohesion)
+487|So sánh theo nhóm (các mục tương tự trong cùng một đoạn), 3–4 đoạn
+488|Từ nối tự nhiên (while, whereas, by contrast), không dùng ở mọi câu
+489|LR Vốn từ vựng (Lexical Resource)
+490|Từ chỉ xu hướng đa dạng: rise / climb / increase; dip / decline / fall
+491|Ngôn ngữ số liệu chính xác: account for, stand at, peak at, roughly a third
+492|GRA Độ đa dạng và chính xác ngữ pháp (Grammatical Range and Accuracy)
+493|Thì đúng (năm đã qua dùng quá khứ, dự báo dùng "is expected to")
+494|Ít nhất 2 loại câu phức (mệnh đề quan hệ, phân từ, so sánh) và không có lỗi cơ bản
+495|TR Trả lời đúng đề (Task Response)
+496|Trả lời mọi phần của đề (cả hai phần nếu là đề hai câu hỏi)
+497|Quan điểm rõ ràng, nhất quán, thể hiện ngay từ mở bài
+498|Mỗi đoạn thân bài có một luận điểm chính + giải thích + ví dụ
+499|Ít nhất 250 từ, hoàn thành trong 40 phút
+500|Mỗi đoạn mở đầu bằng câu chủ đề; dùng đại từ và từ đồng nghĩa để dẫn ý thay vì lặp danh từ
+501|Kết bài chỉ tóm tắt; không thêm luận điểm mới
+502|Từ vựng theo chủ đề (vd. public infrastructure, workforce) với collocation đúng
+503|Tránh văn nói (a lot of → a significant number of; kids → children)
+504|Hơn nửa số câu là câu phức và hầu như không lỗi; đã kiểm tra mạo từ, số nhiều và hòa hợp chủ–vị
+505|Dấu câu: không nối hai câu hoàn chỉnh chỉ bằng dấu phẩy (comma splice)
+506|Biểu đồ đường
+507|Năm
+508|Ô tô
+509|Xe đạp
+510|Xe scooter điện
+511|Tổng quan: ô tô tăng rồi giảm nhưng vẫn cao nhất; xe đạp giảm rồi hồi phục; scooter tăng nhanh từ con số 0
+512|Đoạn 1: ô tô 62 → 70 (đỉnh năm 2010) → 58
+513|Đoạn 2: xe đạp giảm từ 48 xuống 35 rồi lên lại 46; scooter xuất hiện năm 2010 và đạt 27 vào năm 2020
+514|Biểu đồ cột
+515|Độ tuổi
+516|Mạng xã hội
+517|Tập thể dục
+518|Tổng quan: nhóm tuổi càng cao thì càng ít dùng mạng xã hội và đọc sách nhiều hơn; thời gian tập thể dục tương đương giữa các nhóm
+519|Đoạn 1: mạng xã hội 18 → 4
+520|Đoạn 2: đọc sách 3 → 8; tập thể dục 3–5 giờ
+521|Sơ đồ quy trình
+522|Bước
+523|Diễn biến
+524|Chai được thu gom tại các điểm tái chế
+525|Chở đến nhà máy và phân loại theo màu
+526|Rửa sạch và bóc nhãn
+527|Nghiền thành mảnh nhỏ (thủy tinh vụn)
+528|Trộn với cát và nguyên liệu khác, nung chảy ở 1500°C
+529|Đổ vào khuôn và tạo hình
+530|Kiểm tra rồi chuyển đến nhà máy để chiết rót
+531|Tổng quan: 7 bước từ thu gom đến chiết rót lại — một vòng tuần hoàn
+532|Đoạn 1: thu gom, vận chuyển, phân loại, rửa
+533|Đoạn 2: nghiền, nung chảy, đúc khuôn, kiểm tra
+534|Bản đồ
+535|Vị trí
+536|Hiện nay
+537|Phía bắc
+538|Đất nông nghiệp
+539|Khu dân cư
+540|Trung tâm
+541|Cầu tàu nhỏ
+542|Cầu tàu được nối dài + bến neo du thuyền
+543|Phía đông
+544|Lều của ngư dân
+545|Khách sạn + bãi đỗ xe
+546|Phía tây
+547|Rừng cây
+548|Được giữ lại, có thêm lối đi bộ mới
+549|Đường sá
+550|Một con đường chính
+551|Đường chính + đường mới dẫn đến khách sạn
+552|Tổng quan: từ làng chài thành khu du lịch; nhà ở và tiện ích du lịch tăng mạnh; rừng cây được giữ lại
+553|Đoạn 1: thay đổi ở phía bắc và phía đông
+554|Đoạn 2: cầu tàu, đường sá, rừng phía tây
+555|Biểu đồ tròn
+556|Hạng mục
+557|Nhà ở
+558|Ăn uống
+559|Đi lại
+560|Giải trí
+561|Khác
+562|Tổng quan: nhà ở trở thành khoản chi lớn nhất; tỷ trọng ăn uống giảm mạnh
+563|Đoạn 1: nhà ở tăng 22 → 34% và giải trí tăng 10 → 16%
+564|Đoạn 2: ăn uống giảm 28 → 17% và khác giảm 26 → 18%; đi lại gần như không đổi
+565|Bảng
+566|Quốc gia
+567|Tổng quan: A luôn cao nhất nhưng ít thay đổi; D tăng nhanh nhất
+568|Đoạn 1: A 560 → 610 → 590; C dao động nhẹ
+569|Đoạn 2: B tăng đều lên 410; D tăng gấp ba lên 280
+570|Mô tả
+571|Tổng quan: bảy bước từ tái chế đến dệt, chia thành giai đoạn chuẩn bị và giai đoạn chế biến
+572|Đoạn 1: thu gom, phân loại, rửa, cắt vụn (bị động + từ chỉ trình tự)
+573|Đoạn 2: nung chảy thành sợi, kéo sợi, dệt
+574|Biểu đồ kết hợp
+575|Số giờ trực tuyến mỗi ngày
+576|Tỷ lệ sở hữu điện thoại 2013
+577|Tỷ lệ sở hữu điện thoại 2023
+578|Tổng quan: nhóm càng trẻ thì càng lên mạng lâu; tỷ lệ sở hữu điện thoại tăng ở mọi độ tuổi, mạnh nhất ở người lớn tuổi
+579|Đoạn 1: thời gian trực tuyến giảm từ 6,1 xuống 1,9 giờ
+580|Đoạn 2: sở hữu điện thoại, nhóm 65+ từ 12 → 61%, người trẻ gần 100%
+581|Nêu quan điểm
+582|Công nghệ
+583|Quan điểm: đồng ý một phần — về lâu dài là lợi nhiều hơn hại, nhưng cái giá ngắn hạn của việc dịch chuyển việc làm rất lớn
+584|Đoạn 1: việc làm mới (gán nhãn dữ liệu, sản phẩm AI, bảo trì), dẫn chứng lịch sử tương tự
+585|Đoạn 2: mất việc ngắn hạn tập trung ở một số ngành; cần đào tạo lại
+586|Kết bài: sẽ tạo ra nhiều việc hơn, với điều kiện chính sách hỗ trợ quá trình chuyển đổi
+587|Thảo luận hai quan điểm
+588|Giáo dục
+589|Đoạn 1: góc nhìn học thuật — tư duy phản biện, nghiên cứu cơ bản, giá trị của bản thân tri thức
+590|Đoạn 2: góc nhìn việc làm — học phí cao, áp lực tìm việc, thực tập
+591|Quan điểm: kết hợp cả hai, đưa dự án thực tế vào chương trình học
+592|Vấn đề – giải pháp
+593|Đô thị
+594|Nguyên nhân: xe cá nhân tăng, giao thông công cộng thiếu, quy hoạch tách nơi ở khỏi nơi làm việc
+595|Giải pháp: mở rộng tàu điện và xe buýt, thu phí ùn tắc, khuyến khích làm việc từ xa và giờ làm lệch ca
+596|Ưu – nhược điểm
+597|Công việc
+598|Quan điểm: ưu điểm nhiều hơn nhược điểm (với công việc tri thức)
+599|Ưu điểm: không phải đi lại, linh hoạt, nguồn tuyển dụng rộng hơn
+600|Nhược điểm: cô lập, khó phối hợp, ranh giới công việc – đời sống mờ nhạt — giảm bớt nhờ làm việc kết hợp (hybrid)
+601|Đề hai câu hỏi
+602|Xã hội
+603|Nguyên nhân: tiến bộ y học, ăn uống và vệ sinh tốt hơn, ý thức về sức khỏe
+604|Tác động: áp lực lên lương hưu và y tế; nhưng người cao tuổi vẫn có giá trị khi đi làm và tình nguyện
+605|Môi trường
+606|Quan điểm: phần lớn không đồng ý
+607|Đoạn 1: đúng là chính phủ và doanh nghiệp có ảnh hưởng lớn hơn (quy định, sản xuất)
+608|Đoạn 2: lựa chọn tiêu dùng và lá phiếu của mỗi người thúc đẩy doanh nghiệp và chính sách thay đổi
+609|Ủng hộ tự do: kỹ năng số, nguồn học liệu, đời sống xã hội
+610|Ủng hộ giới hạn: giấc ngủ, sự tập trung, rủi ro trên mạng
+611|Quan điểm: giới hạn theo độ tuổi thay vì cấm hoàn toàn
+612|Văn hóa
+613|Quan điểm: nếu quản lý tốt thì lợi nhiều hơn hại
+614|Ưu điểm: việc làm, cơ sở hạ tầng, giao lưu văn hóa
+615|Nhược điểm: giá cả tăng, quá tải, thương mại hóa văn hóa — giảm bớt nhờ giới hạn lượng khách và thuế
+616|Sức khỏe
+617|Quan điểm: phần lớn đồng ý — thuế có tác dụng nhưng phải đi kèm giáo dục
+618|Đoạn 1: giá cả ảnh hưởng đến tiêu dùng (vd. doanh số đồ uống giảm sau khi áp thuế đường); tiền thuế có thể tài trợ các chương trình sức khỏe
+619|Đoạn 2: phản biện: bất công với người thu nhập thấp → đáp lại: dùng tiền thuế xây cơ sở thể thao cộng đồng
+620|Kết bài: đồng ý, nhưng thuế chỉ là một phần của gói giải pháp
+621|Mở bài: hai quan điểm + lập trường của tôi (miễn phí một phần: hỗ trợ theo nhu cầu)
+622|Đoạn 1: lý lẽ ủng hộ miễn phí — bình đẳng cơ hội, lợi ích cho xã hội
+623|Đoạn 2: lý lẽ ủng hộ thu học phí — áp lực ngân sách, lợi ích cá nhân lớn hơn
+624|Đoạn 3 / kết bài: học bổng theo thu nhập + khoản vay
+625|Vấn đề 1: người trẻ trì hoãn lập gia đình và phải đi làm xa hơn
+626|Vấn đề 2: không giữ chân được lao động thiết yếu (y tá, giáo viên)
+627|Giải pháp 1: thêm nhà ở giá phải chăng (nhà ở xã hội, thuế nhà bỏ trống)
+628|Giải pháp 2: cải thiện giao thông để vùng ven trở thành lựa chọn
+629|Quan điểm: ưu điểm nhiều hơn nhược điểm (nhưng cần tự giác)
+630|Ưu điểm: linh hoạt, rẻ, nhiều lựa chọn
+631|Nhược điểm: ít tương tác và giám sát, tỷ lệ hoàn thành thấp
+632|Kết bài: hiệu quả nhất khi dùng để bổ trợ
+633|Nguyên nhân: tiến bộ y học, mức sống cao hơn, ý thức về sức khỏe
+634|Tác động 1 (tiêu cực): áp lực lên chi tiêu lương hưu và y tế
+635|Tác động 2 (tích cực): người cao tuổi chăm cháu và làm tình nguyện
+636|Kết bài: điều chỉnh tuổi nghỉ hưu và hỗ trợ cộng đồng
+637|Quan điểm: không đồng ý một phần — vai trò cá nhân nhỏ nhưng có thật
+638|Đoạn 1: chính phủ/doanh nghiệp hành động ở quy mô lớn (quy định, phương thức sản xuất)
+639|Đoạn 2: lựa chọn cá nhân cộng dồn lại sẽ làm thị trường dịch chuyển; lá phiếu và dư luận
+640|Kết bài: hai bên bổ trợ cho nhau
+641|Công ty lớn: ổn định, hệ thống đào tạo, lộ trình thăng tiến
+642|Công ty nhỏ: vai trò đa dạng, phát triển nhanh, có tiếng nói trong quyết định
+643|Quan điểm của tôi: đầu sự nghiệp xây nền tảng ở công ty lớn, sau đó chuyển sang công ty nhỏ
+644|Kết bài
+645|Quan điểm: nếu quản lý vừa phải thì lợi nhiều hơn hại
+646|Ưu điểm: việc làm, thu nhập, giao lưu văn hóa
+647|Nhược điểm: giá thuê nhà tăng, đông đúc, áp lực môi trường
+648|Kết bài: giới hạn lượng khách + thuế du lịch
+649|Câu nào hợp với Task 2 hơn?
+650|"a lot of" / "kids" là văn nói
+651|Tránh cụm mơ hồ "good thing"
+652|Thay "get better"
+653|Thay "big problem"
+654|"pressing issue" trang trọng hơn
+655|Cách mở đầu câu tổng quan đúng
+656|Task 1 dùng "Overall" và không có kết bài
+657|Cách nối nào tự nhiên hơn?
+658|Từ nối được đa dạng hóa
+659|Câu nào là câu hoàn chỉnh?
+660|Ví dụ cũng phải là câu hoàn chỉnh
+661|Câu nào chính xác hơn?
+662|Từ chỉ xu hướng + số liệu
+663|Câu nào khách quan hơn (rào đón)?
+664|Ngôn ngữ thận trọng
+665|Thay "nowadays" (tránh văn mẫu)
+666|Câu sau là văn mẫu mà giám khảo đã quá quen
+667|Câu nào dùng "whereas" đúng?
+668|"whereas" nối hai mệnh đề
+669|Cách nói đúng cho "chiếm ... trong"
+670|Thay "bad for health"
+671|Kết bài nên
+672|thêm một luận điểm mới
+673|nhắc lại quan điểm và tóm tắt các lý do chính
+674|đưa ra ví dụ mới
+675|Không đưa nội dung mới vào kết bài
+676|Câu nào giống câu chủ đề hơn?
+677|Câu chủ đề phải cụ thể
+678|Collocation ăn điểm cho "giải quyết vấn đề"
+679|Thay "people think"
+680|"Everybody knows" quá tuyệt đối
+681|Điều nào là đại kỵ trong Task 1?
+682|Đoán nguyên nhân: "because people became richer"
+683|So sánh mức cao nhất và thấp nhất
+684|Task 1 không giải thích nguyên nhân
+685|Thay "very important"
+686|Thay "a lot of people"
+687|Danh từ đếm được dùng "a large number of"
+688|Câu nào hợp với Task 1 hơn?
+689|fluctuate + số liệu cụ thể
+690|Câu nào khách quan hơn?
+691|Với mỗi mẫu câu, hãy chuẩn bị một ví dụ về công việc hoặc chuyên ngành của bạn (trải nghiệm thật của chính bạn là nguồn tư liệu tốt nhất); bạn có thể dùng cả khi nói lẫn khi viết.

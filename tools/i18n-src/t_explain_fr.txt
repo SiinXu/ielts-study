@@ -1,0 +1,692 @@
+0|S + V : « rise » est intransitif et n'a pas de complément d'objet
+1|S + V + O : « raise » est transitif et exige un complément d'objet
+2|S + verbe d'état + attribut : « become » est un verbe d'état, suivi d'un adjectif
+3|S + V + COI + COD : show sb sth
+4|S + V + O + attribut de l'objet : make sb + adjectif
+5|Un seul verbe principal par phrase : « want » est le verbe, « to learn » son complément
+6|Dans une phrase en there be, un second verbe doit entrer dans une subordonnée
+7|Le sujet est « results », pas « survey »
+8|« remain » est un verbe d'état, suivi d'un adjectif
+9|make + objet + adjectif
+10|Choisissez la phrase correcte
+11|Structure attributive : was + adjectif ; pas de « to » après « became »
+12|Quelle phrase n'a pas de verbe principal ?
+13|« very humid » a besoin du verbe d'état « is » devant
+14|Après « there be », un autre verbe doit devenir une subordonnée ou un participe : who have / having
+15|make + objet + adjectif (attribut de l'objet), pas un adverbe
+16|« Because » n'introduit qu'une subordonnée ; « crowded » a besoin de « is » devant
+17|« seem » est un verbe d'état, directement suivi d'un adjectif
+18|Verbe au présent simple à la base verbale : use
+19|L'adverbe « very » ne peut pas modifier directement un verbe
+20|Deux verbes principaux dans une phrase : supprimez « There are » ou ajoutez « who »
+21|Un adjectif ne peut pas être le verbe ; ajoutez « be »
+22|« rise » est intransitif et n'a pas de passif
+23|make sb do, sans « to »
+24|Ne répétez pas « it » après le sujet
+25|Un adjectif a besoin d'un verbe d'état devant
+26|Action habituelle : la troisième personne du singulier prend -s
+27|Quelque chose en cours en ce moment
+28|La négation est doesn't + base verbale, pas « don't likes »
+29|Les années passées d'un graphique se mettent au passé
+30|Part 2 : parler de son enfance
+31|Past continuous (arrière-plan) + past simple (interruption)
+32|Verbe d'état : pas « am knowing »
+33|Présent simple : horaires et habitudes
+34|Forme progressive : une tendance en train de changer
+35|Action longue à la forme progressive, action courte au past simple
+36|Sujet à la troisième personne du singulier + works
+37|« Look! » signale que quelque chose se passe en ce moment même
+38|1990 est un moment révolu du passé
+39|Choisissez la phrase incorrecte
+40|« know » est un verbe d'état, pas de forme progressive ; et « for years » demande le present perfect
+41|Les questions à la troisième personne du singulier utilisent Does + base verbale
+42|Les faits objectifs se mettent au présent simple
+43|« Look! » montre que cela se passe maintenant
+44|Une action longue interrompue se met au past continuous
+45|Il manque le -s de la troisième personne
+46|La négation à la troisième personne utilise doesn't
+47|Un moment passé demande le passé
+48|« understand » est un verbe d'état
+49|Task 1 : les années passées se mettent au passé
+50|« know » est un verbe d'état, pas de forme progressive
+51|Moment passé, verbe au passé
+52|for + durée : il y habite toujours
+53|since + point de départ, fréquent dans les essais
+54|Expérience : ever / never
+55|« last year » → past simple
+56|« yet » s'emploie dans les questions et les négations
+57|Y est allé deux fois et en est revenu
+58|Une action qui s'est prolongée
+59|Expérience : have been to
+60|just + present perfect : vient tout juste d'arriver
+61|since + point de départ : se poursuit jusqu'à maintenant
+62|since + point de départ jusqu'à maintenant → present perfect
+63|« in 2019 » est un moment précis du passé
+64|La personne n'est pas là : utilisez « has gone »
+65|« ever » interroge sur l'expérience → Have you ever eaten
+66|« over the past decade » va jusqu'à maintenant
+67|« since » se construit avec le perfect
+68|« last week » est un moment précis du passé
+69|« this year » n'est pas terminé : utilisez le perfect
+70|« yesterday » ne s'emploie pas avec le perfect
+71|« since » exige le perfect
+72|Le perfect utilise le participe passé
+73|Pour demander une durée : utilisez le perfect
+74|« ago » se construit avec le past simple
+75|Allé et revenu : « been to »
+76|Les généralités se disent au pluriel, sans « the »
+77|« advice » est indénombrable
+78|« the number » est singulier
+79|« everyone » est singulier
+80|« the » avec les instruments de musique, pas avec les sports de ballon
+81|« the » pour le gouvernement de son propre pays ; « education » au sens général ne prend pas « the »
+82|Utilisez « the » pour quelque chose de précis
+83|Après « each of », le verbe est au singulier
+84|« information » est indénombrable
+85|Le sujet « the number » est singulier
+86|Idées abstraites au sens général : indénombrables, sans article
+87|Noms dénombrables au sens général : utilisez le pluriel
+88|« each of ... » prend un verbe au singulier
+89|« the number of » prend un verbe au singulier
+90|(laisser vide)
+91|Les noms abstraits au sens général ne prennent pas d'article
+92|« homework » est indénombrable
+93|« people » est pluriel
+94|Un nom de métier au singulier exige a/an
+95|« research » est indénombrable ; verbe au singulier
+96|« life » au sens général ne prend pas « the » ; la vie dans une ville précise, si
+97|every + nom singulier + verbe singulier
+98|« research » est indénombrable
+99|Schéma de processus : passif + enchaînement des étapes
+100|L'auteur de l'action n'a pas d'importance
+101|Passif au passé
+102|Passif au perfect
+103|Modal + be + participe passé
+104|should + base verbale pour un conseil
+105|« may » rend l'affirmation plus prudente
+106|Passif au futur
+107|« might » atténue une suggestion
+108|Le pont a été achevé (passif) ; 1937 est du passé
+109|should + be + participe passé
+110|Un modal est suivi de la base verbale
+111|Décrivez un processus au passif du présent simple
+112|Laquelle convient mieux à l'écrit académique ?
+113|« may » + une portée limitée rendent l'affirmation plus sûre
+114|be + participe passé
+115|Possibilité : might
+116|Modal négatif + be + participe passé
+117|Le passif exige le participe passé
+118|« happen » est intransitif : pas de passif
+119|Pas de « to » après un modal
+120|« agree » est un verbe ; ne l'employez pas avec « am »
+121|Base verbale après un modal
+122|Le participe passé de « hold » est « held »
+123|Une subordonnée en that après « suggest » est plus standard
+124|Subordonnée sujet
+125|Subordonnée complément d'objet
+126|whether = if (si… ou non)
+127|Ordre des mots de la phrase affirmative, pas « where is the station »
+128|Sujet apparent (it)
+129|Subordonnée attribut
+130|Subordonnée apposée qui explicite « evidence »
+131|Une subordonnée en whether comme sujet
+132|Une subordonnée en that comme attribut
+133|Les questions indirectes suivent l'ordre de la phrase affirmative
+134|Ordre affirmatif + -s de la troisième personne
+135|En tête de phrase, une subordonnée sujet ne peut utiliser que « whether »
+136|Sujet apparent « It »
+137|Les subordonnées apposées utilisent « that »
+138|Ordre des mots de la phrase affirmative
+139|Les subordonnées complément suivent l'ordre affirmatif
+140|what = ce qui / ce que, comme subordonnée sujet
+141|Les subordonnées suivent l'ordre affirmatif
+142|Ne répétez pas « it » après une subordonnée sujet
+143|Avancer la négation sonne plus naturel
+144|Utilisez « that » après « reason »
+145|Pas d'inversion dans les questions indirectes
+146|Dans un texte de lecture Cambridge, une phrase de 40 mots n'a souvent qu'un squelette de 5 mots. Une fois le réflexe acquis, votre vitesse de lecture augmentera nettement.
+147|Méthode : pour chaque exemple ci-dessous, cachez du doigt tout sauf la partie soulignée, lisez seulement le squelette, puis la phrase entière.
+148|Squelette : Researchers found that...
+149|Squelette : The idea has fascinated scientists
+150|Squelette : the number continues to grow
+151|Subordonnée sujet + subordonnée attribut
+152|D'abord la proposition participiale, puis le squelette
+153|Squelette : Cities tend to attract residents
+154|Proposition principale : The idea is popular
+155|Proposition principale : Workers need retraining
+156|Subordonnée sujet + is + subordonnée attribut
+157|« The report, which was published last week by an independent agency, suggests that fees should fall. » Quel est le verbe principal ?
+158|« was published », dans la relative en which, n'est pas le verbe principal
+159|« Students who work part-time often manage their time better. » Quel est le sujet ?
+160|« who work part-time » complète « Students »
+161|« Not until the 19th century did scientists understand germs. » Quel est le verbe principal ?
+162|Inversion : did scientists understand
+163|« Built in 1880, the station remains a landmark. » Quel est le squelette ?
+164|« Built in 1880 » est un participe passé à valeur circonstancielle
+165|Trouvez la proposition principale : Students who study abroad often face challenges that they did not expect.
+166|Les deux propositions sont des compléments
+167|Le sujet est « the book »
+168|« one of ... » prend un verbe au singulier
+169|Le sujet de la subordonnée, « teenagers », est pluriel
+170|Le sujet est « The idea » (singulier)
+171|Sujet : the number
+172|L'antécédent « people » est pluriel
+173|« who » renvoie à « people » : pluriel
+174|N'employez pas « although » et « but » ensemble
+175|Personnes → who
+176|Choses → which/that
+177|Relative explicative : which, pas that
+178|whose = possession
+179|Lieu : where
+180|Temps : when
+181|Préposition en tête : registre soutenu
+182|« whose » exprime la possession
+183|Personne + sujet de la relative → who
+184|Explicative + « visited » sans complément → which
+185|Rien ne manque après « born » ; c'est un complément de lieu → where
+186|Ne répétez pas l'objet dans la relative
+187|Ses romans → whose
+188|Possession : whose
+189|Après un nom de temps, utilisez « when »
+190|Après un superlatif, utilisez « that »
+191|Personnes : who
+192|Les relatives explicatives n'emploient pas « that »
+193|Il manque le pronom relatif
+194|« live » est intransitif : utilisez where / in which
+195|« stay » est intransitif : il faut where ou at
+196|Ne répétez pas le sujet dans la relative
+197|Concession + proposition, sans « but » ensuite
+198|despite + nom
+199|Cause + proposition
+200|because of + nom
+201|Condition
+202|Conséquence : so ... that
+203|But : so that
+204|Condition : as long as
+205|Concession : even though
+206|Conséquence : point-virgule + as a result
+207|Utilisez « although » devant une proposition
+208|« the traffic » est un nom
+209|N'associez pas « although » à « but »
+210|Devant un nom, utilisez « because of »
+211|« as soon as » introduit une subordonnée de temps
+212|Opposition avec « however »
+213|although + but fait double emploi
+214|because + so fait double emploi
+215|Une subordonnée ne peut pas être seule
+216|« despite » n'est pas suivi d'une proposition
+217|Utilisez « such » avec un groupe nominal
+218|because of + nom ; because + proposition
+219|Dans une subordonnée de condition, le présent exprime le futur
+220|« to » est une préposition
+221|Préposition + -ing
+222|A arrêté de fumer (stop doing)
+223|S'est arrêté pour répondre au téléphone
+224|Un gérondif sujet
+225|Gérondif sujet, verbe au singulier
+226|Se souvenir qu'il faut le faire → to do
+227|Préposition « in » + -ing
+228|Le « to » de « look forward to » est une préposition
+229|stop doing : arrêter ce qu'on était en train de faire
+230|« suggest » ne se construit pas avec sb to do
+231|-ing décrit une chose ; -ed décrit ce que ressentent les gens
+232|Le faire après avoir fini
+233|Les graphiques emploient souvent des participes passifs
+234|Un participe passif qui exprime la cause
+235|Participe passé : passif + antérieur à la principale
+236|Participe présent : actif, simultané
+237|Participe placé après le nom comme complément
+238|Les sentiments des personnes prennent -ed
+239|Actif → working
+240|Les données ont été recueillies → collected
+241|L'entreprise a été fondée (passif)
+242|Quelle phrase contient un participe mal rattaché (dangling participle) ?
+243|Ce n'est pas le renard qui rentre à pied
+244|La ville est ce qui est vu : participe passé
+245|Participe présent après le nom
+246|Le sujet logique du participe doit être celui de la principale
+247|« boring » signifie qui ennuie les gens
+248|Les choses prennent -ing
+249|Deux verbes principaux
+250|Emploi figé du participe passé
+251|Participe mal rattaché : le sujet doit être la personne qui marche
+252|-ing décrit les choses, -ed les sentiments
+253|« much » renforce un comparatif
+254|Le deuxième le plus ...
+255|Multiples
+256|Condition réelle
+257|Irréel du présent ; « be » devient « were »
+258|Irréel du passé
+259|the + comparatif, the + comparatif
+260|Multiple + as ... as
+261|Troisième conditionnel : contraire au passé
+262|Dans les subordonnées en if, le présent exprime le futur
+263|Irréel du présent
+264|Contraire au présent : utilisez « were »
+265|Le comparatif de « cheap » est « cheaper »
+266|Contraire au passé : would have done
+267|Double comparatif
+268|Pas de « will » dans la subordonnée en if
+269|Le subjonctif soutenu utilise « were »
+270|Double superlatif
+271|Utilisez « much » pour renforcer un comparatif
+272|N'ajoutez pas « more » à un comparatif
+273|Pas de « would » dans la subordonnée en if
+274|N'apprenez pas des paragraphes types par cœur : les examinateurs sont formés pour les repérer et le langage préfabriqué fait perdre des points. Retenez seulement la structure et remplissez le contenu sur le moment.
+275|Inversion après « not only »
+276|Phrase clivée
+277|Subordonnée en what comme sujet (très utile à l'oral)
+278|Inversion sans « if »
+279|Commencer par une concession ou une opposition
+280|Introduire un point de vue
+281|It is + participe passé + that
+282|« Not only » en tête exige l'inversion
+283|« Not only » en tête : inversion partielle
+284|Clivée : It was ... that
+285|Une subordonnée en what comme sujet
+286|« Not only » en tête : inversion partielle
+287|« It could be argued that » est objectif et prudent
+288|Cause et effet dits deux fois
+289|Redite ; supprimez « I think »
+290|Énoncez directement le changement précis
+291|Les ouvertures toutes faites et creuses font perdre des points
+292|« in my opinion » et « I think » disent la même chose
+293|Remplacez l'ouverture passe-partout par une phrase propre au sujet
+294|Au bout de deux semaines, n'étudiez plus la grammaire isolément : quand un point revient en lecture ou dans la correction d'un essai, retournez au jour correspondant pour combler la lacune.
+295|Relative + perfect
+296|Concession + manage to do
+297|Participe + comparaison
+298|Inversion sans « if »
+299|Relative explicative
+300|Participe parfait : s'est produit avant
+301|« the number » est singulier + since → has doubled
+302|« despite » devant un nom
+303|« which » explicatif
+304|Irréel du présent
+305|Règle de proximité : « students » est pluriel
+306|Le passé antérieur au passé : past perfect
+307|Pas de « of » après « despite »
+308|Inversion et phrases clivées
+309|« Rarely » en tête + do + sujet
+310|« Only » + complément en tête exige l'inversion
+311|« Not until » en tête : inversez la principale
+312|« Little » au sens de « pas du tout »
+313|On peut employer « who » pour mettre une personne en relief
+314|Mettre en relief le moment
+315|Une subordonnée en what comme sujet
+316|Under no circumstances + inversion
+317|So + adjectif en tête, puis inversion
+318|Adverbe négatif en tête : l'auxiliaire passe devant
+319|« Only » + complément en tête : inversion
+320|Une subordonnée en what sujet compte comme un singulier
+321|Laquelle sonne le plus naturel (Task 2) ?
+322|L'inversion doit être grammaticale et claire
+323|Un mot négatif en tête exige l'inversion
+324|Ne répétez pas le sujet dans une phrase clivée
+325|subordonnée en what + is
+326|« Only if » en tête : inversez la principale
+327|« Not only » en tête avec inversion ; la seconde moitié reste complète
+328|Le subjonctif et les conditionnels mixtes
+329|Contraire au présent
+330|Mixte : condition passée, résultat présent
+331|wish + had done : regret sur le passé
+332|It's time + passé
+333|recommend that + base verbale
+334|Inversion sans « if » : Were + sujet
+335|« without » à la place d'une condition en if
+336|Inversion avec « Had » = If they had invested
+337|suppose + passé
+338|Contraire au présent : passé
+339|Conditionnel mixte : le résultat est au présent
+340|Regret sur le passé : had done
+341|insist that + base verbale
+342|L'inversion sans « if » utilise « Were »
+343|Subjonctif : were + would
+344|Après « wish », utilisez le passé / could
+345|Contraire au passé : had done + would have done
+346|Les deux structures ne se mélangent pas
+347|Nominalisation et style académique
+348|Ne nominalisez pas chaque phrase, sinon le texte devient lourd. C'est le plus efficace dans les phrases de synthèse et les phrases d'introduction de paragraphe en Task 1 et Task 2.
+349|« lack » employé comme nom
+350|a decline in + nom
+351|« use » comme nom, précédé d'un adjectif
+352|access to + nom
+353|Nominalisez « Unemployment rose sharply » :
+354|a sharp rise in + nom
+355|Choisissez la bonne collocation : a significant increase ___ the number of students
+356|Laquelle fonctionne le mieux comme phrase d'introduction en Task 2 ?
+357|Nominalisation + collocation juste
+358|Le pourcentage se place avant « increase »
+359|Il faut la forme nominale
+360|Le sujet est « lack » : singulier
+361|Concession et opposition
+362|although + proposition
+363|despite the fact that + proposition
+364|« whereas » relie une opposition
+365|« While » en tête pour la concession/l'opposition
+366|« By contrast » en tête
+367|Nevertheless = malgré tout
+368|Devant un nom, utilisez « despite »
+369|Opposez deux propositions avec « whereas »
+370|Devant une proposition, utilisez « even though »
+371|Adverbe de phrase en tête + virgule
+372|Choisissez la phrase correcte
+373|« although » ne s'associe pas à « but » ; « despite » n'est pas suivi d'une proposition
+374|« despite » n'est pas suivi d'une proposition
+375|« however » ne peut pas relier un nom de cette façon
+376|Choisissez soit « although », soit « but »
+377|Supprimez « but »
+378|On the contrary, City B fell. (simple opposition)
+379|« on the contrary » signifie « bien au contraire » et corrige ce qui précède
+380|Propositions participiales et constructions absolues
+381|Un participe qui exprime le résultat
+382|Un participe qui ajoute le résultat
+383|with + nom + -ing
+384|Tournure absolue figée
+385|Construction absolue : weather permitting
+386|Groupe participial au passé pour comparer
+387|Participe parfait passif
+388|« followed by » pour ce qui suit
+389|Un participe pour un résultat concomitant
+390|considering = compte tenu de
+391|La loi a été votée (passif)
+392|Les constructions absolues utilisent « being »
+393|Quelle phrase contient un participe mal rattaché ?
+394|Un accident ne peut pas conduire
+395|Le sujet du participe doit correspondre
+396|Entre deux verbes, utilisez un participe ou « and »
+397|Pas de « so » après une structure en with
+398|Une construction absolue a besoin de son propre sujet
+399|Cohésion, reprises et noms de synthèse
+400|this + nom de synthèse
+401|such + nom pluriel
+402|Reprendre la phrase précédente par un nom
+403|The former / the latter (le premier / le second)
+404|Pronom + « also » pour poursuivre
+405|these + nom désignant des données
+406|« otherwise » signifie « sinon »
+407|« trend » est singulier : utilisez « this »
+408|Quelle suite est la plus naturelle ?
+409|this + nom de synthèse est plus clair que « this » seul
+410|The former = A
+411|« issue » peut résumer ce qui précède
+412|Quel paragraphe se répète trop ?
+413|« children » revient sans cesse
+414|Un nom après « this » est plus clair ; verbe au singulier
+415|Variez les mots de liaison
+416|Les démonstratifs s'accordent en nombre avec le nom
+417|N'empilez pas les mots de liaison
+418|« And » en tête de phrase est trop familier
+419|Temps avancés : perfect continuous et future perfect
+420|Perfect continuous : se poursuit jusqu'à maintenant
+421|Past perfect continuous : la cause
+422|Past perfect : avant un autre fait passé
+423|Future perfect : prévisions en Task 1
+424|Future continuous
+425|Une question fréquente en Part 1
+426|« be expected to » pour les prévisions
+427|« be due to » pour les projets
+428|Se poursuit jusqu'à maintenant, sans être terminé
+429|by + moment futur → future perfect
+430|Le passé antérieur au passé
+431|En cours à un moment futur
+432|Une action antérieure et prolongée a causé le résultat
+433|for + durée jusqu'à maintenant : perfect continuous
+434|by + moment futur : future perfect
+435|Pour montrer qu'ils étaient déjà partis, utilisez le past perfect
+436|Les verbes d'état ne se mettent pas à la forme progressive
+437|to + base verbale
+438|Inscription dans une salle de sport
+439|Réserver un gîte
+440|Visite de la nouvelle bibliothèque (monologue)
+441|Annonce d'une journée de nettoyage du quartier
+442|Deux étudiants discutent d'un exposé de groupe
+443|Un tuteur commente la dissertation d'un étudiant
+444|Cours magistral : l'histoire de la bicyclette
+445|Cours magistral : le sommeil et la mémoire
+446|Déclarer un objet perdu
+447|Les changements au musée
+448|Discussion sur les méthodes de recherche
+449|Cours magistral : l'îlot de chaleur urbain
+450|Demande de location
+451|S'inscrire à un cours de langue
+452|Déclarer un bagage perdu
+453|Visite du musée de la ville
+454|Réunion d'information des bénévoles de la ferme collective
+455|Avis de changements à la bibliothèque municipale
+456|Se répartir un exposé de groupe
+457|Retour du tuteur sur un projet de recherche
+458|Choisir un sujet de mémoire
+459|Cours magistral : brève histoire de la bicyclette
+460|Cours magistral : le sommeil et la mémoire
+461|Cours magistral : l'îlot de chaleur urbain
+462|Le retour des trains de nuit
+463|Pourquoi les abeilles dansent
+464|La semaine de quatre jours
+465|Les adultes qui apprennent une langue
+466|Des routes en plastique
+467|La science des habitudes
+468|Les cités antiques et l'eau
+469|Les algorithmes de recommandation
+470|Pourquoi les villes plantent des « mini-forêts »
+471|Paragraphe 4 : the canopy suppresses weeds
+472|Comment se forment les habitudes
+473|Paragraphe 2
+474|Comment on fait revivre les langues menacées
+475|Paragraphe 3
+476|L'économie de l'entrée gratuite dans les musées
+477|Paragraphe 4
+478|Comment les abeilles trouvent leur chemin
+479|L'essor de la semaine de quatre jours
+480|Le dessalement peut-il combler le manque d'eau ?
+481|Apprendre de ses erreurs
+482|TA Réalisation de la tâche (Task Achievement)
+483|Il y a une vue d'ensemble (tendance générale / maximum et minimum) dans le premier ou le deuxième paragraphe
+484|Les éléments clés sont sélectionnés et appuyés par des données, sans énumérer tous les chiffres
+485|Au moins 150 mots, sans opinion personnelle ni hypothèse sur les causes
+486|CC Cohérence et cohésion (Coherence and Cohesion)
+487|Comparer par groupes (éléments similaires dans un même paragraphe), 3–4 paragraphes
+488|Les mots de liaison sont naturels (while, whereas, by contrast), pas dans chaque phrase
+489|LR Ressources lexicales (Lexical Resource)
+490|Vocabulaire des tendances varié : rise / climb / increase ; dip / decline / fall
+491|Langage des données précis : account for, stand at, peak at, roughly a third
+492|GRA Variété et exactitude grammaticales (Grammatical Range and Accuracy)
+493|Temps corrects (passé pour les années passées, « is expected to » pour les prévisions)
+494|Au moins 2 types de phrases complexes (relative, participe, comparaison) sans erreur de base
+495|TR Réponse à la tâche (Task Response)
+496|Toutes les parties de la question sont traitées (les deux, s'il s'agit d'une question double)
+497|La position est claire et constante, visible dès l'introduction
+498|Chaque paragraphe de développement contient une idée principale + explication + exemple
+499|Au moins 250 mots, terminé en 40 minutes
+500|Les paragraphes commencent par une phrase d'introduction ; pronoms et synonymes font avancer les idées au lieu de répéter les noms
+501|La conclusion ne fait que résumer ; aucune idée nouvelle
+502|Vocabulaire du thème (p. ex. public infrastructure, workforce) avec des collocations correctes
+503|Évitez le registre familier (a lot of → a significant number of ; kids → children)
+504|Plus de la moitié des phrases sont complexes et presque sans erreur ; articles, pluriels et accords vérifiés
+505|Ponctuation : ne reliez pas deux phrases complètes par une simple virgule (comma splice)
+506|Graphique linéaire
+507|Année
+508|Voitures
+509|Vélos
+510|Trottinettes électriques
+511|Vue d'ensemble : les voitures ont augmenté puis baissé mais restent en tête ; les vélos ont baissé puis se sont redressés ; les trottinettes ont progressé vite à partir de zéro
+512|Paragraphe 1 : voitures 62 → 70 (pic en 2010) → 58
+513|Paragraphe 2 : les vélos sont passés de 48 à 35, puis remontés à 46 ; les trottinettes sont apparues en 2010 et ont atteint 27 en 2020
+514|Diagramme en barres
+515|Âge
+516|Réseaux sociaux
+517|Sport
+518|Vue d'ensemble : plus le groupe est âgé, moins de réseaux sociaux et plus de lecture ; le sport est comparable d'un groupe à l'autre
+519|Paragraphe 1 : réseaux sociaux 18 → 4
+520|Paragraphe 2 : lecture 3 → 8 ; sport 3–5 heures
+521|Schéma de processus
+522|Étape
+523|Ce qui se passe
+524|Les bouteilles sont collectées dans des points de recyclage
+525|Acheminées vers une usine et triées par couleur
+526|Lavées, étiquettes retirées
+527|Broyées en petits morceaux (calcin)
+528|Mélangées à du sable et d'autres matières, fondues à 1500 °C
+529|Coulées dans des moules et mises en forme
+530|Contrôlées puis envoyées aux usines de remplissage
+531|Vue d'ensemble : 7 étapes de la collecte au remplissage, un cycle
+532|Paragraphe 1 : collecte, transport, tri, lavage
+533|Paragraphe 2 : broyage, fusion, moulage, contrôle
+534|Plan
+535|Emplacement
+536|Aujourd'hui
+537|Nord
+538|Terres agricoles
+539|Zone résidentielle
+540|Centre
+541|Petit ponton
+542|Ponton prolongé + mouillages pour voiliers
+543|Est
+544|Cabanes de pêcheurs
+545|Hôtel + parking
+546|Ouest
+547|Bois
+548|Conservé, avec de nouveaux sentiers
+549|Routes
+550|Une route principale
+551|Route principale + nouvelle route vers l'hôtel
+552|Vue d'ensemble : d'un village de pêcheurs à une zone touristique ; beaucoup plus de logements et d'équipements touristiques ; le bois est conservé
+553|Paragraphe 1 : changements au nord et à l'est
+554|Paragraphe 2 : ponton, routes, bois à l'ouest
+555|Diagramme circulaire
+556|Catégorie
+557|Logement
+558|Alimentation
+559|Transport
+560|Loisirs
+561|Autres
+562|Vue d'ensemble : le logement est devenu la première dépense ; la part de l'alimentation a fortement baissé
+563|Paragraphe 1 : hausses du logement 22 → 34 % et des loisirs 10 → 16 %
+564|Paragraphe 2 : baisses de l'alimentation 28 → 17 % et des autres 26 → 18 % ; transport à peu près stable
+565|Tableau
+566|Pays
+567|Vue d'ensemble : A a toujours été le plus élevé mais a peu varié ; D a progressé le plus vite
+568|Paragraphe 1 : A 560 → 610 → 590 ; C a légèrement fluctué
+569|Paragraphe 2 : B a progressé régulièrement jusqu'à 410 ; D a triplé pour atteindre 280
+570|Description
+571|Vue d'ensemble : sept étapes du recyclage au tissage, en une phase de préparation et une phase de transformation
+572|Paragraphe 1 : collecte, tri, lavage, broyage (passif + marqueurs de séquence)
+573|Paragraphe 2 : fusion en fibre, filage, tissage
+574|Graphiques combinés
+575|Heures en ligne par jour
+576|Possession d'un téléphone 2013
+577|Possession d'un téléphone 2023
+578|Vue d'ensemble : plus le groupe est jeune, plus il passe de temps en ligne ; la possession d'un téléphone a augmenté à tous les âges, surtout chez les plus âgés
+579|Paragraphe 1 : le temps en ligne baisse de 6,1 à 1,9 heure
+580|Paragraphe 2 : possession d'un téléphone, 65 ans et plus 12 → 61 %, jeunes proches de 100 %
+581|Opinion
+582|Technologie
+583|Position : d'accord en partie ; gain net à long terme, mais le coût à court terme des reconversions est élevé
+584|Paragraphe 1 : nouveaux emplois (annotation de données, produits d'IA, maintenance), analogie historique
+585|Paragraphe 2 : pertes d'emplois à court terme concentrées dans certains secteurs ; reconversion nécessaire
+586|Conclusion : elle créera plus d'emplois qu'elle n'en détruira, à condition que les politiques accompagnent la transition
+587|Discussion
+588|Éducation
+589|Paragraphe 1 : la vision académique : esprit critique, recherche fondamentale, valeur du savoir en soi
+590|Paragraphe 2 : la vision professionnelle : frais élevés, pression de l'emploi, stages
+591|Position : combiner les deux, avec des projets concrets dans le cursus
+592|Problème–solution
+593|Villes
+594|Causes : plus de voitures particulières, trop peu de transports en commun, urbanisme qui sépare logements et emplois
+595|Mesures : étendre métro et bus, péage urbain, encourager le télétravail et les horaires décalés
+596|Avantages–inconvénients
+597|Travail
+598|Position : les avantages l'emportent sur les inconvénients (pour le travail intellectuel)
+599|Avantages : pas de trajets, flexibilité, vivier de recrutement plus large
+600|Inconvénients : isolement, collaboration plus difficile, frontière floue entre vie pro et vie perso, atténués par le travail hybride
+601|Question double
+602|Société
+603|Causes : progrès médicaux, meilleure alimentation et hygiène, conscience de la santé
+604|Effets : pression sur les retraites et la santé ; mais aussi la valeur des seniors comme travailleurs et bénévoles
+605|Environnement
+606|Position : plutôt en désaccord
+607|Paragraphe 1 : gouvernements et entreprises ont certes plus d'influence (réglementation, production)
+608|Paragraphe 2 : les choix de consommation et les votes de chacun poussent entreprises et politiques à changer
+609|Pour la liberté : compétences numériques, ressources d'apprentissage, vie sociale
+610|Pour les limites : sommeil, attention, risques en ligne
+611|Position : des limites adaptées à l'âge plutôt qu'une interdiction générale
+612|Culture
+613|Position : bien géré, les avantages l'emportent sur les inconvénients
+614|Avantages : emplois, infrastructures, échanges culturels
+615|Inconvénients : hausse des prix, surfréquentation, culture marchandisée, atténués par des quotas de visiteurs et des taxes
+616|Santé
+617|Position : plutôt d'accord ; les taxes fonctionnent, mais doivent aller de pair avec l'éducation
+618|Paragraphe 1 : le prix influe sur la consommation (p. ex. ventes de boissons en baisse après une taxe sur le sucre) ; les recettes peuvent financer des programmes de santé
+619|Paragraphe 2 : contre-argument : injuste pour les petits revenus → réponse : reverser les recettes aux équipements sportifs de quartier
+620|Conclusion : d'accord, mais une taxe n'est qu'un élément d'un ensemble de mesures
+621|Introduction : les deux points de vue + ma position (gratuité partielle : aide selon les besoins)
+622|Paragraphe 1 : arguments pour la gratuité : égalité des chances, bénéfices pour la société
+623|Paragraphe 2 : arguments pour les frais : contraintes budgétaires, bénéfice privé plus important
+624|Paragraphe 3 / conclusion : bourses sur critères sociaux + prêts
+625|Problème 1 : les jeunes retardent la fondation d'une famille et font de plus longs trajets
+626|Problème 2 : on ne parvient pas à retenir les travailleurs essentiels (infirmiers, enseignants)
+627|Solution 1 : plus de logements abordables (logement social, taxe sur les logements vacants)
+628|Solution 2 : de meilleurs transports pour que la périphérie devienne une option
+629|Position : les avantages l'emportent sur les inconvénients (mais il faut de l'autodiscipline)
+630|Avantages : flexible, bon marché, beaucoup de choix
+631|Inconvénients : peu d'interaction et d'encadrement, faibles taux d'achèvement
+632|Conclusion : plus efficace en complément
+633|Causes : progrès médicaux, niveau de vie plus élevé, conscience de la santé
+634|Effet 1 (négatif) : pression sur les dépenses de retraite et de santé
+635|Effet 2 (positif) : les seniors gardent leurs petits-enfants et font du bénévolat
+636|Conclusion : ajuster l'âge de la retraite et le soutien local
+637|Position : en désaccord en partie ; le rôle individuel est modeste mais réel
+638|Paragraphe 1 : gouvernements/entreprises agissent à grande échelle (réglementation, modes de production)
+639|Paragraphe 2 : les choix individuels s'additionnent et font évoluer les marchés ; votes et opinion publique
+640|Conclusion : les deux se complètent
+641|Grandes entreprises : stabilité, dispositifs de formation, perspectives d'évolution
+642|Petites entreprises : missions variées, progression rapide, voix au chapitre
+643|Mon avis : poser les bases dans une grande entreprise en début de carrière, puis passer dans une petite
+644|Conclusion
+645|Position : avec une gestion mesurée, les avantages l'emportent sur les inconvénients
+646|Avantages : emplois, revenus, échanges culturels
+647|Inconvénients : loyers en hausse, foule, pression sur l'environnement
+648|Conclusion : quotas de visiteurs + taxe de séjour
+649|Laquelle convient mieux à Task 2 ?
+650|« a lot of » / « kids » sont familiers
+651|Évitez le vague « good thing »
+652|Remplacez « get better »
+653|Remplacez « big problem »
+654|« pressing issue » est plus soutenu
+655|La bonne façon d'ouvrir la vue d'ensemble
+656|Task 1 utilise « Overall » et n'a pas de conclusion
+657|Quel enchaînement est le plus naturel ?
+658|Les mots de liaison varient
+659|Laquelle est une phrase complète ?
+660|Un exemple doit être une phrase complète
+661|Laquelle est la plus précise ?
+662|Mot de tendance + donnée
+663|Laquelle est la plus objective (nuancée) ?
+664|Langage prudent
+665|Remplacez « nowadays » (évitez les formules toutes faites)
+666|La seconde est une formule que les examinateurs connaissent bien
+667|Laquelle emploie « whereas » correctement ?
+668|« whereas » relie deux propositions
+669|La bonne façon de dire « représente ... de »
+670|Remplacez « bad for health »
+671|Une conclusion doit
+672|ajouter un nouvel argument
+673|reformuler votre position et résumer les principales raisons
+674|donner un nouvel exemple
+675|Rien de nouveau dans la conclusion
+676|Laquelle ressemble le plus à une phrase d'introduction de paragraphe ?
+677|Une phrase d'introduction doit être précise
+678|Une collocation qui rapporte des points pour « résoudre un problème »
+679|Remplacez « people think »
+680|« Everybody knows » est trop catégorique
+681|Qu'est-ce qui est à proscrire en Task 1 ?
+682|Supposer des causes : « because people became richer »
+683|Comparer le maximum et le minimum
+684|Task 1 n'explique pas les causes
+685|Remplacez « very important »
+686|Remplacez « a lot of people »
+687|Les noms dénombrables prennent « a large number of »
+688|Laquelle convient mieux à Task 1 ?
+689|fluctuate + données précises
+690|Laquelle est la plus objective ?
+691|Préparez un exemple de chaque structure tiré de votre travail ou de votre domaine (votre vraie expérience est la meilleure source) ; vous pourrez l'utiliser à l'oral comme à l'écrit.
