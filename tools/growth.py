@@ -17,18 +17,20 @@ INTRO = {
  'fr': f'Site gratuit pour préparer l’IELTS en autonomie, objectif 7,5 global (6,5 minimum par compétence) : {N} fiches ({c("mistakes")} erreurs fréquentes, {c("collocations")} collocations et tournures, {c("dialogues")} dialogues oraux, {c("grammar")} notes de grammaire et prononciation, {c("templates")} modèles writing/speaking, {c("plan")} notes de planning), plus des exercices originaux d’écoute, lecture, écriture et oral et une révision espacée. La progression reste dans votre navigateur ; 10 langues.',
  'de': f'Kostenlose IELTS-Selbstlernseite mit Ziel Band 7,5 (mindestens 6,5 je Fertigkeit): {N} Lerneinträge ({c("mistakes")} typische Fehler, {c("collocations")} Kollokationen und Satzmuster, {c("dialogues")} Sprechdialoge, {c("grammar")} Grammatik- und Aussprachenotizen, {c("templates")} Writing-/Speaking-Vorlagen, {c("plan")} Plannotizen) plus eigene Hör-, Lese-, Schreib- und Sprechübungen und verteilte Wiederholung. Der Fortschritt bleibt in deinem Browser; 10 Sprachen.'}
 e = html.escape
-ssr = ('<!--IA--><section class="ssr-index" style="max-width:860px;margin:0 auto;padding:24px 20px"><h1>雅思 7.5 学习站 · IELTS 7.5 study site</h1>'
-       f'<p>{e(INTRO["zh"])}</p><p lang="en">{e(INTRO["en"])}</p><h2>版块 · Sections</h2><ul>'
-       + ''.join(f'<li>{e(s["title"])} — {s["count"]}</li>' for s in d['sections']) + '</ul></section><!--/IA-->')
+# default HTML is English (served to every locale before JS picks the language); zh text lives only in JS / ?lang=zh
+SEC_EN = {'plan': 'Study Plan', 'grammar': 'Grammar & Accent', 'dialogues': 'Conversations', 'templates': 'Templates', 'collocations': 'Collocations', 'mistakes': 'Mistake Log'}
+ssr = ('<!--IA--><section class="ssr-index" style="max-width:860px;margin:0 auto;padding:24px 20px"><h1>IELTS 7.5 Study Site</h1>'
+       f'<p>{e(INTRO["en"])}</p><h2>Sections</h2><ul>'
+       + ''.join(f'<li>{e(SEC_EN.get(s["key"], s["key"]))} — {s["count"]}</li>' for s in d['sections']) + '</ul></section><!--/IA-->')
 cfg = {'root': R, 'base': BASE, 'name': 'IELTS 7.5 study site', 'site': 'ielts', 'cf_token': '41d8abdb6f1247c08f2412afcd5f2143', 'goal': 'copy', 'og_image': 'og.png', 'hreflang': True, 'locales': LC,
-       'subcss_path': os.path.join(D, 'subscribe.css'), 'intro': INTRO, 'lang_alias': {'zh': ['zh-CN', 'zh-Hans']}, 'intro_after': '</header>', 'intro_fallback': 'zh',
+       'subcss_path': os.path.join(D, 'subscribe.css'), 'intro': INTRO, 'lang_alias': {'zh': ['zh-CN', 'zh-Hans']}, 'intro_after': '</header>', 'intro_fallback': 'en', 'desc': INTRO['en'],
        'intro_css': 'max-width:1080px;margin:12px auto 0;padding:0 20px;font-size:12.5px;line-height:1.55;opacity:.72',
        'sub_before': '<nav class="bottom"', 'sub_css': 'max-width:860px;margin:28px auto 96px;padding:0 20px;--ie-acc:var(--acc);--ie-acc-ink:#fff',
-       'pages': [{'file': 'index.html', 'rel': '', 'title': '雅思 7.5 学习站 · IELTS 7.5 study site',
+       'pages': [{'file': 'index.html', 'rel': '', 'title': 'IELTS 7.5 Study Site · free band 7.5 self-study',
                   'ld': [{'@type': 'WebApplication', 'name': 'IELTS 7.5 study site', 'url': BASE, 'applicationCategory': 'EducationalApplication', 'operatingSystem': 'Web', 'isAccessibleForFree': True, 'inLanguage': LC, 'offers': {'@type': 'Offer', 'price': '0', 'priceCurrency': 'USD'}, 'publisher': {'@id': 'https://incidental.site/#org'}, 'description': INTRO['en']}]}]}
-llms = f'# IELTS 7.5 study site (雅思 7.5 学习站)\n> {INTRO["en"]}\n\n- Site: {BASE}\n- Languages: {", ".join(LC)} (append ?lang=<code>)\n- Publisher: Incidental AI (https://incidental.site/)\n- Full outline: {BASE}llms-full.txt\n\n## Sections\n' + ''.join(f'- {s["title"]} ({s["key"]}): {s["count"]} items\n' for s in d['sections'])
+llms = f'# IELTS 7.5 study site\n> {INTRO["en"]}\n\n- Site: {BASE}\n- Languages: {", ".join(LC)} (append ?lang=<code>)\n- Publisher: Incidental AI (https://incidental.site/)\n- Full outline: {BASE}llms-full.txt\n\n## Sections\n' + ''.join(f'- {SEC_EN.get(s["key"], s["key"])} ({s["key"]}): {s["count"]} items\n' for s in d['sections'])
 cfg['llms.txt'] = llms
-cfg['llms-full.txt'] = llms + '\n## Overview (Chinese)\n' + INTRO['zh'] + '\n'
+cfg['llms-full.txt'] = llms + '\n## Overview in other languages\n' + ''.join(f'- {k}: {v}\n' for k, v in INTRO.items() if k in ('en', 'es', 'fr', 'de', 'ms', 'vi', 'ko'))
 p = '/tmp/ielts-ia.json'; json.dump(cfg, open(p, 'w'), ensure_ascii=False)
 subprocess.run(['python3', os.path.join(D, 'ia_inject.py'), p], check=True)
 ip = os.path.join(R, 'index.html'); s = open(ip, encoding='utf-8').read()

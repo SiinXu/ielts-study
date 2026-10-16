@@ -1,4 +1,4 @@
-# IELTS 7.5 study site (雅思 7.5 学习站)
+# IELTS 7.5 study site
 > A free IELTS self-study site aiming at band 7.5 overall (6.5 minimum per skill), for people preparing on their own: 947 study items (489 common-mistake cards, 287 collocations and sentence patterns, 73 speaking dialogues, 44 grammar and pronunciation notes, 43 writing/speaking templates, 11 plan notes) plus original listening, reading, writing and speaking practice and spaced review. Progress stays in your own browser; 10 languages.
 
 - Site: https://siinxu.github.io/ielts-study/
@@ -7,12 +7,18 @@
 - Full outline: https://siinxu.github.io/ielts-study/llms-full.txt
 
 ## Sections
-- 复习计划 (plan): 11 items
-- 语法与口音 (grammar): 44 items
-- 写作口语模板 (templates): 43 items
-- 口语对话 (dialogues): 73 items
-- 错题记忆 (mistakes): 489 items
-- 固定搭配与句式 (collocations): 287 items
+- Study Plan (plan): 11 items
+- Grammar & Accent (grammar): 44 items
+- Templates (templates): 43 items
+- Conversations (dialogues): 73 items
+- Mistake Log (mistakes): 489 items
+- Collocations (collocations): 287 items
 
-## Overview (Chinese)
-免费的雅思自学站，目标总分 7.5（单科保底 6.5），适合自学备考的人：共 947 条学习内容（错题记忆 489、固定搭配与句式 287、口语对话 73、语法与口音 44、写作口语模板 43、复习计划 11），另有原创听力、阅读、写作、口语练习和间隔复习。进度只存在你自己的浏览器里，支持 10 种语言。
+## Overview in other languages
+- en: A free IELTS self-study site aiming at band 7.5 overall (6.5 minimum per skill), for people preparing on their own: 947 study items (489 common-mistake cards, 287 collocations and sentence patterns, 73 speaking dialogues, 44 grammar and pronunciation notes, 43 writing/speaking templates, 11 plan notes) plus original listening, reading, writing and speaking practice and spaced review. Progress stays in your own browser; 10 languages.
+- ko: IELTS 종합 7.5(영역별 최소 6.5)를 목표로 혼자 준비하는 사람을 위한 무료 학습 사이트입니다. 학습 항목 947개(오답 노트 489, 연어·문형 287, 스피킹 대화 73, 문법·발음 44, 라이팅·스피킹 템플릿 43, 학습 계획 11)와 오리지널 듣기·읽기·쓰기·말하기 연습, 간격 복습을 제공합니다. 진도는 내 브라우저에만 저장되며 10개 언어를 지원합니다.
+- es: Sitio gratuito para preparar el IELTS por tu cuenta con objetivo de banda 7,5 (mínimo 6,5 por destreza): 947 elementos de estudio (489 errores frecuentes, 287 colocaciones y estructuras, 73 diálogos orales, 44 notas de gramática y pronunciación, 43 plantillas de writing/speaking, 11 notas de plan) más práctica original de listening, reading, writing y speaking y repaso espaciado. El progreso se guarda solo en tu navegador; 10 idiomas.
+- ms: Laman belajar IELTS sendiri secara percuma dengan sasaran band 7.5 (minimum 6.5 setiap kemahiran): 947 item pembelajaran (489 kesilapan lazim, 287 kolokasi dan pola ayat, 73 dialog lisan, 44 nota tatabahasa dan sebutan, 43 templat penulisan/lisan, 11 nota rancangan) serta latihan asli mendengar, membaca, menulis dan bertutur dan ulang kaji berjarak. Kemajuan disimpan dalam pelayar anda sahaja; 10 bahasa.
+- vi: Trang tự học IELTS miễn phí, mục tiêu band 7.5 (tối thiểu 6.5 mỗi kỹ năng): 947 mục học (489 lỗi thường gặp, 287 cụm từ và mẫu câu, 73 hội thoại nói, 44 ghi chú ngữ pháp và phát âm, 43 mẫu viết/nói, 11 ghi chú kế hoạch) cùng bài luyện nghe, đọc, viết, nói nguyên bản và ôn tập ngắt quãng. Tiến độ chỉ lưu trong trình duyệt của bạn; 10 ngôn ngữ.
+- fr: Site gratuit pour préparer l’IELTS en autonomie, objectif 7,5 global (6,5 minimum par compétence) : 947 fiches (489 erreurs fréquentes, 287 collocations et tournures, 73 dialogues oraux, 44 notes de grammaire et prononciation, 43 modèles writing/speaking, 11 notes de planning), plus des exercices originaux d’écoute, lecture, écriture et oral et une révision espacée. La progression reste dans votre navigateur ; 10 langues.
+- de: Kostenlose IELTS-Selbstlernseite mit Ziel Band 7,5 (mindestens 6,5 je Fertigkeit): 947 Lerneinträge (489 typische Fehler, 287 Kollokationen und Satzmuster, 73 Sprechdialoge, 44 Grammatik- und Aussprachenotizen, 43 Writing-/Speaking-Vorlagen, 11 Plannotizen) plus eigene Hör-, Lese-, Schreib- und Sprechübungen und verteilte Wiederholung. Der Fortschritt bleibt in deinem Browser; 10 Sprachen.
