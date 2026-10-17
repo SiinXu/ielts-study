@@ -24,7 +24,7 @@
 .rx-w b{color:#346538}.rx-n b{color:#9f2f2d}
 [data-theme=dark] .rx-w b{color:#93cf98}[data-theme=dark] .rx-n b{color:#f3958f}
 .rx-ex{list-style:none;margin:0;padding:0;display:grid;gap:8px}
-.rx-ex li{display:grid;gap:3px;padding-left:12px;border-left:2px solid var(--line2)}
+.rx-ex li{display:grid;gap:3px;padding:8px 12px;border:1px solid var(--line2);border-radius:8px;background:var(--surface)}
 .rx-ex p{margin:0;font:400 17px/1.45 var(--serif);color:var(--ink)}
 .rx-sc{display:inline-flex;align-items:center;gap:6px;font-size:12px;line-height:1.4;color:var(--muted)}
 .rx-sc i{width:6px;height:6px;border-radius:50%;background:var(--acc);flex:none}

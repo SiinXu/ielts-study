@@ -138,6 +138,7 @@
 .wd-s .sq{width:12px;height:12px;border-radius:3px}
 .wd-m{font-size:12.5px;color:var(--muted)}
 .wd .blks{border:0;border-top:1px solid var(--line);border-radius:0 0 10px 10px}
+/* allow-left-border: timeline/stat divider (not a callout) */
 .phases{list-style:none;padding:0;margin:0;border-left:1px solid var(--line2);margin-left:10px}
 .phz{display:grid;grid-template-columns:auto 1fr;gap:14px;padding:6px 0 18px 18px;position:relative}
 .phz::before{content:"";position:absolute;left:-5px;top:12px;width:9px;height:9px;border-radius:2px;background:var(--bg);border:1px solid var(--line2)}
@@ -231,6 +232,7 @@
 
 /* 档案 */
 .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}
+/* allow-left-border: timeline/stat divider (not a callout) */
 .kpis span{display:flex;flex-direction:column;padding-left:12px;border-left:1px solid color-mix(in srgb,var(--ti) 28%,transparent)}
 .kpis b{font:400 44px/1 var(--serif);color:var(--ink)}
 .kpis small{font-size:12.5px;margin-top:4px}
@@ -391,7 +393,7 @@ a.qi-t:hover{text-decoration:underline}
 .xp{display:grid;gap:8px;margin-top:8px;padding:12px 14px;border-radius:12px;background:var(--surface);border:1px solid var(--line)}
 .xp-row{margin:0;line-height:1.6;max-width:68ch}
 .xp-ev{margin:0}.xp-ev figcaption{font-size:11px;color:var(--faint,var(--muted));letter-spacing:.04em;margin-bottom:4px}
-.xp-ev blockquote{margin:0;padding:8px 12px;border-left:3px solid var(--acc);background:var(--bg);border-radius:0 8px 8px 0;font-family:var(--serif);font-size:15px;line-height:1.55;color:var(--ink);max-width:68ch}
+.xp-ev blockquote{margin:0;padding:8px 12px;border:1px solid var(--line2);background:var(--bg);border-radius:8px;font-family:var(--serif);font-size:15px;line-height:1.55;color:var(--ink);max-width:68ch}
 .xp-ev mark{background:var(--mark,rgba(250,204,21,.35));color:inherit;border-radius:3px;padding:0 2px}
 .xp-kw{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px}.xp-chips{display:flex;flex-wrap:wrap;gap:6px}
 .xp-chip{font-size:12.5px;border:1px solid var(--line2);border-radius:99px;padding:3px 10px;color:var(--ink2)}.xp-chip b{font-weight:600;color:var(--ink)}

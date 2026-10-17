@@ -157,6 +157,7 @@ main{max-width:1160px;margin:0 auto;padding:0 20px 120px}
 .sc-n{font:400 68px/0.9 var(--serif);letter-spacing:-.03em}
 .sc-l{font-size:12.5px;color:var(--muted);margin-top:8px}
 .score-sub{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
+/* allow-left-border: divider/toc/drawer edge (not a callout) */
 .score-sub span{display:flex;flex-direction:column;align-items:flex-start;padding-left:10px;border-left:1px solid var(--line)}
 .score-sub b{font:400 24px/1.1 var(--serif)}
 .score-sub small{font-size:12px;color:var(--muted)}
@@ -205,8 +206,11 @@ main{max-width:1160px;margin:0 auto;padding:0 20px 120px}
 .col-toc{position:relative}
 .toc-box{position:sticky;top:calc(var(--hdr) + 24px);max-height:calc(100vh - var(--hdr) - 48px);overflow:auto;padding-top:24px}
 .toc-h{font-size:12px;color:var(--muted);font-weight:600;margin:0 0 10px}
+/* allow-left-border: divider/toc/drawer edge (not a callout) */
 .toc a{display:block;font-size:13.5px;padding:5px 0 5px 12px;border-left:1px solid var(--line);color:var(--ink2);line-height:1.45}
+/* allow-left-border: divider/toc/drawer edge (not a callout) */
 .toc a:hover{border-color:var(--ink);color:var(--ink)}
+/* allow-left-border: divider/toc/drawer edge (not a callout) */
 .toc a.h3{padding-left:24px;font-size:12.5px;color:var(--muted)}
 .toc-e{font-size:13px;color:var(--muted)}
 
@@ -277,6 +281,7 @@ main{max-width:1160px;margin:0 auto;padding:0 20px 120px}
 /* ---------- 抽屉 ---------- */
 .scrim{position:fixed;inset:0;z-index:40;background:rgba(10,10,9,.32);opacity:0;transition:opacity .3s}
 .scrim.open{opacity:1}
+/* allow-left-border: divider/toc/drawer edge (not a callout) */
 .sheet{position:fixed;z-index:50;top:0;right:0;bottom:0;width:min(560px,100vw);background:var(--surface);border-left:1px solid var(--line);display:flex;flex-direction:column;transform:translateX(100%);transition:transform .38s var(--ease);visibility:hidden}
 .sheet.open{transform:none;visibility:visible}
 .grab{display:none}
@@ -391,6 +396,7 @@ main{max-width:1160px;margin:0 auto;padding:0 20px 120px}
   .bottom a.on .ph.off{display:none}
   .toast{bottom:calc(84px + env(safe-area-inset-bottom))}
   /* 抽屉变底部弹层 */
+  /* allow-left-border: divider/toc/drawer edge (not a callout) */
   .sheet{top:auto;left:0;width:100%;max-height:90vh;border-left:0;border-radius:16px 16px 0 0;transform:translateY(100%)}
   .grab{display:block;width:36px;height:4px;border-radius:2px;background:var(--line2);margin:8px auto 0}
   .d-head{padding:8px 12px 12px 20px}
