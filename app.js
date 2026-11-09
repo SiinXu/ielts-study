@@ -253,7 +253,7 @@ function renderHome(){
     h += '<div class="home-grid"><section class="today-b">'+
       '<h2 class="sec-h">'+T('今日任务')+'</h2>'+(EXT && EXT.riskNote ? EXT.riskNote() : '')+
       (preview.length ? '<div class="tasks">'+preview.map(function(id, i){ return taskHTML(byId[id], i); }).join('')+'</div>' : '<div class="empty"><b>'+T('今天的都学完了')+'</b><span>'+T('明天会自动换下一批。')+'</span></div>')+
-      '<div class="row-f"><a class="b pri" href="#/today">'+T('开始今日 {n} 条', {n:tids.length})+'</a>'+
+      '<div class="row-f"><a class="b pri" href="#/today" data-evt="start_practice">'+T('开始今日 {n} 条', {n:tids.length})+'</a>'+
       '<a class="b ghost" href="#/section/'+last+(nextIt?'/'+nextIt.id:'')+'">'+T('接着学{s}', {s:secNav(last)})+'</a></div></section>';
     h += '<aside class="side">';
     if (EXT) h += EXT.stageCard();
