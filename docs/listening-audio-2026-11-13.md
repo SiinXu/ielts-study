@@ -133,8 +133,12 @@ UTMOS 范围 4.15–4.51，平均 4.39。
 - 截图：/workspace/ielts-audio-shots/（桌面 1440、手机 390，浅色 / 深色；官方样题 en + zh、听力列表、播放中）。手机详情页顶部的大块空白是现网原样（compare-prod-mobile-dark-L02.png 对照），不是本次改动。
 
 ## 7. 预览
-- 预览固定在本分支提交上（raw.githack 代理 GitHub 文件；mp3 跳到 raw.githubusercontent.com，支持分段）。不是正式站。
-- 试过 cloudflared 临时隧道：本机网络挡住了隧道出口（QUIC 和 HTTP/2 都连不上 Cloudflare 边缘），没用上。
+- 预览地址：https://ielts-study-preview-murex.vercel.app/ （Vercel 单独项目 ielts-study-preview，部署 dpl_BUyLKPKBLEcVE3gvMrnra4dzxnx5，固定在提交 a9575aa）。
+- 这是新建的独立项目，和 ielts.incidental.site 无关。Vercel 把新项目的第一次部署标成该项目的 production，只影响这个 vercel.app 地址，不影响正式站。
+- 预览上 Playwright 复测：L02 播放中（currentTime 3.3 秒，时长 69.3 秒，无报错），官方样题 10 个外链。
+- 预览页也会加载 events.js，会给 ielts 记几次访问。验收时 URL 加 `?internal=1` 可标成内部流量。
+- 没用成的预览方式：cloudflared 临时隧道（本机网络挡住 Cloudflare 隧道出口）；raw.githack（有外部内容提示页）；`vercel deploy --temporary`（要求登录）。
+- 合并或关闭 PR 后，可以删掉 ielts-study-preview 项目。
 
 ## 8. 待 Siin 决定
 1. 是否合并本 PR（GitHub Pages 合并即上线）。
