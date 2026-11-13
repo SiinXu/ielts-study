@@ -1397,3 +1397,39 @@ I18N.add("ms", {
 "每个句型准备一个和你工作或专业相关的例句（自己的真实经历就是最好的素材库），口语和作文都能用。": "Sediakan satu contoh bagi setiap pola tentang kerja atau bidang anda sendiri (pengalaman sebenar anda ialah sumber terbaik); anda boleh menggunakannya dalam lisan dan penulisan.",
 "更多": "Lagi"
 });
+
+/* listening audio + official links v12 (源：tools/i18n-src/tr_listening_audio.json) */
+I18N.add("ms", {
+"官方样题": "Sampel rasmi",
+"官方免费样题": "Sampel rasmi percuma",
+"音频是本站原创脚本的合成朗读，英式、澳式、美式口音轮换，对话里每个说话人用不同音色。建议第一遍「盲听」做题，第二遍「先读再听」逐句跟读。": "Audio ialah suara sintetik yang membaca skrip asli laman ini, bergilir antara loghat British, Australia dan Amerika, dengan suara berbeza bagi setiap penutur dalam dialog. Buat pusingan pertama dalam mod Buta, kemudian guna Baca, kemudian dengar untuk mengikut ayat demi ayat.",
+"以下都是雅思主办方（IELTS 官网、British Council、IDP）的免费听力练习，在新标签页打开。本站不下载、不托管任何官方音频；站内 24 套是原创脚本的合成朗读。": "Ini ialah bahan latihan Listening percuma daripada rakan IELTS (IELTS.org, British Council, IDP). Ia dibuka dalam tab baharu. Laman ini tidak memuat turun atau menghos sebarang audio rasmi; 24 set di laman ini ialah bacaan sintetik skrip asli.",
+"{n} 个链接": "{n} pautan",
+"新标签页打开": "dibuka dalam tab baharu",
+"Part 1–4 题型样题": "Jenis tugasan Part 1–4",
+"整套机考体验 · 4 段 40 题": "Ujian komputer penuh · 4 bahagian, 40 soalan",
+"打基础 · 分级听力 A1–C1": "Asas · Listening mengikut tahap A1–C1",
+"了解听力考试": "Tentang ujian Listening",
+"学术类": "Academic",
+"培训类": "General Training",
+"两类通用": "Kedua-dua modul",
+"基础": "Asas",
+"机考": "Komputer",
+"纸笔": "Kertas",
+"网页": "Web",
+"雅思官网机考样题：单选、多选、地图、笔记、表格、流程图、句子、简答，附答案和录音原文 PDF。": "Sampel komputer IELTS.org: aneka pilihan, peta, nota, jadual, carta alir, ayat dan jawapan pendek, dengan skema jawapan dan transkrip PDF.",
+"培训类页面的同款听力样题（两类考试听力相同），附答案和录音原文 PDF。": "Sampel Listening yang sama di halaman General Training (Listening sama bagi kedua-dua modul), dengan skema jawapan dan transkrip PDF.",
+"British Council 七种题型样题，另有一套完整机考体验（4 段 40 题），附答案和原文。": "Sampel British Council untuk tujuh jenis tugasan, serta satu ujian latihan komputer penuh (4 bahagian, 40 soalan), dengan jawapan dan transkrip.",
+"IDP 按题型分的样题：表格、笔记、配对、地图、选择、简答，在 IDP 页面在线练习。": "Sampel IDP mengikut jenis tugasan: jadual, nota, padanan, peta, aneka pilihan dan jawapan pendek, berlatih dalam talian di halaman IDP.",
+"纸笔版样题合集：题目、录音原文和答案在同一份 PDF，适合打印后精听。": "Tugasan sampel berasaskan kertas: soalan, transkrip dan jawapan dalam satu PDF, sesuai dicetak untuk mendengar secara intensif.",
+"官方机考熟悉测试：4 段录音、40 题、不限时，做完可下载答案。": "Ujian pembiasaan komputer rasmi: 4 rakaman, 40 soalan, tanpa had masa, dengan jawapan boleh dimuat turun di akhir.",
+"雅思官网样题总入口：选考试类型后可进入完整机考练习体验。": "Hab sampel IELTS.org: pilih jenis ujian untuk ke latihan komputer penuh.",
+"British Council 分级听力课：按 A1 到 C1 选级别，每课有录音、练习和原文。": "Pelajaran Listening British Council mengikut tahap: pilih A1 hingga C1; setiap pelajaran ada rakaman, latihan dan transkrip.",
+"官方题型说明：四段录音各考什么、时长、评分方式。": "Panduan format rasmi: apa yang diuji setiap empat rakaman, masa dan pemarkahan.",
+"IDP 的听力考试介绍：考试流程、题型和备考建议。": "Panduan IDP tentang ujian Listening: perjalanan ujian, jenis tugasan dan tip persediaan.",
+"英式口音": "Loghat British",
+"澳式口音": "Loghat Australia",
+"美式口音": "Loghat Amerika",
+"合成语音朗读（非真人、非官方录音），对话里每个说话人用不同音色。点任意一句可从那句开始播放。": "Suara sintetik (bukan rakaman manusia atau rasmi), dengan suara berbeza bagi setiap penutur. Ketik mana-mana ayat untuk main dari situ.",
+"音频没加载出来，已改用浏览器朗读": "Audio gagal dimuat, beralih ke bacaan pelayar"
+});

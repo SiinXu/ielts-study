@@ -30,7 +30,7 @@
 - `content/course.js` 课表：按复习计划的 5 个阶段生成每天的学习块（含分钟数）与周视图
 - `study.js` / `study.css` 课表、练习、档案三页 + 复习曲线（1/3/7/14/30 天）+ 改错对排版修复
 新增本地存储键：`ielts.srs` `ielts.plan` `ielts.prac` `ielts.notes` `ielts.draft` `ielts.wcheck` `ielts.gout` `ielts.log` `ielts.rate` `ielts.lmode` `ielts.ptab`（`ielts.done` 不变）。
-TODO：听力真人录音（在 listening.js 每套加 `audio` 字段后接入）。
+听力音频见下方 v12。
 
 ## v5f 动态课表（2026-10-10）
 设置里保存目标后，课表即时重排（`study.js` 的 `derivePlan`）：
@@ -52,3 +52,10 @@ TODO：听力真人录音（在 listening.js 每套加 `audio` 字段后接入�
 - 入口：顶栏单词本图标（红点 = 今日到期数）、首页「单词本 · 划词复习」块。
 - 新本地存储键 `ielts.words`；新界面文字已加入 `i18n/*.js` 末尾（源在 `../i18n-src/tr_words.json`）。
 - `app.js` 改动：新路由 `#/words`、首页块、顶栏图标；列表卡片单击延迟 230ms 打开，选中文字或双击时不打开详情。
+
+## v12 听力音频 + 官方免费样题（2026-11-13）
+- 24 套原创听力改用静态合成录音：`audio/listening/L01–L24.mp3`（单声道 24 kHz 48 kbps，共约 8.9 MB）。英式、澳式、美式口音各 8 套；对话每个说话人用不同音色。
+- 引擎：Kokoro-82M（Apache-2.0，英/美音）+ MeloTTS EN-AU（MIT，澳音），本机 CPU 离线生成，零费用。重新生成：`python tools/tts_build.py <listening.json> <kokoro-v1.0.onnx> <voices-v1.0.bin>`。
+- 播放器：`study.js` 的 `playFrom()`。语速 0.8/0.9/1×、点句跳转、逐句高亮都按 `content/listening-audio.js` 的时间轴；音频失败时回退浏览器朗读。
+- 新标签「官方样题」（`#/practice/official`）：IELTS 官网、British Council、IDP 的免费听力外链，按题型 / 整套机考 / 分级听力 / 考试说明分组。数据在 `content/listening-official.js`，核验脚本 `tools/check_official_links.sh`。点击由 events.js 自动记为 `outbound_click`。
+- 站内不托管任何官方或剑桥音频。过程文档：`docs/listening-audio-2026-11-13.md`。

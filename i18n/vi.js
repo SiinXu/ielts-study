@@ -1385,3 +1385,39 @@ I18N.add("vi", {
 "每个句型准备一个和你工作或专业相关的例句（自己的真实经历就是最好的素材库），口语和作文都能用。": "Với mỗi mẫu câu, hãy chuẩn bị một ví dụ về công việc hoặc chuyên ngành của bạn (trải nghiệm thật của chính bạn là nguồn tư liệu tốt nhất); bạn có thể dùng cả khi nói lẫn khi viết.",
 "更多": "Thêm"
 });
+
+/* listening audio + official links v12 (源：tools/i18n-src/tr_listening_audio.json) */
+I18N.add("vi", {
+"官方样题": "Đề mẫu chính thức",
+"官方免费样题": "Đề mẫu chính thức miễn phí",
+"音频是本站原创脚本的合成朗读，英式、澳式、美式口音轮换，对话里每个说话人用不同音色。建议第一遍「盲听」做题，第二遍「先读再听」逐句跟读。": "Âm thanh là giọng đọc tổng hợp các kịch bản gốc của trang, luân phiên giọng Anh, Úc và Mỹ; trong hội thoại mỗi người nói dùng một giọng khác nhau. Lần đầu làm bài ở chế độ Nghe không nhìn, lần hai dùng Đọc rồi nghe để nhại theo từng câu.",
+"以下都是雅思主办方（IELTS 官网、British Council、IDP）的免费听力练习，在新标签页打开。本站不下载、不托管任何官方音频；站内 24 套是原创脚本的合成朗读。": "Đây là tài liệu luyện Listening miễn phí của các đơn vị tổ chức IELTS (IELTS.org, British Council, IDP), mở trong thẻ mới. Trang này không tải về hay lưu trữ bất kỳ âm thanh chính thức nào; 24 bộ trên trang là giọng đọc tổng hợp từ kịch bản gốc.",
+"{n} 个链接": "{n} liên kết",
+"新标签页打开": "mở trong thẻ mới",
+"Part 1–4 题型样题": "Dạng bài Part 1–4",
+"整套机考体验 · 4 段 40 题": "Thi thử trọn bộ trên máy · 4 phần, 40 câu",
+"打基础 · 分级听力 A1–C1": "Nền tảng · Nghe theo trình độ A1–C1",
+"了解听力考试": "Tìm hiểu bài thi Listening",
+"学术类": "Academic",
+"培训类": "General Training",
+"两类通用": "Cả hai loại",
+"基础": "Nền tảng",
+"机考": "Trên máy",
+"纸笔": "Giấy",
+"网页": "Web",
+"雅思官网机考样题：单选、多选、地图、笔记、表格、流程图、句子、简答，附答案和录音原文 PDF。": "Đề mẫu thi trên máy của IELTS.org: trắc nghiệm, bản đồ, ghi chú, bảng, lưu đồ, hoàn thành câu, trả lời ngắn; kèm đáp án và bản ghi PDF.",
+"培训类页面的同款听力样题（两类考试听力相同），附答案和录音原文 PDF。": "Cùng bộ đề mẫu Listening trên trang General Training (Listening giống nhau ở cả hai loại), kèm đáp án và bản ghi PDF.",
+"British Council 七种题型样题，另有一套完整机考体验（4 段 40 题），附答案和原文。": "Đề mẫu của British Council cho bảy dạng bài, cùng một bài thi thử trọn bộ trên máy (4 phần, 40 câu), kèm đáp án và bản ghi.",
+"IDP 按题型分的样题：表格、笔记、配对、地图、选择、简答，在 IDP 页面在线练习。": "Đề mẫu của IDP theo dạng bài: bảng, ghi chú, nối, bản đồ, trắc nghiệm, trả lời ngắn; luyện trực tuyến trên trang IDP.",
+"纸笔版样题合集：题目、录音原文和答案在同一份 PDF，适合打印后精听。": "Bộ đề mẫu trên giấy: câu hỏi, bản ghi và đáp án trong một file PDF, tiện in ra để nghe kỹ.",
+"官方机考熟悉测试：4 段录音、40 题、不限时，做完可下载答案。": "Bài làm quen thi trên máy chính thức: 4 đoạn ghi âm, 40 câu, không giới hạn thời gian, làm xong có thể tải đáp án.",
+"雅思官网样题总入口：选考试类型后可进入完整机考练习体验。": "Trang tổng hợp đề mẫu của IELTS.org: chọn loại bài thi để vào bài luyện trọn bộ trên máy.",
+"British Council 分级听力课：按 A1 到 C1 选级别，每课有录音、练习和原文。": "Bài nghe theo trình độ của British Council: chọn từ A1 đến C1; mỗi bài có ghi âm, bài tập và bản ghi.",
+"官方题型说明：四段录音各考什么、时长、评分方式。": "Hướng dẫn định dạng chính thức: mỗi đoạn trong bốn đoạn ghi âm kiểm tra gì, thời gian và cách chấm.",
+"IDP 的听力考试介绍：考试流程、题型和备考建议。": "Giới thiệu bài thi Listening của IDP: quy trình thi, dạng bài và mẹo ôn luyện.",
+"英式口音": "Giọng Anh",
+"澳式口音": "Giọng Úc",
+"美式口音": "Giọng Mỹ",
+"合成语音朗读（非真人、非官方录音），对话里每个说话人用不同音色。点任意一句可从那句开始播放。": "Giọng đọc tổng hợp (không phải người thật hay bản ghi chính thức), mỗi người nói một giọng. Chạm vào câu bất kỳ để phát từ đó.",
+"音频没加载出来，已改用浏览器朗读": "Không tải được âm thanh, đã chuyển sang giọng đọc của trình duyệt"
+});

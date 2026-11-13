@@ -1,6 +1,6 @@
 /* 听力练习：全部原创脚本（非剑桥真题）。
-   音频：v1 用浏览器自带的英语语音朗读（Web Speech API），A/B 两个说话人用不同音高。
-   TODO：换成真人录音（自录或 CC 授权素材）后，在每套里加 audio:'audio/xxx.mp3' 即可。
+   音频（v12）：audio/listening/<id>.mp3，由 tools/tts_build.py 用开源 TTS 在本机离线合成（Kokoro-82M 英/美音 + MeloTTS 澳音），
+   时间轴在 content/listening-audio.js。加载失败时回退浏览器朗读（Web Speech API）。不托管任何官方录音。
    题型 mcq {q,o,a}；gap {q 含 ___, a:[可接受答案]}；trap = 这题的陷阱 */
 window.IELTS_LISTENING = [
 {id:'L01', part:1, title:'Joining a sports centre', zh:'健身中心入会登记', min:8,

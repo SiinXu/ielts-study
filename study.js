@@ -414,7 +414,32 @@ function afterAnswer(el, ok){
   if (session && el.closest('#sess')){ session.right += ok ? 1 : 0; session.done++; setTimeout(nextInSession, ok ? 700 : 1600); }
 }
 
-/* ---------- 听力：浏览器朗读 ---------- */
+/* ---------- 听力：合成录音（audio/listening/*.mp3），失败时回退浏览器朗读 ---------- */
+var AUD = window.IELTS_LISTENING_AUDIO || {}, ACC = {GB:'英式口音', AU:'澳式口音', US:'美式口音'};
+var lis = {el:null, id:null};
+function lineAt(m, t){ var i = 0; while (i+1 < m.t.length && m.t[i+1] <= t + 0.05) i++; return i; }
+function markLine(root, i){ [].forEach.call(root.querySelectorAll('.ln'), function(x){ x.classList.toggle('now', +x.dataset.ln === i); }); }
+function stopListening(root){
+  if (lis.el){ try{ lis.el.pause(); }catch(e){} }
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  speech.playing = false;
+  if (root){ [].forEach.call(root.querySelectorAll('.ln.now'), function(x){ x.classList.remove('now'); }); playBtn(root); }
+}
+function playFrom(L, from, root){
+  var m = AUD[L.id], a = root.querySelector('.pl-audio');
+  if (!m || !a || a.dataset.failed) return speakLines(L.lines, from, root);
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  if (lis.el !== a){
+    lis.el = a; lis.id = L.id;
+    a.ontimeupdate = function(){ if (speech.playing) markLine(root, lineAt(m, a.currentTime)); };
+    a.onended = function(){ stopListening(root); };
+    a.onerror = function(){ a.dataset.failed = '1'; if (speech.playing){ A.toast(T('音频没加载出来，已改用浏览器朗读')); speakLines(L.lines, from, root); } };
+  }
+  a.playbackRate = speech.rate;
+  var go = function(){ try{ a.currentTime = m.t[from] || 0; }catch(e){} a.playbackRate = speech.rate; var p = a.play(); if (p && p.catch) p.catch(function(err){ if (err && err.name === 'NotAllowedError') { speech.playing = false; playBtn(root); } }); };
+  speech.playing = true; markLine(root, from); playBtn(root);
+  if (a.readyState >= 1) go(); else { a.preload = 'auto'; a.addEventListener('loadedmetadata', go, {once:true}); a.load(); }
+}
 var speech = {rate: LS.get('ielts.rate', 0.9), voices: [], playing:false};
 function loadVoices(){ if (!('speechSynthesis' in window)) return; var v = speechSynthesis.getVoices().filter(function(x){ return /^en/i.test(x.lang); }); var gb = v.filter(function(x){ return /GB|AU|IE/i.test(x.lang); }); speech.voices = gb.concat(v.filter(function(x){ return gb.indexOf(x) < 0; })); }
 if ('speechSynthesis' in window){ loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
@@ -514,7 +539,7 @@ function srsPanel(){
 }
 
 /* ----- 练习 ----- */
-var PTABS = [['listening','听力'],['reading','阅读'],['writing','写作'],['speaking','口语'],['drill','专项']];
+var PTABS = [['listening','听力'],['official','官方样题'],['reading','阅读'],['writing','写作'],['speaking','口语'],['drill','专项']];
 function renderPractice(main, sub){
   sub = practicePath(sub || '');
   var p = sub.split('/');
@@ -528,16 +553,29 @@ function renderPractice(main, sub){
   h += '<div class="seg-t" role="tablist">'+PTABS.map(function(x){ return '<a href="#/practice/'+x[0]+'" data-swap class="'+(x[0]===tab?'on':'')+'">'+T(x[1])+'</a>'; }).join('')+'</div>';
   function row(id, t, zh, meta, cls){ var q = pr[id]; return '<a class="set" href="#/practice/'+setPath(id)+'"><span class="set-id mono">'+id+'</span><span class="set-t"><b class="en">'+esc(t)+'</b><small>'+esc(zh)+'</small></span><span class="set-m"><span class="tag '+cls+'">'+meta+'</span>'+(q?'<span class="mono set-s">'+q.s+'/'+q.t+'</span>':'<span class="mono muted set-s">'+T('未做')+'</span>')+'</span></a>'; }
   if (tab === 'listening'){
-    h += '<p class="note">'+T('播放用浏览器自带的英语朗读（两个说话人音高不同）。建议第一遍「盲听」做题，第二遍「先读再听」逐句跟读。')+'</p>';
+    h += '<p class="note">'+T('音频是本站原创脚本的合成朗读，英式、澳式、美式口音轮换，对话里每个说话人用不同音色。建议第一遍「盲听」做题，第二遍「先读再听」逐句跟读。')+' <a class="lnk" href="#/practice/official" data-swap>'+T('官方免费样题')+' →</a></p>';
     [1,2,3,4].forEach(function(part){ var arr = LI.filter(function(s){ return s.part === part; }); if (!arr.length) return;
-      h += '<h2 class="sec-h gap-t">Part '+part+' <span class="mono muted">'+T('{n} 套', {n:arr.length})+'</span></h2><div class="sets">'+arr.map(function(s){ return row(s.id, s.title, T(s.zh)+' · '+T('{n} 题', {n:s.qs.length})+' · '+T('{n} 分钟', {n:s.min}), 'Part '+s.part, 't-dialogues'); }).join('')+'</div>'; });
+      h += '<h2 class="sec-h gap-t">Part '+part+' <span class="mono muted">'+T('{n} 套', {n:arr.length})+'</span></h2><div class="sets">'+arr.map(function(s){ return row(s.id, s.title, T(s.zh)+' · '+T('{n} 题', {n:s.qs.length})+' · '+T('{n} 分钟', {n:s.min})+(AUD[s.id]?' · '+T(ACC[AUD[s.id].accent]):''), 'Part '+s.part, 't-dialogues'); }).join('')+'</div>'; });
   }
+  if (tab === 'official') h += officialList();
   if (tab === 'reading') h += '<div class="sets">'+RE.map(function(s){ return row(s.id, s.title, T(s.zh)+' · '+T('{n} 题', {n:s.qs.length})+' · '+T('限时 {n} 分钟', {n:s.min}), '≈'+s.level, 't-plan'); }).join('')+'</div>';
   if (tab === 'writing') h += '<h2 class="sec-h gap-t">Task 1 · '+T('20 分钟 150 词')+'</h2><div class="sets">'+WR.t1.map(function(s){ return row(s.id, s.prompt.slice(0,60)+'…', T(s.kind), T(s.kind), 't-templates'); }).join('')+'</div><h2 class="sec-h gap-t">Task 2 · '+T('40 分钟 250 词')+'</h2><div class="sets">'+WR.t2.map(function(s){ return row(s.id, s.prompt.slice(0,70)+'…', T(s.topic)+' · '+T(s.kind), T(s.kind), 't-templates'); }).join('')+'</div>';
   if (tab === 'speaking') h += '<h2 class="sec-h gap-t">'+T('Part 2 题卡 · 1 分钟准备 + 2 分钟')+'</h2><div class="sets">'+SP.p2.map(function(s){ return row(s.id, s.card, T('范例回答 + {n} 个 Part 3 追问', {n:s.p3.length}), 'Part 2', 't-mistakes'); }).join('')+'</div><h2 class="sec-h gap-t">'+T('Part 1 话题')+'</h2><div class="sets">'+SP.p1.map(function(s, i){ return row('P1-'+i, s.topic, T('{n} 个问题 + 范例', {n:s.qs.length}), 'Part 1', 't-mistakes'); }).join('')+'</div>';
   if (tab === 'drill') h += drillPicker();
   main.innerHTML = h;
-  [].forEach.call(main.querySelectorAll('.seg-t [data-swap]'), function(a){ a.onclick = function(e){ e.preventDefault(); A.nav(a.getAttribute('href')); }; });
+  [].forEach.call(main.querySelectorAll('.seg-t [data-swap], .note [data-swap]'), function(a){ a.onclick = function(e){ e.preventDefault(); A.nav(a.getAttribute('href')); }; });
+  [].forEach.call(main.querySelectorAll('[data-jump]'), function(a){ a.onclick = function(e){ e.preventDefault(); var t = document.getElementById(a.dataset.jump); if (t) t.scrollIntoView({behavior:'smooth', block:'start'}); }; });
+}
+/* 官方免费听力样题：外链清单（content/listening-official.js），整行可点，新标签页打开；不托管官方音频。
+   点击由 events.js 自动记为 outbound_click（白名单已有），不另加 data-evt，避免重复上报。 */
+function officialList(){
+  var O = window.IELTS_OFFICIAL_LISTENING || {groups:[], links:[]};
+  var h = '<p class="note">'+T('以下都是雅思主办方（IELTS 官网、British Council、IDP）的免费听力练习，在新标签页打开。本站不下载、不托管任何官方音频；站内 24 套是原创脚本的合成朗读。')+'</p>';
+  h += '<nav class="chips" aria-label="'+T('官方免费样题')+'">'+O.groups.map(function(g){ var n = O.links.filter(function(l){ return l.g === g[0]; }).length; return n ? '<a class="chip" href="#off-'+g[0]+'" data-jump="off-'+g[0]+'">'+T(g[1])+' <span class="mono muted">'+n+'</span></a>' : ''; }).join('')+'</nav>';
+  O.groups.forEach(function(g){ var arr = O.links.filter(function(l){ return l.g === g[0]; }); if (!arr.length) return;
+    h += '<h2 class="sec-h gap-t" id="off-'+g[0]+'">'+T(g[1])+' <span class="mono muted">'+T('{n} 个链接', {n:arr.length})+'</span></h2><div class="sets">'+arr.map(function(l){
+      return '<a class="set" href="'+esc(l.u)+'" target="_blank" rel="noopener" aria-label="'+esc(l.t)+' ('+T('新标签页打开')+')"><span class="set-id mono">'+esc(l.src)+'</span><span class="set-t"><b class="en">'+esc(l.t)+'</b><small>'+esc(T(l.d))+'</small></span><span class="set-m"><span class="tag t-dialogues">'+T(l.kind)+'</span><span class="mono muted set-s">'+T(l.mode)+' ↗</span></span></a>'; }).join('')+'</div>'; });
+  return h;
 }
 function drillPicker(){
   var st = tagStats();
@@ -566,16 +604,17 @@ function renderSet(main, id, tab){
       '<div class="player"><button class="b pri pl-play" type="button">'+ic('play')+'<span>'+T('播放全文')+'</span></button>'+
       '<div class="pl-rate" role="group" aria-label="'+T('语速')+'">'+[0.8,0.9,1].map(function(r){ return '<button type="button" data-rate="'+r+'" class="'+(speech.rate==r?'on':'')+'">'+r+'×</button>'; }).join('')+'</div>'+
       '<div class="pl-mode" role="group">'+[['blind','盲听'],['read','先读再听']].map(function(m){ return '<button type="button" data-mode="'+m[0]+'" class="'+(mode===m[0]?'on':'')+'">'+T(m[1])+'</button>'; }).join('')+'</div></div>'+
-      '<p class="pl-note">'+T('音频为浏览器朗读合成，用来练耳朵和跟读；真人录音版待补。点任意一句可从那句开始播放。')+'</p></section>';
+      (AUD[L.id]?'<audio class="pl-audio" preload="metadata" src="'+AUD[L.id].src+'"></audio>':'')+
+      '<p class="pl-note">'+(AUD[L.id]?T(ACC[AUD[L.id].accent])+' · '+T('合成语音朗读（非真人、非官方录音），对话里每个说话人用不同音色。点任意一句可从那句开始播放。'):T('音频为浏览器朗读合成，用来练耳朵和跟读；真人录音版待补。点任意一句可从那句开始播放。'))+'</p></section>';
     h += '<div class="set-grid lis" data-set="'+L.id+'"><div class="tr'+(mode==='blind'?' blind':'')+'"><h2 class="sec-h">'+T('原文')+' <span class="muted">'+(mode==='blind'?'· '+T('答完全部题后显示'):'')+'</span></h2>'+
       L.lines.map(function(l, i){ return '<p class="ln" data-ln="'+i+'"><span class="sp mono">'+l[0]+'</span><span class="en">'+esc(l[1])+'</span></p>'; }).join('')+'</div>'+
       '<div class="qcol"><div class="set-bar"><h2 class="sec-h">'+T('题目')+'</h2><span class="set-score mono">'+(pr[L.id]?T('上次 {a} / {b}', {a:pr[L.id].s, b:pr[L.id].t}):'0 / '+L.qs.length)+'</span></div><div class="qs">'+L.qs.map(function(q, i){ return qHTML(q, 'q:'+L.id+':'+i, i+1); }).join('')+'</div></div></div>'+setNav(tab, id);
     main.innerHTML = h; wireSwap(main);
     var root = main;
-    main.querySelector('.pl-play').onclick = function(){ if (speech.playing){ speechSynthesis.cancel(); speech.playing = false; playBtn(root); } else speakLines(L.lines, 0, root); };
-    [].forEach.call(main.querySelectorAll('[data-rate]'), function(b){ b.onclick = function(){ speech.rate = +b.dataset.rate; LS.set('ielts.rate', speech.rate); [].forEach.call(main.querySelectorAll('[data-rate]'), function(x){ x.classList.toggle('on', x === b); }); }; });
+    main.querySelector('.pl-play').onclick = function(){ if (speech.playing) stopListening(root); else playFrom(L, 0, root); };
+    [].forEach.call(main.querySelectorAll('[data-rate]'), function(b){ b.onclick = function(){ speech.rate = +b.dataset.rate; LS.set('ielts.rate', speech.rate); if (lis.el && lis.id === L.id) lis.el.playbackRate = speech.rate; [].forEach.call(main.querySelectorAll('[data-rate]'), function(x){ x.classList.toggle('on', x === b); }); }; });
     [].forEach.call(main.querySelectorAll('[data-mode]'), function(b){ b.onclick = function(){ LS.set('ielts.lmode', b.dataset.mode); main.querySelector('.tr').classList.toggle('blind', b.dataset.mode === 'blind'); [].forEach.call(main.querySelectorAll('[data-mode]'), function(x){ x.classList.toggle('on', x === b); }); }; });
-    [].forEach.call(main.querySelectorAll('.ln'), function(p){ p.onclick = function(){ speakLines(L.lines, +p.dataset.ln, root); }; });
+    [].forEach.call(main.querySelectorAll('.ln'), function(p){ p.onclick = function(){ playFrom(L, +p.dataset.ln, root); }; });
     return;
   }
   if (R){
@@ -756,7 +795,7 @@ function homeBlock(){
 
 window.IELTS_EXT = {
   routes: ROUTES,
-  render: function(k, sub, main){ if (timer.id) clearInterval(timer.id); if ('speechSynthesis' in window) speechSynthesis.cancel(); speech.playing = false; session = null;
+  render: function(k, sub, main){ if (timer.id) clearInterval(timer.id); stopListening(); lis.el = null; lis.id = null; session = null;
     if (k === 'course') renderCourse(main); else if (k === 'practice') renderPractice(main, sub); else renderArchive(main, sub); },
   renderGrammarDay: function(main, d){ if (timer.id) clearInterval(timer.id); session = null; renderGrammarDay(main, d); },
   grammarDaysStrip: function(){ return grammarDaysStrip(); },
