@@ -1395,3 +1395,39 @@ I18N.add("en", {
 });
 /* nav-more v11 */
 I18N.add("en", {"更多": "More"});
+
+/* listening audio + official links v12 (源：tools/i18n-src/tr_listening_audio.json) */
+I18N.add("en", {
+"官方样题": "Official samples",
+"官方免费样题": "Free official samples",
+"音频是本站原创脚本的合成朗读，英式、澳式、美式口音轮换，对话里每个说话人用不同音色。建议第一遍「盲听」做题，第二遍「先读再听」逐句跟读。": "The audio is synthetic speech reading this site's original scripts, rotating British, Australian and American accents, with a different voice for each speaker in a dialogue. Do a first pass in Blind mode, then use Read, then listen to shadow line by line.",
+"以下都是雅思主办方（IELTS 官网、British Council、IDP）的免费听力练习，在新标签页打开。本站不下载、不托管任何官方音频；站内 24 套是原创脚本的合成朗读。": "These are free Listening practice materials from the IELTS partners (IELTS.org, British Council, IDP). They open in a new tab. This site does not download or host any official audio; the 24 sets on this site are synthetic readings of original scripts.",
+"{n} 个链接": "{n} links",
+"新标签页打开": "opens in a new tab",
+"Part 1–4 题型样题": "Part 1–4 task types",
+"整套机考体验 · 4 段 40 题": "Full computer test · 4 parts, 40 questions",
+"打基础 · 分级听力 A1–C1": "Build skills · Listening by level A1–C1",
+"了解听力考试": "About the Listening test",
+"学术类": "Academic",
+"培训类": "General Training",
+"两类通用": "Both modules",
+"基础": "Foundation",
+"机考": "Computer",
+"纸笔": "Paper",
+"网页": "Web",
+"雅思官网机考样题：单选、多选、地图、笔记、表格、流程图、句子、简答，附答案和录音原文 PDF。": "IELTS.org computer-delivered samples: multiple choice, map, notes, table, flow chart, sentence and short-answer tasks, with answer keys and transcript PDFs.",
+"培训类页面的同款听力样题（两类考试听力相同），附答案和录音原文 PDF。": "The same Listening samples on the General Training page (Listening is identical for both modules), with answer keys and transcript PDFs.",
+"British Council 七种题型样题，另有一套完整机考体验（4 段 40 题），附答案和原文。": "British Council samples for seven task types, plus a full computer practice test (4 parts, 40 questions), with answers and transcripts.",
+"IDP 按题型分的样题：表格、笔记、配对、地图、选择、简答，在 IDP 页面在线练习。": "IDP samples by task type: table, notes, matching, map, multiple choice and short answer, practised online on the IDP page.",
+"纸笔版样题合集：题目、录音原文和答案在同一份 PDF，适合打印后精听。": "Paper-based sample tasks: questions, transcripts and answers in one PDF, good for printing and intensive listening.",
+"官方机考熟悉测试：4 段录音、40 题、不限时，做完可下载答案。": "Official computer Familiarisation test: 4 recordings, 40 questions, untimed, with downloadable answers at the end.",
+"雅思官网样题总入口：选考试类型后可进入完整机考练习体验。": "IELTS.org samples hub: choose your test type to reach the full computer practice experience.",
+"British Council 分级听力课：按 A1 到 C1 选级别，每课有录音、练习和原文。": "British Council listening lessons by level: pick A1 to C1; each lesson has a recording, exercises and a transcript.",
+"官方题型说明：四段录音各考什么、时长、评分方式。": "Official format guide: what each of the four recordings tests, timing and marking.",
+"IDP 的听力考试介绍：考试流程、题型和备考建议。": "IDP's guide to the Listening test: how it runs, task types and preparation tips.",
+"英式口音": "British accent",
+"澳式口音": "Australian accent",
+"美式口音": "American accent",
+"合成语音朗读（非真人、非官方录音），对话里每个说话人用不同音色。点任意一句可从那句开始播放。": "Synthetic speech (not a human or official recording), with a different voice for each speaker. Tap any line to play from there.",
+"音频没加载出来，已改用浏览器朗读": "Audio didn't load, switched to browser speech"
+});

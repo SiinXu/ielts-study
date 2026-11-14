@@ -396,3 +396,8 @@ a.qi-t:hover{text-decoration:underline}
 .xp-kw{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px}.xp-chips{display:flex;flex-wrap:wrap;gap:6px}
 .xp-chip{font-size:12.5px;border:1px solid var(--line2);border-radius:99px;padding:3px 10px;color:var(--ink2)}.xp-chip b{font-weight:600;color:var(--ink)}
 .xp-chip small{font-size:10.5px;color:var(--muted);margin-left:2px}.xp-chip.syn{border-color:var(--acc)}
+
+/* 官方样题分组跳转：沿用 .chip，触屏留足点击区域 */
+.chips a.chip{display:inline-flex;align-items:center;gap:6px;min-height:36px;color:var(--ink2)}
+.chips a.chip:hover{color:var(--acc-ink)}
+#off-types,#off-full,#off-skills,#off-format{scroll-margin-top:calc(var(--hdr,56px) + 12px)}

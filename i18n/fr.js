@@ -1385,3 +1385,39 @@ I18N.add("fr", {
 "每个句型准备一个和你工作或专业相关的例句（自己的真实经历就是最好的素材库），口语和作文都能用。": "Préparez un exemple de chaque structure tiré de votre travail ou de votre domaine (votre vraie expérience est la meilleure source) ; vous pourrez l'utiliser à l'oral comme à l'écrit.",
 "更多": "Plus"
 });
+
+/* listening audio + official links v12 (源：tools/i18n-src/tr_listening_audio.json) */
+I18N.add("fr", {
+"官方样题": "Exemples officiels",
+"官方免费样题": "Exemples officiels gratuits",
+"音频是本站原创脚本的合成朗读，英式、澳式、美式口音轮换，对话里每个说话人用不同音色。建议第一遍「盲听」做题，第二遍「先读再听」逐句跟读。": "L'audio est une voix de synthèse qui lit les scripts originaux du site, en alternant accents britannique, australien et américain, avec une voix différente pour chaque locuteur dans les dialogues. Faites un premier passage en mode À l'aveugle, puis utilisez Lire puis écouter pour répéter phrase par phrase.",
+"以下都是雅思主办方（IELTS 官网、British Council、IDP）的免费听力练习，在新标签页打开。本站不下载、不托管任何官方音频；站内 24 套是原创脚本的合成朗读。": "Voici des ressources Listening gratuites des partenaires de l'IELTS (IELTS.org, British Council, IDP). Elles s'ouvrent dans un nouvel onglet. Ce site ne télécharge ni n'héberge aucun audio officiel ; les 24 séries du site sont des lectures de synthèse de scripts originaux.",
+"{n} 个链接": "{n} liens",
+"新标签页打开": "s'ouvre dans un nouvel onglet",
+"Part 1–4 题型样题": "Types de tâches, Part 1–4",
+"整套机考体验 · 4 段 40 题": "Test complet sur ordinateur · 4 parties, 40 questions",
+"打基础 · 分级听力 A1–C1": "Bases · Écoute par niveau A1–C1",
+"了解听力考试": "À propos de l'épreuve de Listening",
+"学术类": "Academic",
+"培训类": "General Training",
+"两类通用": "Les deux modules",
+"基础": "Bases",
+"机考": "Ordinateur",
+"纸笔": "Papier",
+"网页": "Web",
+"雅思官网机考样题：单选、多选、地图、笔记、表格、流程图、句子、简答，附答案和录音原文 PDF。": "Exemples sur ordinateur d'IELTS.org : QCM, plan, notes, tableau, organigramme, phrases et réponses courtes, avec corrigés et transcriptions en PDF.",
+"培训类页面的同款听力样题（两类考试听力相同），附答案和录音原文 PDF。": "Les mêmes exemples de Listening sur la page General Training (l'épreuve est identique pour les deux modules), avec corrigés et transcriptions en PDF.",
+"British Council 七种题型样题，另有一套完整机考体验（4 段 40 题），附答案和原文。": "Exemples du British Council pour sept types de tâches, plus un test complet sur ordinateur (4 parties, 40 questions), avec réponses et transcriptions.",
+"IDP 按题型分的样题：表格、笔记、配对、地图、选择、简答，在 IDP 页面在线练习。": "Exemples IDP par type de tâche : tableau, notes, association, plan, QCM et réponse courte, à faire en ligne sur la page IDP.",
+"纸笔版样题合集：题目、录音原文和答案在同一份 PDF，适合打印后精听。": "Exemples version papier : questions, transcriptions et réponses dans un seul PDF, pratique à imprimer pour une écoute approfondie.",
+"官方机考熟悉测试：4 段录音、40 题、不限时，做完可下载答案。": "Test officiel de familiarisation sur ordinateur : 4 enregistrements, 40 questions, sans limite de temps, réponses téléchargeables à la fin.",
+"雅思官网样题总入口：选考试类型后可进入完整机考练习体验。": "Page d'accueil des exemples d'IELTS.org : choisissez votre type de test pour accéder à l'entraînement complet sur ordinateur.",
+"British Council 分级听力课：按 A1 到 C1 选级别，每课有录音、练习和原文。": "Leçons d'écoute du British Council par niveau : choisissez de A1 à C1 ; chaque leçon a un enregistrement, des exercices et une transcription.",
+"官方题型说明：四段录音各考什么、时长、评分方式。": "Guide officiel du format : ce que teste chacun des quatre enregistrements, durée et notation.",
+"IDP 的听力考试介绍：考试流程、题型和备考建议。": "Le guide IDP de l'épreuve de Listening : déroulement, types de tâches et conseils de préparation.",
+"英式口音": "Accent britannique",
+"澳式口音": "Accent australien",
+"美式口音": "Accent américain",
+"合成语音朗读（非真人、非官方录音），对话里每个说话人用不同音色。点任意一句可从那句开始播放。": "Voix de synthèse (pas un enregistrement humain ni officiel), avec une voix différente pour chaque locuteur. Touchez une phrase pour lire à partir de là.",
+"音频没加载出来，已改用浏览器朗读": "L'audio n'a pas chargé, passage à la lecture du navigateur"
+});
